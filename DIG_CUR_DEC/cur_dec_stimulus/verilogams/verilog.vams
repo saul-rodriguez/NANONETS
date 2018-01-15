@@ -1,0 +1,45 @@
+//Verilog-AMS HDL for "DIG_CUR_DEC", "cur_dec_stimulus" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+`timescale 1 ns/ 1ps
+
+module cur_dec_stimulus ( a );
+
+  output  [3:0] a;
+
+  reg [3:0]a;
+
+initial begin
+	a = 0;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+	#10 a = a + 1;
+
+
+
+
+end
+
+endmodule

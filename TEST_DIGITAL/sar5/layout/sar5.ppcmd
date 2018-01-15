@@ -1,0 +1,72 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { M1(1) AM(6) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { M1(1) AM(6) } -nets { gnd! vdd! } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { M1(1) AM(6) }
+# 4 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.6 -width_left 8 -width_bottom 8 -width_top 8 -spacing_top 0.6 -skip_via_on_pin Standardcell -layer_bottom M1 -center 1 -stacked_via_top_layer AM -width_right 8 -type core_rings -jog_distance 2.52 -offset_bottom 2.52 -layer_top M1 -threshold 2.52 -offset_left 2.52 -spacing_right 0.6 -spacing_left 0.6 -offset_right 2.52 -offset_top 2.52 -layer_right M2 -nets {vdd! gnd!} -follow core -stacked_via_bottom_layer M1 -layer_left M2
+# 3 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# gnd! 8000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 68075 20900 68075 109940 
+# END_RING_PT_INFO_LIST 
+# gnd! 8000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 20900 65420 115250 65420 
+# END_RING_PT_INFO_LIST 
+# vdd! 8000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 68075 29500 68075 101340 
+# END_RING_PT_INFO_LIST 
+# vdd! 8000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 29500 65420 106650 65420 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# setViaGenMode -parameterized_via_only true
+# 2 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# setViaGenMode -symmetrical_via_only true
+# 1 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+

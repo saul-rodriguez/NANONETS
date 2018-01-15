@@ -1,0 +1,55 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus QRC Extraction Version 15.2.7-s638 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "VSUB"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -macro_cells_type "default" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "SCHEMATIC"
+filter_cap \
+	 -exclude_self_cap true
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type assura \
+	 -design_cell_name "buffer layout AMPLIFIER" \
+	 -directory_name "/home/saul/projects/NANONETS/ASSURA_LVS/buffer" \
+	 -format "DFII" \
+	 -run_name "beta"
+log_file \
+	 -file_name "/home/saul/projects/NANONETS/ASSURA_LVS/buffer/qrc.beta.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor auLvs cmrf7sf" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "false" \
+	 -res_component "presistor auLvs cmrf7sf" \
+	 -res_property_name "r" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/saul/projects/NANONETS/ASSURA_LVS/buffer" \
+	 -temporary_directory_name "beta"
+process_technology \
+	 -technology_corner \
+		"Typical" \
+	 -technology_library_file "/home/saul/projects/NANONETS/assura_tech.lib" \
+	 -technology_name "ac18a6dmca" \
+	 -temperature \
+		25.0
+
+

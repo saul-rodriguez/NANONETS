@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Aug 25 14:07:29 2017 
+Best design point: 1
+Design specs: 
+	CURRENT_DAC:current_dac_DC_tb:1	corner	Nominal - 
+Design parameters: 
+	A0		0
+	A1		0
+	A2		0
+	A3		0
+
+Interactive.11
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.11 completed. 
+Current time: Fri Aug 25 14:07:42 2017 

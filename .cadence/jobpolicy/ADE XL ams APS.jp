@@ -1,0 +1,16 @@
+blockemail=1
+configuretimeout=300
+distributionmethod=LBS
+jobqueue=spectre_long
+jobresourcerequirements=span[hosts=1] order[ut]
+lingertimeout=60
+maxjobs=5
+name=ADE XL ams APS
+parallelnumprocs=4
+preemptivestart=1
+reconfigureimmediately=1
+runtimeout=-1
+showerrorwhenretrying=1
+showoutputlogerror=1
+startmaxjobsimmed=1
+starttimeout=-1

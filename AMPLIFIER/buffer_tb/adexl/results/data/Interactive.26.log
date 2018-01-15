@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Dec 19 16:59:22 2017 
+Best design point: 1
+Design specs: 
+	AMPLIFIER:buffer_tb:1	corner	Nominal - 
+	dB20(VF("/VSAM"))		Error	No
+	dB20(VF("/VOUT"))		Error	No
+	VDC("/VOUT")		900.7m
+Design parameters: 
+	CL		1p
+	PS_AC		0
+	RL		1M
+	VDC		900m
+	VIN_AC		1
+	VPULSE		10m
+	Vsupply		1.8
+
+Interactive.26
+Number of points completed: 1
+Number of simulation errors: 2
+Interactive.26 completed. 
+Current time: Tue Dec 19 16:59:28 2017 

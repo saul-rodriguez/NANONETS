@@ -1,0 +1,34 @@
+// VerilogA for AMPLIFIER, bias, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module bias(BIAS1, BIAS2, BIAS_IN, VD, VS, VSUB);
+inout BIAS1;
+electrical BIAS1;
+inout BIAS2;
+electrical BIAS2;
+inout BIAS_IN;
+electrical BIAS_IN;
+inout VD;
+electrical VD;
+inout VS;
+electrical VS;
+inout VSUB;
+electrical VSUB;
+
+real in_cur;
+
+analog begin
+
+in_cur = I(BIAS_IN);
+
+V(BIAS_IN) <+ in_cur*1000e3; 
+
+I(BIAS1) <+ -in_cur/10.0;
+I(BIAS2) <+ -in_cur/10.0;
+
+
+end
+
+endmodule

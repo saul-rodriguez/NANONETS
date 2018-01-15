@@ -1,0 +1,14 @@
+//Revision 1
+//NOTE
+// Default austriamicrosystems template for spectre
+//END_NOTE
+
+config amplifier_tb;
+design AMPLIFIER.amplifier_tb:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, schematic, veriloga, ahdl;
+stoplist spectre;
+
+
+endconfig

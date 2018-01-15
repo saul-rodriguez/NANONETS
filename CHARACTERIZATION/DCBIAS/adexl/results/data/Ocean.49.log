@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Jul 14 21:59:43 2015 
+Best design point: 7
+Design specs: 
+	CHARACTERIZATION:DCBIAS:1	corner	Nominal - 
+Design parameters: 
+	VDS		600m
+	VGS		1
+
+Ocean.49
+Number of points completed: 11
+Number of simulation errors: 11
+Ocean.49 completed. 
+Current time: Tue Jul 14 21:59:46 2015 

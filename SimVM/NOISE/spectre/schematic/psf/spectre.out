@@ -1,0 +1,359 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 14.1.0.848.isr14 64bit -- 6 Oct 2015
+Copyright (C) 1989-2015 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: saul   Host: s2424.it.kth.se   HostID: ED824314   PID: 20994
+Memory  available: 32.3664 GB  physical: 67.4916 GB
+CPU Type: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+          Processor PhysicalID CoreID Frequency Load
+              0         0        0     1200.0     0.6
+              1         0        1     1200.0     1.2
+              2         0        2     1200.0     0.4
+              3         0        3     1200.0     1.0
+              4         0        4     1200.0     0.3
+              5         0        5     1200.0     0.3
+              6         0        6     1200.0     0.3
+              7         0        7     1200.0     0.3
+              8         1        0     1200.0     0.4
+              9         1        1     1200.0     1.2
+             10         1        2     1200.0     0.4
+             11         1        3     1200.0     0.3
+             12         1        4     1200.0     0.3
+             13         1        5     1200.0     0.6
+             14         1        6     1200.0     6.6
+             15         1        7     1200.0     0.3
+             16         0        0     1200.0     0.4
+             17         0        1     2401.0     2.2
+             18         0        2     1200.0     0.5
+             19         0        3     1200.0     5.2
+             20         0        4     1200.0     1.0
+             21         0        5     1200.0     0.9
+             22         0        6     1200.0     2.0
+             23         0        7     2401.0    20.3
+             24         1        0     1200.0     2.1
+             25         1        1     1200.0     2.1
+             26         1        2     1200.0     3.1
+             27         1        3     1200.0     6.5
+             28         1        4     1200.0     1.9
+             29         1        5     1200.0     1.0
+             30         1        6     1200.0    11.7
+             31         1        7     2401.0     6.9
+
+
+Simulating `input.scs' on s2424.it.kth.se at 2:48:02 PM, Fri Aug 25, 2017 (process id: 20994).
+Current working directory: /home/saul/Sim/NOISE_NMOS/spectre/schematic/netlist
+Command line:
+    /pkg/Cadence/installs/MMSIM141/tools/bin/spectre -64 input.scs  \
+        +escchars +log  \
+        ../../../../../projects/NANONETS/SimVM/NOISE/spectre/schematic/psf/spectre.out  \
+        -format psfbin +rtsf -raw  \
+        ../../../../../projects/NANONETS/SimVM/NOISE/spectre/schematic/psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5 +param  \
+        /pkg/AMS414/spectre/ams_range.lmts
+
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/saul/Sim/NOISE_NMOS/spectre/schematic/netlist/input.scs
+Reading file:  /pkg/AMS414/spectre/ams_range.lmts
+Reading file:  /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /pkg/AMS414/spectre/ac18/soac.scs
+Reading file:  /pkg/AMS414/spectre/ac18/processOption.scs
+Reading file:  /pkg/AMS414/spectre/ac18/process.scs
+Reading file:  /pkg/AMS414/spectre/ac18/processOption/AC18A6DMCA.scs
+Reading file:  /pkg/AMS414/spectre/ac18/design.scs
+Reading file:  /pkg/AMS414/spectre/ac18/res.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/opndres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/oppdres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/opnpcres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/opppcres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/oprrpres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/oprppres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/sblkndres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/sblkpdres.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/bondpad.scs
+Reading file:  /pkg/AMS414/spectre/ac18/cap.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/cmim.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/mosvart.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/mosvarm.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pcdcap.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/vncap.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/mvcap.va
+Reading file:  /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file:  /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pcap.va
+Reading file:  /pkg/AMS414/spectre/ac18/bip.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/divpnp.scs
+Reading file:  /pkg/AMS414/spectre/ac18/esddiode.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/esdndsx.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/esdvpnpnw.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/esd_modules.va
+Reading file:  /pkg/AMS414/spectre/ac18/cmos.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfet.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfettw.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfethvt.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfetll.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pfet.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pfetll.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pfethvt.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/diodenwx.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/diodenx.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/diodepnw.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/diodepisx.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/diodepwpi.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/dipdnw.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/efuse.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/subc.scs
+Reading file:  /pkg/AMS414/spectre/ac18/cmosm.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfetm.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/pfetm.scs
+Reading file:  /pkg/AMS414/spectre/ac18/DEV/nfetmtw.scs
+Time for NDB Parsing: CPU = 144.978 ms, elapsed = 192.526 ms.
+Time accumulated: CPU = 178.972 ms, elapsed = 192.534 ms.
+Peak resident memory used = 42.7 Mbytes.
+
+Reading link:  /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading link:  /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/etc/ahdl/constants.h
+Time for Elaboration: CPU = 39.994 ms, elapsed = 39.3839 ms.
+Time accumulated: CPU = 218.966 ms, elapsed = 232.049 ms.
+Peak resident memory used = 51.7 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    C5: `c' has the unusually large value of 10 F.
+    C4: `c' has the unusually large value of 10 F.
+    C3: `c' has the unusually large value of 1 F.
+    C2: `c' has the unusually large value of 1 F.
+    C0: `c' has the unusually large value of 1 F.
+        Further occurrences of this notice will be suppressed.
+
+Time for EDB Visiting: CPU = 999 us, elapsed = 1.76501 ms.
+Time accumulated: CPU = 219.965 ms, elapsed = 233.953 ms.
+Peak resident memory used = 52.9 Mbytes.
+
+Loading /pkg/Cadence/installs/MMSIM141/tools.lnx86/spectre/lib/64bit/mdl/libSpectreEH_sh.so ...
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16999): Assert `SOAC_nfet_qsb' contains an expression that needs to be evaluated by MDL. Using this assert frequently may lead to performance issues because the MDL evaluator is slower than the native assert evaluator.
+    WARNING (SPECTRE-16999): Assert `SOAC_nfet_isb' contains an expression that needs to be evaluated by MDL. Using this assert frequently may lead to performance issues because the MDL evaluator is slower than the native assert evaluator.
+    WARNING (SPECTRE-16999): Assert `SOAC_nfet_qdb' contains an expression that needs to be evaluated by MDL. Using this assert frequently may lead to performance issues because the MDL evaluator is slower than the native assert evaluator.
+    WARNING (SPECTRE-16999): Assert `SOAC_nfet_idb' contains an expression that needs to be evaluated by MDL. Using this assert frequently may lead to performance issues because the MDL evaluator is slower than the native assert evaluator.
+Notice from spectre during topology check.
+    Only one connection to node `sub!'.
+    No DC path from node `net1' to ground, Gmin installed to provide path.
+
+
+Global user options:
+             reltol = 0.0001
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               tnom = 27
+           homotopy = 7
+              limit = delta
+             scalem = 1
+              scale = 1
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../../../../../projects/NANONETS/SimVM/NOISE/spectre/schematic/psf/sens.output
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+               save = allpub
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Circuit inventory:
+              nodes 19
+             assert 182   
+     bsource_49283a 4     
+          capacitor 6     
+              diode 4     
+             iprobe 2     
+            isource 3     
+            psp1020 2     
+           resistor 13    
+               vcvs 2     
+            vsource 3     
+
+Analysis and control statement inventory:
+               info 6     
+              noise 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+
+Notice from spectre.
+    7 notices suppressed.
+
+Time for parsing: CPU = 104.985 ms, elapsed = 132.798 ms.
+Time accumulated: CPU = 325.95 ms, elapsed = 366.887 ms.
+Peak resident memory used = 60.9 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+***************************************************
+Noise Analysis `noise': freq = (100 mHz -> 100 MHz)
+***************************************************
+
+Warning from spectre during Noise analysis `noise'.
+    WARNING (SPECTRE-4086): SOAC_nfet_isb: The assert expression '(isb+I( dsb ))' of instance 'TN0' has returned a complex value. Therefore, the imaginary unit has been ignored.
+    WARNING (SPECTRE-4086): SOAC_nfet_isb: The assert expression '(isb+I( dsb ))' of instance 'TN1' has returned a complex value. Therefore, the imaginary unit has been ignored.
+    WARNING (SPECTRE-4086): SOAC_nfet_idb: The assert expression '(idb+I( ddb ))' of instance 'TN0' has returned a complex value. Therefore, the imaginary unit has been ignored.
+    WARNING (SPECTRE-4086): SOAC_nfet_idb: The assert expression '(idb+I( ddb ))' of instance 'TN1' has returned a complex value. Therefore, the imaginary unit has been ignored.
+    WARNING (MDL-351): SOAC_nfet_qsb, instance TN0: Unable to bind function `integ'.
+    WARNING (MDL-1305): Argument 'sig' cannot be cast from 'complex' to 'real'.
+    WARNING (MDL-1305): Argument 'sig' cannot be cast from 'complex' to 'real'.
+    WARNING (MDL-1305): Argument 'sig' cannot be cast from 'complex' to 'real'.
+    WARNING (MDL-351): SOAC_nfet_qsb, instance TN1: Unable to bind function `integ'.
+    WARNING (MDL-1305): Argument 'sig' cannot be cast from 'complex' to 'real'.
+    WARNING (MDL-1305): Argument 'sig' cannot be cast from 'complex' to 'real'.
+        Further occurrences of this warning will be suppressed.
+    WARNING (MDL-351): SOAC_nfet_qdb, instance TN0: Unable to bind function `integ'.
+    WARNING (MDL-351): SOAC_nfet_qdb, instance TN1: Unable to bind function `integ'.
+Notice from spectre during Noise analysis `noise'.
+    No checklimit analysis defined for asserts. A default checklimit analysis 'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+The following asserts will be enabled for all subsequent analyses until the next checklimit analysis statement is found:
+SOAC_nfet_vgs : ON 
+SOAC_nfet_vds : ON 
+SOAC_nfet_vgb : ON 
+SOAC_nfet_vdb_max : ON 
+SOAC_nfet_vsb_max : ON 
+SOAC_diodenx_iplusminus : ON 
+SOAC_diodenx_qplusminus : ON 
+SOAC_diodenx_vplusminus_min : ON 
+SOAC_nfet_qsb : ON 
+SOAC_nfet_isb : ON 
+SOAC_nfet_qdb : ON 
+SOAC_nfet_idb : ON 
+DC simulation time: CPU = 1 ms, elapsed = 1.66106 ms.
+    noise: freq = 199.5 mHz   (3.33 %), step = 41.04 mHz    (1.11 %)
+    noise: freq = 251.2 mHz   (4.44 %), step = 51.66 mHz    (1.11 %)
+    noise: freq = 316.2 mHz   (5.56 %), step = 65.04 mHz    (1.11 %)
+    noise: freq = 398.1 mHz   (6.67 %), step = 81.88 mHz    (1.11 %)
+    noise: freq = 501.2 mHz   (7.78 %), step = 103.1 mHz    (1.11 %)
+    noise: freq = 631 mHz     (8.89 %), step = 129.8 mHz    (1.11 %)
+    noise: freq = 794.3 mHz     (10 %), step = 163.4 mHz    (1.11 %)
+    noise: freq = 1 Hz        (11.1 %), step = 205.7 mHz    (1.11 %)
+    noise: freq = 1.259 Hz    (12.2 %), step = 258.9 mHz    (1.11 %)
+    noise: freq = 1.585 Hz    (13.3 %), step = 326 mHz      (1.11 %)
+    noise: freq = 1.995 Hz    (14.4 %), step = 410.4 mHz    (1.11 %)
+    noise: freq = 2.512 Hz    (15.6 %), step = 516.6 mHz    (1.11 %)
+    noise: freq = 3.162 Hz    (16.7 %), step = 650.4 mHz    (1.11 %)
+    noise: freq = 3.981 Hz    (17.8 %), step = 818.8 mHz    (1.11 %)
+    noise: freq = 5.012 Hz    (18.9 %), step = 1.031 Hz     (1.11 %)
+    noise: freq = 6.31 Hz       (20 %), step = 1.298 Hz     (1.11 %)
+    noise: freq = 7.943 Hz    (21.1 %), step = 1.634 Hz     (1.11 %)
+    noise: freq = 10 Hz       (22.2 %), step = 2.057 Hz     (1.11 %)
+    noise: freq = 12.59 Hz    (23.3 %), step = 2.589 Hz     (1.11 %)
+    noise: freq = 15.85 Hz    (24.4 %), step = 3.26 Hz      (1.11 %)
+    noise: freq = 19.95 Hz    (25.6 %), step = 4.104 Hz     (1.11 %)
+    noise: freq = 25.12 Hz    (26.7 %), step = 5.166 Hz     (1.11 %)
+    noise: freq = 31.62 Hz    (27.8 %), step = 6.504 Hz     (1.11 %)
+    noise: freq = 39.81 Hz    (28.9 %), step = 8.188 Hz     (1.11 %)
+    noise: freq = 50.12 Hz      (30 %), step = 10.31 Hz     (1.11 %)
+    noise: freq = 63.1 Hz     (31.1 %), step = 12.98 Hz     (1.11 %)
+    noise: freq = 79.43 Hz    (32.2 %), step = 16.34 Hz     (1.11 %)
+    noise: freq = 100 Hz      (33.3 %), step = 20.57 Hz     (1.11 %)
+    noise: freq = 125.9 Hz    (34.4 %), step = 25.89 Hz     (1.11 %)
+    noise: freq = 158.5 Hz    (35.6 %), step = 32.6 Hz      (1.11 %)
+    noise: freq = 199.5 Hz    (36.7 %), step = 41.04 Hz     (1.11 %)
+    noise: freq = 251.2 Hz    (37.8 %), step = 51.66 Hz     (1.11 %)
+    noise: freq = 316.2 Hz    (38.9 %), step = 65.04 Hz     (1.11 %)
+    noise: freq = 398.1 Hz      (40 %), step = 81.88 Hz     (1.11 %)
+    noise: freq = 501.2 Hz    (41.1 %), step = 103.1 Hz     (1.11 %)
+    noise: freq = 631 Hz      (42.2 %), step = 129.8 Hz     (1.11 %)
+    noise: freq = 794.3 Hz    (43.3 %), step = 163.4 Hz     (1.11 %)
+    noise: freq = 1 kHz       (44.4 %), step = 205.7 Hz     (1.11 %)
+    noise: freq = 1.259 kHz   (45.6 %), step = 258.9 Hz     (1.11 %)
+    noise: freq = 1.585 kHz   (46.7 %), step = 326 Hz       (1.11 %)
+    noise: freq = 1.995 kHz   (47.8 %), step = 410.4 Hz     (1.11 %)
+    noise: freq = 2.512 kHz   (48.9 %), step = 516.6 Hz     (1.11 %)
+    noise: freq = 3.162 kHz     (50 %), step = 650.4 Hz     (1.11 %)
+    noise: freq = 3.981 kHz   (51.1 %), step = 818.8 Hz     (1.11 %)
+    noise: freq = 5.012 kHz   (52.2 %), step = 1.031 kHz    (1.11 %)
+    noise: freq = 6.31 kHz    (53.3 %), step = 1.298 kHz    (1.11 %)
+    noise: freq = 7.943 kHz   (54.4 %), step = 1.634 kHz    (1.11 %)
+    noise: freq = 10 kHz      (55.6 %), step = 2.057 kHz    (1.11 %)
+    noise: freq = 12.59 kHz   (56.7 %), step = 2.589 kHz    (1.11 %)
+    noise: freq = 15.85 kHz   (57.8 %), step = 3.26 kHz     (1.11 %)
+    noise: freq = 19.95 kHz   (58.9 %), step = 4.104 kHz    (1.11 %)
+    noise: freq = 25.12 kHz     (60 %), step = 5.166 kHz    (1.11 %)
+    noise: freq = 31.62 kHz   (61.1 %), step = 6.504 kHz    (1.11 %)
+    noise: freq = 39.81 kHz   (62.2 %), step = 8.188 kHz    (1.11 %)
+    noise: freq = 50.12 kHz   (63.3 %), step = 10.31 kHz    (1.11 %)
+    noise: freq = 63.1 kHz    (64.4 %), step = 12.98 kHz    (1.11 %)
+    noise: freq = 79.43 kHz   (65.6 %), step = 16.34 kHz    (1.11 %)
+    noise: freq = 100 kHz     (66.7 %), step = 20.57 kHz    (1.11 %)
+    noise: freq = 125.9 kHz   (67.8 %), step = 25.89 kHz    (1.11 %)
+    noise: freq = 158.5 kHz   (68.9 %), step = 32.6 kHz     (1.11 %)
+    noise: freq = 199.5 kHz     (70 %), step = 41.04 kHz    (1.11 %)
+    noise: freq = 251.2 kHz   (71.1 %), step = 51.66 kHz    (1.11 %)
+    noise: freq = 316.2 kHz   (72.2 %), step = 65.04 kHz    (1.11 %)
+    noise: freq = 398.1 kHz   (73.3 %), step = 81.88 kHz    (1.11 %)
+    noise: freq = 501.2 kHz   (74.4 %), step = 103.1 kHz    (1.11 %)
+    noise: freq = 631 kHz     (75.6 %), step = 129.8 kHz    (1.11 %)
+    noise: freq = 794.3 kHz   (76.7 %), step = 163.4 kHz    (1.11 %)
+    noise: freq = 1 MHz       (77.8 %), step = 205.7 kHz    (1.11 %)
+    noise: freq = 1.259 MHz   (78.9 %), step = 258.9 kHz    (1.11 %)
+    noise: freq = 1.585 MHz     (80 %), step = 326 kHz      (1.11 %)
+    noise: freq = 1.995 MHz   (81.1 %), step = 410.4 kHz    (1.11 %)
+    noise: freq = 2.512 MHz   (82.2 %), step = 516.6 kHz    (1.11 %)
+    noise: freq = 3.162 MHz   (83.3 %), step = 650.4 kHz    (1.11 %)
+    noise: freq = 3.981 MHz   (84.4 %), step = 818.8 kHz    (1.11 %)
+    noise: freq = 5.012 MHz   (85.6 %), step = 1.031 MHz    (1.11 %)
+    noise: freq = 6.31 MHz    (86.7 %), step = 1.298 MHz    (1.11 %)
+    noise: freq = 7.943 MHz   (87.8 %), step = 1.634 MHz    (1.11 %)
+    noise: freq = 10 MHz      (88.9 %), step = 2.057 MHz    (1.11 %)
+    noise: freq = 12.59 MHz     (90 %), step = 2.589 MHz    (1.11 %)
+    noise: freq = 15.85 MHz   (91.1 %), step = 3.26 MHz     (1.11 %)
+    noise: freq = 19.95 MHz   (92.2 %), step = 4.104 MHz    (1.11 %)
+    noise: freq = 25.12 MHz   (93.3 %), step = 5.166 MHz    (1.11 %)
+    noise: freq = 31.62 MHz   (94.4 %), step = 6.504 MHz    (1.11 %)
+    noise: freq = 39.81 MHz   (95.6 %), step = 8.188 MHz    (1.11 %)
+    noise: freq = 50.12 MHz   (96.7 %), step = 10.31 MHz    (1.11 %)
+    noise: freq = 63.1 MHz    (97.8 %), step = 12.98 MHz    (1.11 %)
+    noise: freq = 79.43 MHz   (98.9 %), step = 16.34 MHz    (1.11 %)
+    noise: freq = 100 MHz      (100 %), step = 20.57 MHz    (1.11 %)
+Accumulated DC solution time = 0 s.
+Intrinsic noise analysis time =              0 s.
+Total time required for noise analysis `noise': CPU = 22.997 ms, elapsed = 54.81 ms.
+Time accumulated: CPU = 349.946 ms, elapsed = 422.693 ms.
+Peak resident memory used = 62.6 Mbytes.
+
+
+Notice from spectre.
+    7 warnings suppressed.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (2:48:02 PM, Fri Aug 25, 2017):
+Time used: CPU = 422 ms, elapsed = 606 ms, util. = 69.7%.
+Time spent in licensing: elapsed = 95.6 ms, percentage of total = 15.8%.
+Peak memory used = 62.8 Mbytes.
+Simulation started at: 2:48:02 PM, Fri Aug 25, 2017, ended at: 2:48:02 PM, Fri Aug 25, 2017, with elapsed time (wall clock): 606 ms.
+spectre completes with 0 errors, 17 warnings, and 10 notices.

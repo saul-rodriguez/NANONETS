@@ -1,0 +1,33 @@
+design( "CHARACT_AC8" "FT" "schematic")
+modelFile( 
+    '("/pkg/AMS414/spectre/ac18/processOption.scs" "")
+    '("/pkg/AMS414/spectre/ac18/design.scs" "noitm")
+    '("/pkg/AMS414/spectre/ac18/res.scs" "restm")
+    '("/pkg/AMS414/spectre/ac18/cap.scs" "captm")
+    '("/pkg/AMS414/spectre/ac18/bip.scs" "biptm")
+    '("/pkg/AMS414/spectre/ac18/esddiode.scs" "esddiodetm")
+    '("/pkg/AMS414/spectre/ac18/cmos.scs" "cmostm")
+    '("/pkg/AMS414/spectre/ac18/cmosm.scs" "cmosmtm")
+)
+definitionFile(
+    "/pkg/AMS414/spectre/ac18/soac.scs"
+)
+analysis('ac ?start "10"  ?stop "100G"  ?dec "10"  )
+analysis('dc ?saveOppoint t  )
+desVar(	  "W" 1e-05	)
+desVar(	  "L" 1.8e-07	)
+desVar(	  "VDS" 1	)
+desVar(	  "IDC" 0.001	)
+envOption(
+	'firstRun  t 
+	'analysisOrder  list("dc" "ac" "pz" "dcmatch" "stb" "tran" "envlp" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbnoise" "sens" "acmatch") 
+)
+option( ?categ 'turboOpts
+	'apsplus  t 
+	'uniMode  "APS" 
+)
+saveOption( ?outputParamInfo t )
+saveOption( ?elementInfo t )
+saveOption( ?modelParamInfo t )
+save( 'i "/TN0/D" )
+temp( 27 ) 

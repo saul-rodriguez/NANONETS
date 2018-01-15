@@ -1,0 +1,48 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Sep  2 12:30:05 2015 
+Best design point: 1
+Design specs: 
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_0 - 
+	IDC("/TN1/S")		-253.3u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_1 - 
+	IDC("/TN1/S")		-253.3u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_2 - 
+	IDC("/TN1/S")		-253.3u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_3 - 
+	IDC("/TN1/S")		-253.3u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_4 - 
+	IDC("/TN1/S")		-131.5u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_5 - 
+	IDC("/TN1/S")		-131.5u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_6 - 
+	IDC("/TN1/S")		-131.5u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_7 - 
+	IDC("/TN1/S")		-131.5u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_8 - 
+	IDC("/TN1/S")		-156.1u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_9 - 
+	IDC("/TN1/S")		-156.1u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_10 - 
+	IDC("/TN1/S")		-156.1u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_11 - 
+	IDC("/TN1/S")		-156.1u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_12 - 
+	IDC("/TN1/S")		-209.2u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_13 - 
+	IDC("/TN1/S")		-209.2u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_14 - 
+	IDC("/TN1/S")		-209.2u
+	CHARACTERIZATION:DCBIAS5P:1	corner	corner_15 - 
+	IDC("/TN1/S")		-209.2u
+Design parameters: 
+	L		1u
+	VDS		1
+	VGS		1
+	W		10u
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Wed Sep  2 12:31:00 2015 

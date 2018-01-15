@@ -1,0 +1,19 @@
+//Revision 5
+//NOTE
+// Default austriamicrosystems template for spectre
+//END_NOTE
+
+config pmos_test;
+design FE_CONCEPT.pmos_test:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, schematic, veriloga, ahdl;
+stoplist spectre;
+
+
+cell AMPLIFIER.amplifier binding :veriloga;
+
+cell NNFET.nnpfet binding :veriloga;
+
+
+endconfig

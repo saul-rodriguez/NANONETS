@@ -1,0 +1,1486 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<tests>
+			<test enabled="1">CHARACTERIZATION:DCBIAS:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>DCBIAS</value>
+					</option>
+					<option>lib
+						<value>CHARACTERIZATION</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>CHARACTERIZATION:DCBIAS:1_import</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>DCBIAS</value>
+					</option>
+					<option>lib
+						<value>CHARACTERIZATION</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="1">L
+				<value>180n</value>
+				<dependentTests>
+					<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">W
+				<value>10u/8</value>
+				<dependentTests>
+					<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDS
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">VGS
+				<value>{From/To}Linear:0:0.1:1{From/To}</value>
+				<dependentTests>
+					<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">Fast
+				<models>
+					<model enabled="1">design.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+						<modelsection>"noitm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">res.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+						<modelsection>"restm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">cap.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+						<modelsection>"captm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">bip.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+						<modelsection>"biptm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">esddi.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+						<modelsection>"esdditm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">cmos53.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+						<modelsection>"cmoswp"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">Slow
+				<models>
+					<model enabled="1">design.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+						<modelsection>"noitm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">res.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+						<modelsection>"restm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">cap.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+						<modelsection>"captm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">bip.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+						<modelsection>"biptm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">esddi.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+						<modelsection>"esdditm"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+					<model enabled="1">cmos53.scs
+						<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+						<modelsection>"cmosws"</modelsection>
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<overwritehistory>0</overwritehistory>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+	</active>
+	<history>History
+		<historyentry>Interactive.0
+			<checkpoint>
+				<tests>
+					<test enabled="1">CHARACTERIZATION:DCBIAS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_none_Interactive.0</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">L
+						<value>180n</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">Fast
+						<models>
+							<model enabled="1">design.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+								<modelsection>"noitm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">res.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cap.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">bip.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">esddi.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+								<modelsection>"esdditm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+								<modelsection>"cmoswp"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">Slow
+						<models>
+							<model enabled="1">design.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+								<modelsection>"noitm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">res.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cap.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">bip.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">esddi.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+								<modelsection>"esdditm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+								<modelsection>"cmosws"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri Feb 27 09:38:50 2015</timestamp>
+			<resultsname>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/avril.it.kth.se_saul_093850523</localpsfdir>
+			<psfdir>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>{Inclusion List}1{Inclusion List}{From/To}Linear:0:0.1:1{From/To}</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.1
+			<checkpoint>
+				<tests>
+					<test enabled="1">CHARACTERIZATION:DCBIAS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_none_Interactive.1</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">L
+						<value>180n</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">W
+						<value>10u/8</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">Fast
+						<models>
+							<model enabled="1">design.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+								<modelsection>"noitm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">res.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cap.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">bip.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">esddi.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+								<modelsection>"esdditm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+								<modelsection>"cmoswp"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">Slow
+						<models>
+							<model enabled="1">design.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs</modelfile>
+								<modelsection>"noitm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">res.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs</modelfile>
+								<modelsection>"restm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cap.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs</modelfile>
+								<modelsection>"captm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">bip.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs</modelfile>
+								<modelsection>"biptm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">esddi.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs</modelfile>
+								<modelsection>"esdditm"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+							<model enabled="1">cmos53.scs
+								<modelfile>/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs</modelfile>
+								<modelsection>"cmosws"</modelsection>
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Fri Feb 27 09:45:53 2015</timestamp>
+			<resultsname>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/avril.it.kth.se_saul_094553124</localpsfdir>
+			<psfdir>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>{Inclusion List}1{Inclusion List}{From/To}Linear:0:0.1:1{From/To}</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.46
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Mar_25_14_47_27_2015_Ocean.46</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Mar_25_14_47_27_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.46</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Mar 25 14:47:30 2015</timestamp>
+			<resultsname>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.46.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.46.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/atlantis.it.kth.se_saul_144730592</localpsfdir>
+			<psfdir>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.46</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.46</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.46.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.46.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.47
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Mar_25_14_47_27_2015_Ocean.47</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Mar_25_14_47_27_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.46</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Wed Mar 25 14:48:30 2015</timestamp>
+			<resultsname>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.47.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.47.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/atlantis.it.kth.se_saul_144830765</localpsfdir>
+			<psfdir>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.47</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.47</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/kth.se/home/s/a/saul/FROMICT/ict.kth.se/saul/projects/AMS_IL3601/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.47.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.47.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VDS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.48
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_21_59_24_2015_Ocean.48</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_21_59_24_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.48</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 21:59:26 2015</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.48.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.48.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_215926426</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.48</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.48</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.48.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.48.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.49
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_21_59_24_2015_Ocean.49</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_21_59_24_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.48</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 21:59:42 2015</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.49.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.49.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_215942896</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.49</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.49</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.49.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.49.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VDS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.50
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_22_01_48_2015_Ocean.50</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_22_01_48_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.50</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 22:01:48 2015</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.50.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.50.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_220148890</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.50</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.50</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.50.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.50.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.51
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_22_01_48_2015_Ocean.51</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_22_01_48_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>180n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.50</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 22:02:03 2015</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.51.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.51.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_220203615</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.51</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.51</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.51.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.51.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VDS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.52
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_22_02_51_2015_Ocean.52</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_22_02_51_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.52</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 22:02:51 2015
+</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.52.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.52.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_220251982</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.52</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.52</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.52.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.52.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VGS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Ocean.53
+			<checkpoint>
+				<tests>
+					<test>CHARACTERIZATION:DCBIAS:1
+						<tool>OCEAN</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_CHARACTERIZATION:DCBIAS:1_Jul_14_22_02_51_2015_Ocean.53</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCBIAS</value>
+							</option>
+							<option>lib
+								<value>CHARACTERIZATION</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>CHARACTERIZATION:DCBIAS:1_Jul_14_22_02_51_2015</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">L
+						<value>180n</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">W
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDS
+						<value>{From/To}Linear:0:0.1:1{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">CHARACTERIZATION:DCBIAS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<allcornersenabled>1</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistoryname>Ocean.52</overwritehistoryname>
+				<overwritehistory>0</overwritehistory>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>1</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jul 14 22:03:08 2015
+</timestamp>
+			<resultsname>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.53.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Ocean.53.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/localhost.localdomain_saul_220308193</localpsfdir>
+			<psfdir>/home/saul/Sim/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.53</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.53</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/IMPLANTABLE_AMS/version1/saul/CHARACTERIZATION/DCBIAS/adexl/results/data/Ocean.53.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Ocean.53.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>VDS
+						<value>1</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

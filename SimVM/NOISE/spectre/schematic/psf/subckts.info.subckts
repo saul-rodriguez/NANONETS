@@ -1,0 +1,160 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "14.1.0.848.isr14"
+"date" "2:48:02 PM, Fri Aug 25, 2017"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.000100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"diodepisx" "subckt" (
+""
+""
+)
+"oprrpres" "subckt" (
+""
+""
+)
+"opnpcres" "subckt" (
+""
+""
+)
+"cmim" "subckt" (
+""
+""
+)
+"subc" "subckt" (
+""
+""
+)
+"diodepnw" "subckt" (
+""
+""
+)
+"pfet" "subckt" (
+""
+""
+)
+"esdvpnpnw" "subckt" (
+""
+""
+)
+"sblkpdres" "subckt" (
+""
+""
+)
+"diodenwx" "subckt" (
+""
+""
+)
+"nfettw" "subckt" (
+""
+""
+)
+"opndres" "subckt" (
+""
+""
+)
+"oppdres" "subckt" (
+""
+""
+)
+"opppcres" "subckt" (
+""
+""
+)
+"pfetll" "subckt" (
+""
+""
+)
+"nfethvt" "subckt" (
+""
+""
+)
+"pfethvt" "subckt" (
+""
+""
+)
+"dipdnw" "subckt" (
+""
+""
+)
+"mosvart" "subckt" (
+""
+""
+)
+"nfetmtw" "subckt" (
+""
+""
+)
+"diodepwpi" "subckt" (
+""
+""
+)
+"mosvarm" "subckt" (
+""
+""
+)
+"vncap" "subckt" (
+""
+""
+)
+"esdndsx" "subckt" (
+""
+""
+)
+"divpnp" "subckt" (
+""
+""
+)
+"efuse" "subckt" (
+""
+""
+)
+"nfetll" "subckt" (
+""
+""
+)
+"pfetm" "subckt" (
+""
+""
+)
+"diodenx" "subckt" (
+"soac res dtemp perim area"
+"nd sx"
+)
+"nfetm" "subckt" (
+""
+""
+)
+"oprppres" "subckt" (
+""
+""
+)
+"bondpad" "subckt" (
+""
+""
+)
+"nfet" "subckt" (
+"gns par sigbeta sa_eff1 sb zad zas znrs kmbl kvtl pstid sa1 soac znrd ad noib_mul rgl1 sb_eff mmvth0 nrs rsx as dtemp nf noi_scale pd sa w kmb kvt kvtw lstis noia_mul noic_mul rgw1 sb_eff1 gcon isti ps rsx1 sb1 sd mmbeta rf rge1 sigvth kmbw l nrd pgate pstis sa_eff zpd zps"
+"d g s b"
+)
+"sblkndres" "subckt" (
+""
+""
+)
+"pcdcap" "subckt" (
+""
+""
+)
+END

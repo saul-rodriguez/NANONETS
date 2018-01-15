@@ -1,0 +1,139 @@
+\# Program start time UTC 2017.12.19 15:43:37.708
+\# Local time Tuesday 19 December 2017, 4:43 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1919 -mpshost s2424.it.kth.se -davinciService DaVinciService_1919_1513694490 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job40.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_1919 -nograph -nostdin -axlChildIdFlag 40
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13009)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x6000000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        490 MB
+\# Available memory:	     69,640 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     78,034 MB
+\# Max mem available:	     69,711 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		29935
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o //
+\o //  Calibre Skill Interface * (v2014.3_27.21) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\# Memory report: using         197 MB, process size 1,012 MB at UTC 2017.12.19 15:43:39.872
+\o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.20
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/26/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Available memory:         68,841 MB at UTC 2017.12.19 15:43:47.774
+\# Memory report: Maximum memory size now 69,124 MB at UTC 2017.12.19 15:43:47.774
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

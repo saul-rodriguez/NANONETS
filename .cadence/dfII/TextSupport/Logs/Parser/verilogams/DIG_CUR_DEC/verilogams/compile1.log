@@ -1,0 +1,21 @@
+ncvlog(64): 14.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.20-s035: Started on Aug 23, 2017 at 11:29:42 CEST
+ncvlog
+    -use5x
+    -SPECIFICUNIT alfa
+    -zparse /tmp/vamsZpareb4766
+    -NOWARN DLNOHV
+    -work DIG_CUR_DEC
+    -view verilogams
+    -nostdout
+    -logfile /home/saul/projects/NANONETS/.cadence/dfII/TextSupport/Logs/Parser/verilogams/DIG_CUR_DEC/verilogams/compile1.log
+    -messages
+    -ams
+    -cdslib /home/saul/projects/NANONETS/cds.lib
+    /home/saul/projects/NANONETS/DIG_CUR_DEC/alfa/verilogams/verilog.vams
+
+file: /home/saul/projects/NANONETS/DIG_CUR_DEC/alfa/verilogams/verilog.vams
+	module DIG_CUR_DEC.alfa:verilogams
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	ncvlog(64)	14.20-s035: Exiting on Aug 23, 2017 at 11:29:42 CEST  (total: 00:00:00)

@@ -1,0 +1,22 @@
+design( "CHARACTERIZATION" "FT" "schematic")
+modelFile( 
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs" "noitm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs" "restm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs" "captm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs" "biptm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs" "esdditm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs" "cmostm")
+)
+definitionFile(
+    "/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/mcparams.scs"
+)
+analysis('ac ?start "10"  ?stop "100G"  ?dec "10"  )
+desVar(	  "W" 5e-05	)
+desVar(	  "VDS" 0.5	)
+desVar(	  "L" 5e-07	)
+desVar(	  "IDC" 0.0008	)
+envOption(
+	'analysisOrder  list("dc" "ac") 
+)
+save( 'i "/TN1/D" "/TN0/D" )
+temp( 27 ) 

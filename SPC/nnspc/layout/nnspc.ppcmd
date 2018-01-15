@@ -1,0 +1,100 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { M1(1) AM(6) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { M1(1) AM(6) } -nets { vdd! gnd! } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { M1(1) AM(6) }
+# 6 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.6 -width_left 4 -width_bottom 4 -width_top 4 -spacing_top 0.6 -skip_via_on_pin Standardcell -layer_bottom M1 -stacked_via_top_layer AM -width_right 4 -type core_rings -jog_distance 2.52 -offset_bottom 2.52 -layer_top M1 -threshold 2.52 -offset_left 2.52 -spacing_right 0.4 -spacing_left 0.4 -offset_right 2.52 -offset_top 2.52 -layer_right M2 -nets {gnd! vdd!} -follow core -stacked_via_bottom_layer M1 -layer_left M2
+# 5 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# vdd! 4000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 41440 3200 41440 66800 
+# END_RING_PT_INFO_LIST 
+# vdd! 4000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 3400 35000 79480 35000 
+# END_RING_PT_INFO_LIST 
+# gnd! 4000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 41440 7800 41440 62200 
+# END_RING_PT_INFO_LIST 
+# gnd! 4000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 7800 35000 75080 35000 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.6 -width_left 5 -width_bottom 5 -width_top 5 -spacing_top 0.6 -skip_via_on_pin Standardcell -layer_bottom M1 -stacked_via_top_layer AM -width_right 5 -type core_rings -jog_distance 2.52 -offset_bottom 2.52 -layer_top M1 -threshold 2.52 -offset_left 2.52 -spacing_right 0.4 -spacing_left 0.4 -offset_right 2.52 -offset_top 2.52 -layer_right M2 -nets {gnd! vdd!} -follow core -stacked_via_bottom_layer M1 -layer_left M2
+# 4 
+# 32 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.6 -width_left 5 -width_bottom 5 -width_top 5 -spacing_top 0.6 -skip_via_on_pin Standardcell -layer_bottom M1 -stacked_via_top_layer AM -width_right 5 -type core_rings -jog_distance 2.52 -offset_bottom 2.52 -layer_top M1 -threshold 2.52 -offset_left 2.52 -spacing_right 0.4 -spacing_left 0.4 -offset_right 2.52 -offset_top 2.52 -layer_right M2 -nets {gnd! vdd!} -follow core -stacked_via_bottom_layer M1 -layer_left M2
+# 3 
+# 32 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+
+# PPCMD 5 
+# setViaGenMode -parameterized_via_only true
+# 2 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 5 
+
+# PPCMD 6 
+# setViaGenMode -symmetrical_via_only true
+# 1 
+# 0 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 6 
+

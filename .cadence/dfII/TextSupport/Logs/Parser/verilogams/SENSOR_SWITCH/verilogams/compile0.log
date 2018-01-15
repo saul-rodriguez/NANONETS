@@ -1,0 +1,21 @@
+ncvlog(64): 14.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.20-s035: Started on Aug 11, 2017 at 23:18:22 CEST
+ncvlog
+    -use5x
+    -SPECIFICUNIT sensor_switch
+    -zparse /tmp/vamsZparjg6618
+    -NOWARN DLNOHV
+    -work SENSOR_SWITCH
+    -view verilogams
+    -nostdout
+    -logfile /home/saul/projects/NANONETS/.cadence/dfII/TextSupport/Logs/Parser/verilogams/SENSOR_SWITCH/verilogams/compile0.log
+    -messages
+    -ams
+    -cdslib /home/saul/projects/NANONETS/cds.lib
+    /home/saul/projects/NANONETS/SENSOR_SWITCH/sensor_switch/verilogams/verilog.vams
+
+file: /home/saul/projects/NANONETS/SENSOR_SWITCH/sensor_switch/verilogams/verilog.vams
+	module SENSOR_SWITCH.sensor_switch:verilogams
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	ncvlog(64)	14.20-s035: Exiting on Aug 11, 2017 at 23:18:22 CEST  (total: 00:00:00)

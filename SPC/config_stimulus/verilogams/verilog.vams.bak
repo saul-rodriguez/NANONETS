@@ -1,0 +1,141 @@
+//Verilog-AMS HDL for "SPC", "config_stimulus" "verilogams"
+
+/*
+* This module simulates the communications with the uController firmware
+* The function asic_conf sends a configuration command to the ASIC. The configuration word is composed of 10 bits as folows:
+*                    CONFIGURATION WORD
+* [ NSEL4, NSEL3, NSEL2, NSEL1, NSEL0, DAC3, DAC2, DAC1, DAC0, RE ]
+*
+* NSEL[4:0] Selects 1 of 32 NNFETs  (TODO: Update this part with the exact sensor matrix that will be used)
+*
+* DAC[3:0] Controls the binary current DAC. The external reference current i_ref is divided by the following coefficients
+*
+*			DAC[3:0]   coeff.   output (i_ref = 2uA)
+*				0000   	2		1 uA
+* 				0001	4		0.5 uA
+*				0010	8		0.25 uA
+*				0011   16		0.125 uA
+*				0100   32		62.5 nA
+*               0101   64       31.25 nA
+*				0110  128		15.625 nA
+*				0111  256		 7.8125 nA
+*				1000  512	     3.90625 nA
+*			    1001 1024		 1.953125 nA
+*				1010 2048		 0.9765625 nA
+*				1011 4096		 0.488 nA
+*				1XXX ----       NOT IMPLEMENTED
+*
+* RE Reserve bit
+* 
+*/
+
+`include "constants.vams"
+`include "disciplines.vams"
+`timescale 1 ns/ 1ps
+
+module config_stimulus ( Cfg_in, Clk, Resetn );
+
+  output Cfg_in;
+  output Resetn;
+  output Clk;
+
+  parameter clk_conf = 20; //20ns -> 40 ns period --> 25 MHz
+  parameter del_conf = 2000000; //2ms 
+  
+  logic Cfg_in;
+  logic Resetn;
+  logic Clk;
+
+  reg Cfg_in;
+  reg Resetn;
+  reg Clk;
+
+  integer k;
+
+  //Initial parameters 
+  parameter [4:0] pNSEL = 5'b00000;
+  parameter [3:0] pDAC = 4'b0000; 
+  parameter pRE = 1'b0;
+
+  reg [9:0] mConf;
+  reg [4:0] NSEL;
+  reg [3:0] DAC;
+  reg RE;
+
+initial begin
+	Cfg_in = 0;
+    Resetn = 1;
+    Clk = 0;
+
+    NSEL = pNSEL;
+	DAC = pDAC;
+    RE = pRE;
+
+    //asic_conf;
+    sweep_fet_1;
+
+    sweep_fet_4;
+
+end
+
+task asic_conf;
+begin
+	mConf={NSEL,DAC,RE};
+
+	Resetn = 0;
+	#clk_conf Resetn = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[0]; 
+	#clk_conf Clk = 1;	
+	#clk_conf Clk = 0; Cfg_in = mConf[1];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[2];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[3];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[4];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[5];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[6];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[7];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[8];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0; Cfg_in = mConf[9];
+	#clk_conf Clk = 1;
+	#clk_conf Clk = 0;  
+
+		
+end
+endtask
+
+task sweep_fet_1;
+begin
+	NSEL = 5'b00001; //Selects NNFET 1
+	DAC = 4'b00000;
+	for(k = 0; k < 10; k=k+1) begin
+		DAC = k;
+        asic_conf; 
+		#del_conf;
+
+	end    
+end
+endtask
+
+
+task sweep_fet_4;
+begin
+	NSEL = 5'b00100; //Selects NNFET 4
+	DAC = 4'b00000;
+	for(k = 0; k < 10; k=k+1) begin
+		DAC = k;
+        asic_conf; 
+		#del_conf;
+
+	end    
+end
+endtask
+
+
+endmodule

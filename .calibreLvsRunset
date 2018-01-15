@@ -1,0 +1,6 @@
+*lvsRulesFile: $AMS_DIR/calibre/ac18a6/caac18a6rules_lvs.run
+*pexRulesFile: $AMS_DIR/calibre/ac18a6/caac18a6rules_lvs.run
+*pexIncludeFiles: $AMS_DIR/calibre/ac18a6/XRC/ac18a6_6AM.xrc.cal
+*lvsReportOptions: E S V
+*cmnPreTrigger: $AMS_DIR/programs/bin/cdl2calibre %s
+*cmnIncludeRulesFilesAfterMain: 1

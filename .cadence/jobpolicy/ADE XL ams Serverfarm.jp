@@ -1,0 +1,15 @@
+blockemail=1
+configuretimeout=300
+distributionmethod=LBS
+jobqueue=spectre_normal
+jobresourcerequirements=order[ut]
+lingertimeout=60
+maxjobs=10
+name=ADE XL ams Serverfarm
+preemptivestart=1
+reconfigureimmediately=1
+runtimeout=-1
+showerrorwhenretrying=1
+showoutputlogerror=1
+startmaxjobsimmed=1
+starttimeout=-1

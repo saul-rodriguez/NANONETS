@@ -1,0 +1,54 @@
+// VerilogA for AMPLIFIER, amplifier, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module amplifier(BIAS, INN, INP, OUT, VD, VS, VSUB);
+inout BIAS;
+electrical BIAS;
+inout INN;
+electrical INN;
+inout INP;
+electrical INP;
+inout OUT;
+electrical OUT;
+inout VD;
+electrical VD;
+inout VS;
+electrical VS;
+inout VSUB;
+electrical VSUB;
+
+
+`define PI 3.14159265
+
+`define GBW 1e3  // Gain-Bandwidth product (Hz)
+`define Ao 200 //Open loop gain
+`define wu (2 * `PI * `GBW)  // unity gain frequency (rad/s)
+`define p1 (`wu/`Ao) 		  // first pole position
+
+real vout = 0;
+
+analog begin
+
+/*
+  Tranfer function Ao/(1+s/p1) ==>  (Ao.p1)/(p1 + s)  ==> wu/(p1 + s)
+  NUM = wu  
+  DEM = p1 + s
+*/
+	vout = laplace_nd((V(INP,INN)),{`wu},{`p1,1});
+
+//Clip the output if vout exceeds power supply limits
+	if (vout > V(VD)) begin
+		vout = V(VD) ;
+	end else if (vout < V(VS)) begin
+		vout = V(VS);
+	end
+
+	V(OUT) <+ vout;
+
+	V(BIAS) <+ I(BIAS)*1500e3;
+
+end
+
+endmodule

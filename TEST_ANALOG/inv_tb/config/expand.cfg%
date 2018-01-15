@@ -1,0 +1,17 @@
+//Revision 2
+//NOTE
+// Default austriamicrosystems template for spectre
+//END_NOTE
+
+config inv_tb;
+design TEST_ANALOG.inv_tb:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, schematic, veriloga, ahdl;
+stoplist spectre;
+
+
+cell TEST_ANALOG.inv binding :av_analog_extracted;
+
+
+endconfig

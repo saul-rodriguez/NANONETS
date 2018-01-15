@@ -1,0 +1,20 @@
+###########################
+# AMS hk4.14 start script #
+# Author: Saul Rodriguez  #
+# Date: 2017-07-04        #
+###########################
+
+#Uncomment ONE of the following lines:
+q
+#Start and configure new project (Once Virtuoso opens, select the suboption DMCA)
+ams_cds -t ac18a6 -add all &
+
+#Start existing project
+#ams_cds &
+
+#Start existing project and update it to new hitkit version
+#ams_cds -update &
+
+#Start existing project with a new technology
+#ams_cds -newtech h18a5 &
+ 

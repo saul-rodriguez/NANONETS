@@ -1,0 +1,96 @@
+Starting Monte Carlo Sampling...
+
+Current time: Wed Aug 23 16:12:43 2017 
+MonteCarlo.2
+Number of points completed: 300
+Number of simulation errors: 0
+MonteCarlo.2 completed. 
+Current time: Wed Aug 23 16:13:27 2017 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 12
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A0"):	Yield	100%
+		Min 9.92299e-07	Max 1.00878e-06	Mean 1.00008e-06	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A1"):	Yield	100%
+		Min 4.95112e-07	Max 5.06624e-07	Mean 5.00206e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A2"):	Yield	100%
+		Min 2.46885e-07	Max 2.53788e-07	Mean 2.50108e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A3"):	Yield	100%
+		Min 1.22616e-07	Max 1.27833e-07	Mean 1.2497e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A0"):	Yield	100%
+		Min 6.09739e-08	Max 6.41242e-08	Mean 6.2569e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A1"):	Yield	100%
+		Min 3.04392e-08	Max 3.22399e-08	Mean 3.12832e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A2"):	Yield	100%
+		Min 1.50112e-08	Max 1.59951e-08	Mean 1.56429e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A3"):	Yield	100%
+		Min 7.55555e-09	Max 8.1079e-09	Mean 7.82855e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A0"):	Yield	100%
+		Min 3.79361e-09	Max 4.11026e-09	Mean 3.94579e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A1"):	Yield	100%
+		Min 1.89895e-09	Max 2.04979e-09	Mean 1.97585e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A2"):	Yield	100%
+		Min 9.54256e-10	Max 1.03455e-09	Mean 9.90961e-10	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A3"):	Yield	100%
+		Min 4.79105e-10	Max 5.21596e-10	Mean 4.98427e-10	Number of errors 0
+
+CURRENT_DAC:dac_cell_tb:1
+	Overall Yield	100%	Number of points passed	300	Total number of points	300
+
+Estimated yield = 100% (300/300), 0 errors
+Estimated yield (No opregions) = 100% (300/300)
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 12
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A0"):	Yield	100%
+		Min 9.92299e-07	Max 1.00878e-06	Mean 1.00008e-06	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A1"):	Yield	100%
+		Min 4.95112e-07	Max 5.06624e-07	Mean 5.00206e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A2"):	Yield	100%
+		Min 2.46885e-07	Max 2.53788e-07	Mean 2.50108e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I0/A3"):	Yield	100%
+		Min 1.22616e-07	Max 1.27833e-07	Mean 1.2497e-07	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A0"):	Yield	100%
+		Min 6.09739e-08	Max 6.41242e-08	Mean 6.2569e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A1"):	Yield	100%
+		Min 3.04392e-08	Max 3.22399e-08	Mean 3.12832e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A2"):	Yield	100%
+		Min 1.50112e-08	Max 1.59951e-08	Mean 1.56429e-08	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I7/A3"):	Yield	100%
+		Min 7.55555e-09	Max 8.1079e-09	Mean 7.82855e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A0"):	Yield	100%
+		Min 3.79361e-09	Max 4.11026e-09	Mean 3.94579e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A1"):	Yield	100%
+		Min 1.89895e-09	Max 2.04979e-09	Mean 1.97585e-09	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A2"):	Yield	100%
+		Min 9.54256e-10	Max 1.03455e-09	Mean 9.90961e-10	Number of errors 0
+CURRENT_DAC:dac_cell_tb:1	Nominal - 
+	IS("/I9/A3"):	Yield	100%
+		Min 4.79105e-10	Max 5.21596e-10	Mean 4.98427e-10	Number of errors 0
+
+CURRENT_DAC:dac_cell_tb:1
+	Overall Yield	100%	Number of points passed	300	Total number of points	300
+
+Estimated yield = 100% (300/300), 0 errors
+Estimated yield (No opregions) = 100% (300/300)

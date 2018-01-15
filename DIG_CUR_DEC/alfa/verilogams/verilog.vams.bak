@@ -1,0 +1,8 @@
+//Verilog-AMS HDL for "DIG_CUR_DEC", "alfa" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module alfa ( );
+
+endmodule

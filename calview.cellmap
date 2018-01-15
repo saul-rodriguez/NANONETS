@@ -1,0 +1,680 @@
+mgc_layer_map(list(
+		list("nsd" `(RX net))
+		list("psd" `(RX net))
+		list("nwtap" `(RX net))
+		list("pstap" `(RX net))
+		list("pwtap" `(RX net))
+		list("nstap" `(RX net))
+		list("sub_top" `(RX net))
+		list("sblkResEnds" `(RX net))
+		list("opResEnds" `(RX net))
+		list("nsd_pcdcap" `(RX net))
+		list("nwtap_nsd_pcdcap_stamp" `(RX net))
+		list("dipdnw_nf" `(RX net))
+		list("nwtap_dipdnw" `(RX net))
+		list("diodepdnw_sub" `(RX net))
+		list("divpnp_coll" `(RX net))
+		list("divpnp_emit" `(RX net))
+		list("nwtap_divpnp" `(RX net))
+		list("pwtap_pcap" `(RX net))
+		list("sbd_anod" `(RX net))
+		list("sbd_cath" `(RX net))
+		list("nstap_sbd" `(RX net))
+		list("diffmosvar_rx" `(RX net))
+		list("nwtap_diffmos" `(RX net))
+		list("mosvar_rx" `(RX net))
+		list("nwtap_mosvar" `(RX net))
+		list("mosvar50_rx" `(RX net))
+		list("nwtap_nsd_pcdcap_stamp" `(RX net))
+		list("esdvpnpnw_seed_nf" `(RX net))
+		list("nwtap_esdvpnpnw" `(RX net))
+		list("esdndsx_NW_anod" `(RX net))
+		list("esdndsx_noNW_anod" `(RX net))
+		list("esdndsx_NW_nf" `(RX net))
+		list("esdndsx_noNW_nf" `(RX net))
+                list("ca_rx" `(CA net))
+		list("ca_pc" `(CA net))
+		list("pc_par" `(PC net))
+		list("ngate" `(PC net))
+		list("pgate" `(PC net))
+		list("pc_bridge" `(PC net))
+		list("pcResEnds" `(PC net))
+		list("bondPad_top_PC" `(PC net))
+		list("m1_par" `(M1 net))
+		list("m1_mod" `(M1 net))
+		list("m1_vncap" `(M1 net))
+		list("V1" `(V1 net))
+		list("V1_vncap" `(V1 net))
+		list("V1_k1res" `(V1 net))
+		list("V1_par" `(V1 net))
+		list("m2_par" `(M2 net))
+		list("m2_mod" `(M2 net))
+		list("m2_vncap" `(M2 net))
+		list("V2" `(V2 net))
+		list("V2_vncap" `(V2 net))
+		list("m3_par" `(M3 net))
+		list("m3_mod" `(M3 net))
+		list("m3_vncap" `(M3 net))
+		list("V3" `(V3 net))
+		list("V3_vncap" `(V3 net))
+		list("m4_par" `(M4 net))
+		list("m4_mod" `(M4 net))
+		list("m4_vncap" `(M4 net))
+		list("V4" `(V4 net))
+		list("V4_vncap" `(V4 net))
+		list("m5_par" `(M5 net))
+		list("m5_mod" `(M5 net))
+		list("m5_vncap" `(M5 net))
+		list("V5" `(V5 net))
+		list("V5_vncap" `(V5 net))
+		list("mt_par" `(MT net))
+		list("mt_mod" `(MT net))
+		list("mt_vncap" `(MT net))
+		list("FT" `(FT net))
+		list("FT_ht" `(FT net))
+		list("FT_qt" `(FT net))
+		list("HT" `(HT net))
+		list("QT" `(QT net))
+		list("am_par" `(AM net))
+		list("am_mod" `(AM net))
+		list("am_vncap" `(AM net))
+		list("bondPad_bot_AM" `(AM net))
+		list("ma_par" `(MA net))
+		list("ma_mod" `(MA net))
+		list("ma_vncap" `(MA net))
+		list("bondPad_bot_MA" `(MA net))
+		list("ml_par" `(ML net))
+		list("ml_mod" `(ML net))
+		list("ml_vncap" `(ML net))
+		list("bondPad_bot_ML" `(ML net))
+		list("e2_par" `(E2 net))
+		list("e2_mod" `(E2 net))
+		list("e2_vncap" `(E2 net))
+		list("e1_par" `(E1 net))
+		list("e1_mod" `(E1 net))
+		list("e1_vncap" `(E1 net))
+              )
+)
+
+
+
+(bondpad (cmrf7sf bondpadx auLvs)
+  (
+    (in in)
+    (gp gp)
+    (sub sub)
+  )
+  (
+    (area area) (perim perim) (grnd grnd) (rect rect) (nlev nlev) (dtemp dtemp) 
+  )
+)
+
+(cmimhd (cmrf7sf cmimhdx auLvs)
+  (
+    (pos S)
+    (neg D)
+    (sub G)
+  )
+  (
+    (c c) (l l) (w w) (hd hd) (lm lm) (m m) (est est) (nlev nlev) (rsx rsx) (dtemp dtemp) (setind setind) (par par) 
+  )
+)
+
+(cmim (cmrf7sf cmimx auLvs)
+  (
+    (pos S)
+    (neg D)
+    (sub G)
+  )
+  (
+    (c c) (l l) (w w) (hd hd) (lm lm) (m m) (est est) (nlev nlev) (rsx rsx) (dtemp dtemp) (setind setind) (par par) 
+  )
+)
+
+(corrPoint (cmrf7sf corrPoint auLvs)
+  (
+    (cp cp)
+  )
+)
+
+(devicepad (cmrf7sf devicepad auLvs)
+  (
+    (pad pad)
+  )
+  (
+    (c c) 
+  )
+)
+(diodenwx (cmrf7sf diodenwx auLvs)
+  (
+    (neg PLUS)
+    (pos MINUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(diodenx (cmrf7sf diodenx auLvs)
+  (
+    (neg PLUS)
+    (pos MINUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(diodepisx (cmrf7sf diodepisx symbol)
+  (
+    (pos PLUS)
+    (neg MINUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(diodepnw (cmrf7sf diodepnw auLvs)
+  (
+    (neg MINUS)
+    (pos PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp)
+  )
+)
+
+(diodepwpi (cmrf7sf diodepwpi symbol)
+  (
+    (pos PLUS)
+    (neg MINUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(dipdnw (cmrf7sf dipdnw auLvs)
+  (
+    (pos PLUS)
+    (neg SUB)
+  )
+  (
+    (w w) (l l) (nf nf) (dtemp dtemp) (m m) (par par) 
+  )
+)
+
+(divpnp (cmrf7sf divpnp auLvs)
+  (
+    (c SUB)
+    (b NW)
+    (e PLUS)
+  )
+  (
+    (w w) (l l) (nf nf) (dtemp dtemp) (m m) (par par) 
+  )
+)
+
+(dualcmimhd (cmrf7sf dualcmimhdx auLvs)
+  (
+    (pos S)
+    (neg D)
+    (sub G)
+  )
+  (
+    (c c) (l l) (w w) (hd hd) (lm lm) (m m) (est est) (nlev nlev) (rsx rsx) (dtemp dtemp) (setind setind) (par par) 
+  )
+)
+
+(dualcmim (cmrf7sf dualcmimx auLvs)
+  (
+    (pos S)
+    (neg D)
+    (sub G)
+  )
+  (
+    (c c) (l l) (w w) (hd hd) (lm lm) (m m) (est est) (nlev nlev) (rsx rsx) (dtemp dtemp) (setind setind) (par par) 
+  )
+)
+
+(EFUSE (cmrf7sf efuse auLvs)
+  (
+    (in in)
+    (out out)
+  )
+  (
+    (pblow pblow) 
+  )
+)
+
+(esdndpi (esd7rf esdndpi symbol)
+  (
+    (pos pw)
+    (neg nd)
+  )
+  (
+    (area area) (perim perim) (ncath ncath) (dtemp dtemp) (rwire rwire) 
+  )
+)
+
+(esdndsx (esd7rf esdndsx auLvs)
+  (
+    (sx sx)
+    (nd nd)
+  )
+  (
+    (area area) (perim perim) (ncath ncath) (nw nw) (dtemp dtemp) (rwire rwire) 
+  )
+)
+
+(esdpnpi (esd7rf esdpnpi symbol)
+  (
+    (pos pd)
+    (neg nw)
+  )
+  (
+    (area area) (perim perim) (nanod nanod) (dtemp dtemp) (rwire rwire) 
+  )
+)
+
+(esdvpnpnw (esd7rf esdvpnpnw auLvs)
+  (
+    (pd pd)
+    (nw nw)
+    (sx sx)
+  )
+  (
+    (area area) (perim perim) (nanod nanod) (rsx rsx) (rwire rwire) (dtemp dtemp) 
+  )
+)
+
+(k1res (cmrf7sf k1resx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (sh sh) (rsx rsx) (par par) 
+  )
+)
+
+(lvsres (cmrf7sf m1res auLvs)
+  (
+    (pos PLUS)
+    (neg MINUS)
+  )
+  (
+    (r r) (l l) (w w) (resform resform) (m m) (scale scale) (trise trise) (tc1 tc1) (tc2 tc2) (isnoisy isnoisy) 
+  )
+)
+
+(mosvarm (cmrf7sf mosvarmx auLvs)
+  (
+    (g G)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (xrep xrep) (yrep yrep) (m m) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(mosvart (cmrf7sf mosvartx auLvs)
+  (
+    (g G)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (xrep xrep) (yrep yrep) (m m) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(nfet_rf (cmrf7sf nfet_rf auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (stis stis) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(nfethvt (cmrf7sf nfethvtx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (stis stis) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(nfetshvt (cmrf7sf nfetshvtx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (lstis lstis) (sa sa) (sb sb) (sd sd) (rsx rsx) (dtemp dtemp)
+  )
+)
+
+(nfettw (cmrf7sf nfettwx symbol)
+  (
+    (d D)
+    (g G)
+    (s S)
+    (b B)
+    (pi PI)
+    (sx sx)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (stis stis) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(nfetm (cmrf7sf nfetmx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(nfetmtw (cmrf7sf nfetmtwx symbol)
+  (
+    (d D)
+    (g G)
+    (s S)
+    (b B)
+    (pi PI)
+    (sx sx)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (stis stis) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(nfet (cmrf7sf nfetx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (stis stis) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(opndres (cmrf7sf opndresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) (par par) 
+  )
+)
+
+(oppdres (cmrf7sf oppdresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) (par par) 
+  )
+)
+
+(opppcres (cmrf7sf opppcresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) (bp bp) (par par) 
+  )
+)
+
+(oprppres (cmrf7sf oprppresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) (bp bp) (par par) 
+  )
+)
+
+(oprrpres (cmrf7sf oprrpresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (sh sh) (rsx rsx) (bp bp) (par par) 
+  )
+)
+
+(pcdcapm (cmrf7sf pcdcapmx auLvs)
+  (
+    (g G)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (xrep xrep) (yrep yrep) (m m) (est est) (sx_sw_local sx_sw_local) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(pcdcap (cmrf7sf pcdcapx auLvs)
+  (
+    (g G)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (xrep xrep) (yrep yrep) (m m) (est est) (sx_sw_local sx_sw_local) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(pfet_rf (cmrf7sf pfet_rf auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(pfethvt (cmrf7sf pfethvtx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(pfetshvt (cmrf7sf pfetshvtx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (lstis lstis) (sa sa) (sb sb) (sd sd) (rsx rsx) (dtemp dtemp)
+  )
+)
+
+(pfetm (cmrf7sf pfetmx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(pfet (cmrf7sf pfetx auLvs)
+  (
+    (g G)
+    (s S)
+    (d D)
+    (b B)
+  )
+  (
+    (l l) (w w) (nf nf) (m m) (par par) (ad ad) (as as) (pd pd) (ps ps) (nrd nrd) (nrs nrs) (gcon gcon) (rf rf) (rsx rsx) (dtemp dtemp) 
+  )
+)
+
+(sblkndres (esd7rf sblkndresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(sblkpdres (esd7rf sblkpdresx auLvs)
+  (
+    (pos D)
+    (neg S)
+    (sub G)
+  )
+  (
+    (r r) (w w) (l l) (m m) (pbar pbar) (s s) (dtemp dtemp) (rsx rsx) 
+  )
+)
+
+(subc (cmrf7sf subcx auLvs)
+  (
+    (pos SUBCON)
+    (neg sub)
+  )
+  (
+    (l l) (w w) (dtemp dtemp) 
+  )
+)
+
+(tdndsx (cmrf7sf tdndsx auLvs)
+  (
+    (minus MINUS)
+    (plus PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp)
+  )
+)
+
+(tdpdnw (cmrf7sf tdpdnw auLvs)
+  (
+    (neg MINUS)
+    (pos PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp)
+  )
+)
+
+(vncap (cmrf7sf vncapx auLvs)
+  (
+    (pos IN)
+    (neg OUT)
+    (sub SUB)
+  )
+  (
+    (w w) (l l) (botlev botlev) (toplev toplev) (lm lm) (nlev nlev) (setind setind) (rsx rsx) (est est) (m m) (dtemp dtemp) (par par) 
+  )
+)
+
+(wdnwsx (cmrf7sf wdnwsx auLvs)
+  (
+    (minus MINUS)
+    (plus PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(wdpisx (cmrf7sf wdpisx auLvs)
+  (
+    (minus MINUS)
+    (plus PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+(wdpwpi (cmrf7sf wdpwpi auLvs)
+  (
+    (minus MINUS)
+    (plus PLUS)
+  )
+  (
+    (area area) (perim perim) (dtemp dtemp) 
+  )
+)
+
+
+
+((p cap c) (cmrf7sf pcapacitor symbol)
+  (
+    (PLUS)
+    (MINUS)
+  )
+)
+
+((p res r) (cmrf7sf presistor symbol)
+  (
+    (PLUS)
+    (MINUS)
+  )
+)
+
+((p ind l) (cmrf7sf pinductor symbol)
+  (
+    (PLUS)
+    (MINUS)
+  )
+)
+((p mutk k) (cmrf7sf  pmind symbol)
+  (
+    (ind1)
+    (ind2)
+  )
+)

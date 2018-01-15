@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Jul  4 15:49:30 2017 
+Best design point: 1
+Design specs: 
+	TEST_ANALOG:inv_tb:1	corner	C0 - 
+	TEST_ANALOG:inv_tb:1	corner	C1_0 - 
+	TEST_ANALOG:inv_tb:1	corner	C1_1 - 
+	TEST_ANALOG:inv_tb:1	corner	C1_2 - 
+	TEST_ANALOG:inv_tb:1	corner	Nominal - 
+Design parameters: 
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Tue Jul  4 15:49:37 2017 

@@ -1,0 +1,356 @@
+<rdeSequenceEnvs name="current">
+	<StringList name="bottom_routing_layer" multiselect="false" singleSelectPosition="1">
+		<s value="PC"/>
+		<s value="M1"/>
+		<s value="M2"/>
+		<s value="M3"/>
+		<s value="M4"/>
+		<s value="MT"/>
+		<s value="AM"/>
+		<s value="METTSV"/>
+	</StringList>
+	<Boolean name="close_design_when_finished" default="true">true </Boolean>
+	<StringList name="default_routespec" multiselect="false" singleSelectPosition="5">
+		<s value="LEFDefaultRouteSpec"/>
+		<s value="VLMDefaultSetup"/>
+		<s value="VSRDefaultSetup"/>
+		<s value="cmhv7sf6AM"/>
+		<s value="virtuosoDefaultExtractorSetup"/>
+		<s value="virtuosoDefaultSetup"/>
+		<s value="virtuosoDefaultTaper"/>
+	</StringList>
+	<Boolean name="has_std_vias">true </Boolean>
+	<Boolean name="inited" default="true">true </Boolean>
+	<StringList name="operate_on" multiselect="false" singleSelectPosition="0">
+		<s value="selected_set"/>
+		<s value="cellview"/>
+	</StringList>
+	<StringList name="scheme" multiselect="false" singleSelectPosition="0">
+		<s value="device_level"/>
+		<s value="asic"/>
+		<s value="chip_assembly"/>
+	</StringList>
+	<Boolean name="set_net_width">false </Boolean>
+	<StringList name="step_order" multiselect="false">
+		<s value="step1"/>
+		<s value="step2"/>
+		<s value="step3"/>
+		<s value="step4"/>
+		<s value="step5"/>
+		<s value="step6"/>
+		<s value="step7"/>
+	</StringList>
+	<Boolean name="taper_pin_width">false </Boolean>
+	<StringList name="taper_style" multiselect="false" singleSelectPosition="0">
+		<s value="to_first_via"/>
+		<s value="min_taper_halo"/>
+	</StringList>
+	<StringList name="taper_width" multiselect="false" singleSelectPosition="0">
+		<s value="max_pin"/>
+		<s value="min_pin"/>
+		<s value="avg_pin"/>
+	</StringList>
+	<StringList name="top_routing_layer" multiselect="false" singleSelectPosition="3">
+		<s value="METTSV"/>
+		<s value="AM"/>
+		<s value="MT"/>
+		<s value="M4"/>
+		<s value="M3"/>
+		<s value="M2"/>
+		<s value="M1"/>
+		<s value="PC"/>
+	</StringList>
+	<Boolean name="use_double_cut_vias">false </Boolean>
+	<StringList name="use_grid" multiselect="false" singleSelectPosition="0">
+		<s value="manufacturing"/>
+		<s value="routing"/>
+	</StringList>
+	<StringList name="valid_routing_vias" multiselect="true">
+	</StringList>
+	<String name="version">"6.1.4"</String>
+	<Package name="extraction">
+		<StringList name="clock_net_names" multiselect="true">
+		</StringList>
+		<Boolean name="extract_poly">true </Boolean>
+		<Boolean name="flatten_all_lpps" default="true">true </Boolean>
+		<StringList name="flatten_cells" multiselect="true">
+		</StringList>
+		<StringList name="flatten_to_depth" multiselect="false" singleSelectPosition="1">
+			<s value=""/>
+			<s value="2"/>
+		</StringList>
+		<StringList name="ground_net_names" multiselect="true">
+		</StringList>
+		<StringList name="ignore_cells" multiselect="true">
+		</StringList>
+		<StringList name="layer_precedence" multiselect="true">
+		</StringList>
+		<String name="net_name_file"></String>
+		<String name="net_name_prefix"></String>
+		<String name="net_name_property"></String>
+		<StringList name="pin_style" multiselect="false" singleSelectPosition="0">
+			<s value=""/>
+			<s value="labeled_shapes"/>
+			<s value="connected_shapes"/>
+			<s value="whole_net"/>
+			<s value="whole_net_all_layers"/>
+		</StringList>
+		<Boolean name="pin_style_to_top_cell" default="true">true </Boolean>
+		<StringList name="power_net_names" multiselect="true">
+		</StringList>
+		<Boolean name="prepare_for_routing">false </Boolean>
+		<Boolean name="resolve_shorts">false </Boolean>
+		<Boolean name="run_extraction">true </Boolean>
+		<Boolean name="run_extraction_set">false </Boolean>
+		<Boolean name="save_flattened_cells">false </Boolean>
+		<String name="save_lib_name"></String>
+		<String name="save_view_name"></String>
+		<Integer name="start_extraction_level" default="0">1</Integer>
+		<Integer name="stop_extraction_level" default="32">32</Integer>
+		<StringList name="text_layer" multiselect="false">
+		</StringList>
+		<StringList name="text_purpose" multiselect="false">
+		</StringList>
+		<Boolean name="use_layout_text">false </Boolean>
+	</Package>
+	<Package name="net_options">
+		<Boolean name="excl_clock" default="true">true </Boolean>
+		<Boolean name="excl_power_and_ground" default="true">true </Boolean>
+		<Boolean name="lock_after_routed">false </Boolean>
+		<Boolean name="lock_clock" default="true">true </Boolean>
+		<Boolean name="lock_existing_routing">false </Boolean>
+		<Boolean name="lock_power_and_ground" default="true">true </Boolean>
+		<String name="net_exclude_file"></String>
+		<String name="net_lock_file"></String>
+		<StringList name="route_nets_of_type" multiselect="false" singleSelectPosition="1">
+			<s value="bus"/>
+			<s value="single_net"/>
+			<s value="symmetry"/>
+		</StringList>
+		<Boolean name="shield_after_routed">false </Boolean>
+		<Boolean name="unlock_before_routing">false </Boolean>
+	</Package>
+	<Package name="run_env">
+		<String name="cellName">"ring"</String>
+		<Boolean name="is_db_opened">false </Boolean>
+		<String name="libName">"TOP"</String>
+		<String name="viewName">"layout"</String>
+	</Package>
+	<Package name="special_blockage_treatment">
+		<Boolean name="enabled">false </Boolean>
+		<Boolean name="ignore_blockage_spacing">false </Boolean>
+		<Boolean name="ignore_routespec_spacing" default="true">true </Boolean>
+		<StringList name="treat_as" multiselect="false" singleSelectPosition="0">
+			<s value="min_width"/>
+			<s value="min_space"/>
+		</StringList>
+	</Package>
+	<Package name="specialty_route_options">
+		<Package name="diff_pairs">
+			<Boolean name="enforce_via_gap_spacing" default="true">true </Boolean>
+			<Boolean name="fix_crossovers">false </Boolean>
+			<Boolean name="fix_pin_spacing_violations">false </Boolean>
+			<Boolean name="min_disturbance">false </Boolean>
+			<Boolean name="preserve_topology">false </Boolean>
+		</Package>
+		<Package name="match_length">
+			<Real name="accordion_height" default="0.000000">-1.000000 </Real>
+			<Boolean name="add_patterns_on_patterns">false </Boolean>
+			<Real name="min_seg_length" default="0.000000">-1.000000 </Real>
+			<Boolean name="multi_layer_matching">false </Boolean>
+			<Real name="pin_via_dist_to_start_patterns" default="0.000000">-1.000000 </Real>
+			<Boolean name="shift_starting_pattern_pos">false </Boolean>
+			<Boolean name="tune_accordion_pattern">false </Boolean>
+		</Package>
+		<Package name="shielding">
+			<Boolean name="add_tandem_shields">false </Boolean>
+			<StringList name="alternate_shield_net" multiselect="false">
+			</StringList>
+			<Real name="coax_shield_via_dist" default="0.000000">-1.000000 </Real>
+			<Real name="min_shield_tie_dist" default="0.000000">-1.000000 </Real>
+			<Real name="min_shield_wire_length" default="0.000000">-1.000000 </Real>
+			<StringList name="shield_net" multiselect="false">
+			</StringList>
+			<Boolean name="shield_pins">false </Boolean>
+			<Boolean name="shield_routes_fix_status">false </Boolean>
+			<Boolean name="shield_vias" default="true">true </Boolean>
+			<Boolean name="tie_shields_power_ground" default="true">true </Boolean>
+		</Package>
+	</Package>
+	<rdeStepEnvs name="step1">
+		<Boolean name="checkpoint">false </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="enable_dyn_abs_gen">false </Boolean>
+		<Boolean name="run" default="true">true </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<String name="script_file"></String>
+		<String name="step_type">"initialize"</String>
+		<String name="tcl_namespace">"initialize"</String>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"init "</String>
+		<Package name="layer_map">
+			<StringList name="keys" multiselect="true">
+			</StringList>
+		</Package>
+		<Package name="preload_env">
+			<Boolean name="basic_constraint_check" default="true">true </Boolean>
+			<StringList name="db_user_namespace" multiselect="false" singleSelectPosition="1">
+				<s value=""/>
+				<s value="cdba"/>
+				<s value="def"/>
+			</StringList>
+			<StringList name="design_type" multiselect="false" singleSelectPosition="0">
+				<s value="device_level"/>
+				<s value="asic"/>
+				<s value="chip_assembly"/>
+			</StringList>
+			<Boolean name="halo_blockage_around_pr_boundary" default="true">true </Boolean>
+			<Boolean name="load_unplaced_instances">false </Boolean>
+			<Boolean name="paths_to_routesegs">false </Boolean>
+			<Boolean name="pin_to_pin_spacing_check" default="true">true </Boolean>
+			<Boolean name="route_connections_between_io_pins" default="true">true </Boolean>
+			<Boolean name="save_empty_nets" default="true">true </Boolean>
+			<Boolean name="save_topological_guides" default="true">true </Boolean>
+			<String name="virtuoso_install_path" default="$CDS_INST_ROOT">"$CDS_INST_ROOT"</String>
+		</Package>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step2">
+		<Boolean name="checkpoint">false </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="reset_global_route">false </Boolean>
+		<Boolean name="run" default="true">false </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<String name="step_type">"global_route"</String>
+		<String name="tcl_namespace">"global_route"</String>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"groute "</String>
+		<Package name="routing_densities">
+			<StringList name="keys" multiselect="true">
+			</StringList>
+		</Package>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step3">
+		<Boolean name="checkpoint">false </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="escape_all_layers">false </Boolean>
+		<StringList name="metals_must_enclose_vias" multiselect="true">
+		</StringList>
+		<Boolean name="pin_metal_must_enclose_vias">false </Boolean>
+		<Boolean name="run" default="true">false </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<String name="step_type">"local_route"</String>
+		<String name="tcl_namespace">"local_route"</String>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"lroute "</String>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step4">
+		<Boolean name="checkpoint">false </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="run" default="true">false </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<StringList name="skip_layers" multiselect="true">
+		</StringList>
+		<String name="step_type">"conduit_route"</String>
+		<String name="tcl_namespace">"conduit_route"</String>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"croute "</String>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step5">
+		<Boolean name="check_antenna">false </Boolean>
+		<StringList name="check_level" multiselect="false" singleSelectPosition="0">
+			<s value=""/>
+			<s value="0"/>
+			<s value="1"/>
+			<s value="2"/>
+			<s value="3"/>
+		</StringList>
+		<Boolean name="checkpoint">false </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="critic">false </Boolean>
+		<Boolean name="large_space_checking" default="true">true </Boolean>
+		<Boolean name="maximize_cuts">false </Boolean>
+		<Boolean name="optimize_pin_escaped_vias">false </Boolean>
+		<StringList name="pin_strapping_layer" multiselect="false" singleSelectPosition="0">
+			<s value="metal"/>
+			<s value="poly"/>
+		</StringList>
+		<Boolean name="prefer_violations_over_opens">false </Boolean>
+		<Boolean name="run" default="true">true </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<Boolean name="snap_to_pin_center">false </Boolean>
+		<String name="step_type">"detail_route"</String>
+		<Integer name="stop_pass" default="0">-1</Integer>
+		<String name="tcl_namespace">"detail_route"</String>
+		<Boolean name="test_for_convergence">false </Boolean>
+		<Boolean name="tie_shields">false </Boolean>
+		<Boolean name="use_overlap_shapes_eff_width" default="true">true </Boolean>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"droute "</String>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step6">
+		<Boolean name="align_vias_to_wire_edges" default="true">true </Boolean>
+		<Boolean name="checkpoint" default="true">true </Boolean>
+		<String name="checkpoint_status">"nr"</String>
+		<Boolean name="cover_pin">false </Boolean>
+		<Boolean name="crossing">false </Boolean>
+		<Boolean name="fix_extensions">false </Boolean>
+		<Boolean name="maximize_cuts" default="true">true </Boolean>
+		<Boolean name="minimize_unprotected_vias">false </Boolean>
+		<Boolean name="minimize_unprotected_vias_peer">false </Boolean>
+		<Boolean name="minimum_area" default="true">true </Boolean>
+		<Boolean name="minimum_edge_length" default="true">true </Boolean>
+		<Boolean name="minimum_enclosed_area" default="true">true </Boolean>
+		<Boolean name="minimum_number_of_cuts" default="true">true </Boolean>
+		<Boolean name="minimum_spacing" default="true">true </Boolean>
+		<Boolean name="minimum_width" default="true">true </Boolean>
+		<Boolean name="no_push">false </Boolean>
+		<Boolean name="port_shorts">false </Boolean>
+		<Boolean name="reduce_vias">false </Boolean>
+		<Boolean name="reduce_wire_notches_at_pins">false </Boolean>
+		<Boolean name="repair_opens" default="true">true </Boolean>
+		<Boolean name="route_optimize" default="true">true </Boolean>
+		<Boolean name="routing_grid" default="true">true </Boolean>
+		<Boolean name="run" default="true">true </Boolean>
+		<String name="run_status">"nr"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"nr"</String>
+		<String name="scheme">"default"</String>
+		<String name="step_type">"refinement"</String>
+		<String name="tcl_namespace">"refinement"</String>
+		<Boolean name="truncate_extension">false </Boolean>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"refine "</String>
+	</rdeStepEnvs>
+	<rdeStepEnvs name="step7">
+		<Boolean name="checkpoint" default="true">true </Boolean>
+		<String name="checkpoint_status">"rc"</String>
+		<Boolean name="run" default="true">true </Boolean>
+		<String name="run_status">"rc"</String>
+		<Boolean name="save">false </Boolean>
+		<String name="save_status">"not_run"</String>
+		<String name="scheme">"default"</String>
+		<String name="step_type">"finalize"</String>
+		<String name="tcl_namespace">"finalize"</String>
+		<String name="version">"6.1.4"</String>
+		<String name="view_name_suffix">"finalize "</String>
+	</rdeStepEnvs>
+	<Package name="wrong_way">
+		<StringList name="keys" multiselect="true">
+		</StringList>
+	</Package>
+</rdeSequenceEnvs>

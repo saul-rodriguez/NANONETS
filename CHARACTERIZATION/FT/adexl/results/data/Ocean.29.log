@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jul 16 21:57:57 2015 
+Best design point: 3
+Design specs: 
+	CHARACTERIZATION:FT:1	corner	Nominal - 
+Design parameters: 
+	W		6.25u
+	L		1u
+	VDS		500m
+	IDC		15.85n
+
+Ocean.29
+Number of points completed: 22
+Number of simulation errors: 0
+Ocean.29 completed. 
+Current time: Thu Jul 16 21:58:15 2015 

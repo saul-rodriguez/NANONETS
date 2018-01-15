@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug 24 15:39:07 2017 
+Best design point: 1
+Design specs: 
+	SENSOR_SWITCH:sensor_switch_tb:1	corner	Nominal - 
+Design parameters: 
+	A0		0
+	A1		0
+	A2		0
+	A3		0
+	A4		0
+	IDC		100n
+
+Interactive.14
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.14 completed. 
+Current time: Thu Aug 24 15:39:28 2017 

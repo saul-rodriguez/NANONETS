@@ -1,0 +1,104 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "14.1.0.848.isr14"
+"date" "2:48:02 PM, Fri Aug 25, 2017"
+"design" "// Generated for: spectre"
+"analysis type" "info.primitives"
+"analysis name" "primitives"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.000100000
+TYPE
+"primitive" STRUCT(
+"model" STRING *
+"oppoint" STRING *
+"output" STRING *
+"inst" STRING *
+"region" STRING *
+"terminals" STRING *
+) PROP(
+"key" "prim"
+)
+VALUE
+"assert" "primitive" (
+""
+""
+""
+"sub subs mod dev primitive expr modelparam param max min duration message level info values boolean anal_types check_windows maxvio_perinst maxvio_all "
+""
+""
+)
+"bsource_49283a" "primitive" (
+""
+"termcurs pwr v i "
+""
+"m isnoisy bs_par_0 bs_par_1 bs_par_2 bs_par_3 "
+""
+"bs_p1 bs_p2 "
+)
+"capacitor" "primitive" (
+"c trise tnom w l etch cj cjsw scalec rforce di thick coeffs symmetric min max tc1 tc2 shrink shrink2 bv_max "
+"cap "
+"tempeff meff leff weff ceff "
+"c w l m scale trise tc1 tc2 ic area perim coeffs symmetric bv_max scalec "
+""
+"1 2 "
+)
+"diode" "primitive" (
+"level dcap bv_enable compatible etch etchl l w js is jsw isw isp n ns ik ikf ikp ikr area perim allow_scaling tt cd cjo vj pb m cjsw cjp vjsw php mjsw fc fcs lm lp wm wp xm xp xoi xom xw vjmin bv vb ibv nz bvj isr ibvl nbv nbvl rs rsw gleak gleaksw minr tlev tlevc eglev eg gap1 gap2 xti tbv1 tcv tbv2 tikf tnom trise trs trs1 tmod trs2 tgs tgs2 cta ctp pta ptp ttt1 ttt2 tm1 tm2 jmelt imelt expli jmax imax dskip if ir ecrf ecrr ef er nf nr tox rod jts jtssw mrs njts njtssw xts xtssw tnjts tnjtssw trod kf af shrink shrink2 jtun jtunsw ntun xtitun egtun bv_max fv_max keg "
+"region v i pwr res resp cap capp cd ctotal gd qd vdio "
+"bveff tempeff meff "
+"area perim l w m scale trise lm lp wm wp isnoisy "
+"off on breakdown "
+"a c "
+)
+"iprobe" "primitive" (
+""
+"i "
+""
+""
+""
+"in out "
+)
+"isource" "primitive" (
+""
+"i v pwr "
+"tempeff "
+"dc type fundname delay edgetype val0 val1 period rise fall width file offset scale stretch rms pwlfilter rolloff pwlbandwidth allbrkpts pwlperiod pwlperiodstart twidth sinedc ampl freq sinephase ampl2 freq2 sinephase2 fundname2 iqmodfiles fmmodindex fmmodfreq fmmodfiles ammodindex ammodoffset ammodfreq ammodphase damp freqvec amplvec phasevec maxharms td1 tau1 td2 tau2 expperiod data rptstart rpttimes td01 td10 ref jitter rjseed rjrms pjamp pjfreq pjtype seed taps lfsrtaps lfsrseed registerlength triggerthreshold triggerdelthresh triggerdirection transitionreference noisefile noisetype noiseinterp isnoisy mag phase xfmag pacmag pacphase m tc1 tc2 tnom trise "
+""
+"sink src ctlp ctln "
+)
+"psp1020" "primitive" (
+"level type tr swnqs swigate swimpact swgidl swjuncap swjunasym qmc version geomod binmod scalelev compatible lvaro lvarl lvarw lap wvaro wvarl wvarw wot dlq dwq vfbo vfbl vfbw vfblw stvfbo stvfbl stvfbw stvfblw toxo epsroxo nsubo nsubw wseg npck npckw wsegp lpck lpckw fol1 fol2 vnsubo nslpo dnsubo dphibo dphibl dphiblexp dphibw dphiblw npo npl cto ctl ctlexp ctw ctlw toxovo toxovdo lov lovd novo novdo cfl cflexp cfw cfbo uo fbet1 fbet1w lp1 lp1w fbet2 lp2 betw1 betw2 wbet stbeto stbetl stbetw stbetlw mueo muew stmueo themuo stthemuo cso csl cslexp csw cslw stcso xcoro xcorl xcorw xcorlw stxcoro fetao rsw1 rsw2 strso rsbo rsgo thesato thesatl thesatlexp thesatw thesatlw stthesato stthesatl stthesatw stthesatlw thesatbo thesatgo axo axl alpl alplexp alpw alp1l1 alp1lexp alp1l2 alp1w alp2l1 alp2lexp alp2l2 alp2w vpo a1o a1l a1w a2o sta2o a3o a3l a3w a4o a4l a4w gcoo iginvlw igovw igovdw stigo gc2o gc3o chibo agidlw agidldw bgidlo bgidldo stbgidlo stbgidldo cgidlo cgidldo cgbovl cfrw cfrdw fnto fntexcl nfalw nfblw nfclw efo lintnoi alpnoi dta kvthoweo kvthowel kvthowew kvthowelw kuoweo kuowel kuowew kuowelw vds_max vgd_max vgs_max vbd_max vbs_max vgb_max vgdr_max vgsr_max vgbr_max vbsr_max vbdr_max munqso rgo rbulko rwello rjunso rjundo rint rvpoly rshg dlsil saref sbref wlod kuo kvsat tkuo lkuo wkuo pkuo llodkuo wlodkuo kvtho lkvtho wkvtho pkvtho llodvth wlodvth stetao lodetao scref web wec imax trj cjorbot cjorsti cjorgat vbirbot vbirsti vbirgat pbot psti pgat phigbot phigsti phiggat idsatrbot idsatrsti idsatrgat csrhbot csrhsti csrhgat xjunsti xjungat ctatbot ctatsti ctatgat mefftatbot mefftatsti mefftatgat cbbtbot cbbtsti cbbtgat fbbtrbot fbbtrsti fbbtrgat stfbbtbot stfbbtsti stfbbtgat vbrbot vbrsti vbrgat pbrbot pbrsti pbrgat cjorbotd cjorstid cjorgatd vbirbotd vbirstid vbirgatd pbotd pstid pgatd phigbotd phigstid phiggatd idsatrbotd idsatrstid idsatrgatd csrhbotd csrhstid csrhgatd xjunstid xjungatd ctatbotd ctatstid ctatgatd mefftatbotd mefftatstid mefftatgatd cbbtbotd cbbtstid cbbtgatd fbbtrbotd fbbtrstid fbbtrgatd stfbbtbotd stfbbtstid stfbbtgatd vbrbotd vbrstid vbrgatd pbrbotd pbrstid pbrgatd swjunexp vjunref fjunq vjunrefd fjunqd mvto mbeo vthmod ivth ivthw ivthl ivth_vdsmin noisemethod "
+"region ctype sdint ise ige ide ibe ids idb isb igs igd igb igcs igcd iavl igisl igidl ijs ijsbot ijsgat ijssti ijd ijdbot ijdgat ijdsti qg qd qb qs qgs_ov qgd_ov qfgs qfgd qgb_ov qjun_s qjun_d vds vgs vsb vto vts vth vgt vdss vsat pwr gm gmb gds gjs gjd cdd cdg cds cdb cgd cgg cgs cgb csd csg css csb cbd cbg cbs cbb cgsol cgdol cgbol cjs cjsbot cjsgat cjssti cjd cjdbot cjdgat cjdsti lpoly u rout vearly beff fug rg sfl sqrtsff sqrtsfw sid sig cigid fknee sigs sigd siavl ssi sdi vbs lv9 lv10 lv36 lv37 lv38 lv51 lx4 lx3 lx2 lx7 lx8 lx9 lx33 lx32 lx34 lx19 lx18 lx20 lx22 lx21 lx23 lx5 lx6 lx28 lx29 lx38 lx39 lx66 lx67 lx68 lx110 lx47 lx60 lx59 lx58 lx12 lx14 lx16 lx83 lx84 "
+"weff leff lv1 lv2 lv3 lv4 lv11 lv12 "
+"l w sa sb sd sca scb scc sc delvto factuo absource lssource lgsource abdrain lsdrain lgdrain as ps ad pd mulid0 mult nf ngcon xgw trise m isnoisy "
+"off triode sat subth breakdown "
+"d g s b "
+)
+"resistor" "primitive" (
+"r rsh thresh rthresh rac l w etch etchl scaler tc1 tc2 tnom trise coeffs nonlinform symmetric kf af wdexp ldexp weexp wf leexp lf fexp mr mrl mrlp mrw mrwp mrlw1 mrlw1p mrlw2 mrlw2p c cj cjsw thick di cratio tc1c tc2c shrink scalec dtemp cap dw dlr cox capsw res ef bv_max "
+"v i res pwr "
+"leff weff reff ceff tempeff meff "
+"r l w lvl m scale resform tc1 tc1r tc2 tc2r trise isnoisy bv_max c tc1c tc2c rac scaler scalec dtemp cap "
+""
+"1 2 0 "
+)
+"vcvs" "primitive" (
+""
+"i v pwr lx0 lx1 lx2 "
+""
+"m type delta gain td min max abs file scale stretch tc1 tc2 trise "
+""
+"p n ps ns "
+)
+"vsource" "primitive" (
+""
+"v i pwr "
+"tempeff "
+"dc type fundname delay edgetype val0 val1 period rise fall width file offset scale stretch rms pwlfilter rolloff pwlbandwidth allbrkpts pwlperiod pwlperiodstart twidth sinedc ampl freq sinephase ampl2 freq2 sinephase2 fundname2 iqmodfiles fmmodindex fmmodfreq fmmodfiles ammodindex ammodoffset ammodfreq ammodphase damp freqvec amplvec phasevec maxharms td1 tau1 td2 tau2 expperiod data rptstart rpttimes td01 td10 ref jitter rjseed rjrms pjamp pjfreq pjtype seed taps lfsrtaps lfsrseed registerlength triggerthreshold triggerdelthresh triggerdirection transitionreference noisefile noisetype noiseinterp isnoisy mag phase xfmag pacmag pacphase m tc1 tc2 tnom trise "
+""
+"p n ctlp ctln "
+)
+END

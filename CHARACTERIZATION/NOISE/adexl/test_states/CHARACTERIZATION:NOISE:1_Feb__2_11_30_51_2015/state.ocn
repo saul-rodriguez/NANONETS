@@ -1,0 +1,22 @@
+design( "CHARACTERIZATION" "NOISE" "schematic")
+modelFile( 
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs" "noitm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs" "restm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs" "captm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs" "biptm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs" "esdditm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs" "cmostm")
+)
+definitionFile(
+    "/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/mcparams.scs"
+)
+analysis('noise ?start "1"  ?stop "100G"  ?oprobe "/IPRB0"  
+		?iprobe "/I3"  )
+desVar(	  "W" 1e-05	)
+desVar(	  "VDS" 1	)
+desVar(	  "L" 1.8e-07	)
+desVar(	  "IDC" 0.001	)
+envOption(
+	'analysisOrder  list("noise") 
+)
+temp( 27 ) 

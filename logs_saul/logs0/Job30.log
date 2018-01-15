@@ -1,0 +1,5927 @@
+\# Program start time UTC 2017.12.19 15:36:56.453
+\# Local time Tuesday 19 December 2017, 4:36 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1919 -mpshost s2424.it.kth.se -davinciService DaVinciService_1919_1513694490 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job30.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_1919 -nograph -nostdin -axlChildIdFlag 30
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13009)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x1400000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        622 MB
+\# Available memory:	     72,023 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     77,902 MB
+\# Max mem available:	     72,094 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		13234
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\# Memory report: using         180 MB, process size 991 MB at UTC 2017.12.19 15:36:57.871
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o //
+\o //  Calibre Skill Interface * (v2014.3_27.21) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.17
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.17.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.17/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (17 1) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.17/1/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.17/1/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (17 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:37:00 2017
+\o End netlisting Dec 19 16:37:00 2017
+\o Loading monte.cxt 
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (17 1).
+\o 
+\# Memory report: using         289 MB, process size 1,103 MB at UTC 2017.12.19 15:37:00.760
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.17/1/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Available memory:         70,174 MB at UTC 2017.12.19 15:37:06.722
+\# Memory report: Maximum memory size now 70,465 MB at UTC 2017.12.19 15:37:06.722
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (17 1) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.18
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 2) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/2/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/2/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:38:08 2017
+\o End netlisting Dec 19 16:38:08 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (18 2).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/2/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 2) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (18 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/14/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/14/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (18 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:38:35 2017
+\o End netlisting Dec 19 16:38:35 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (18 14).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.18/14/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (18 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.19
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.98"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/7/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/7/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:40:47 2017
+\o End netlisting Dec 19 16:40:47 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (19 7).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/7/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 15) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/15/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/15/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 15)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:40:55 2017
+\o End netlisting Dec 19 16:40:55 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (19 15).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/15/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 15) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 21) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/21/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/21/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:41:02 2017
+\o End netlisting Dec 19 16:41:02 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (19 21).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/21/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 21) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 25) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/25/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/25/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:41:09 2017
+\o End netlisting Dec 19 16:41:10 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (19 25).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/25/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 25) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (19 33) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/33/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/33/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (19 33)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:41:16 2017
+\o End netlisting Dec 19 16:41:16 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (19 33).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.19/33/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (19 33) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.20
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (20 6) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/6/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/6/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (20 6)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:43:33 2017
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o End netlisting Dec 19 16:43:34 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   37
+\o 
+\o 	Elapsed time:          1.0s (37.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (20 6).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/6/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 6) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (20 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.98"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/13/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/13/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (20 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:43:37 2017
+\o End netlisting Dec 19 16:43:37 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (20 13).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/13/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (20 23) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/23/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/23/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (20 23)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:43:39 2017
+\o End netlisting Dec 19 16:43:39 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (20 23).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/23/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 23) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (20 31) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/31/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/31/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (20 31)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:43:41 2017
+\o End netlisting Dec 19 16:43:41 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (20 31).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.20/31/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (20 31) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.21
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.21.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.21/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (21 3) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.98"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.21/3/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.21/3/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (21 3)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:45:37 2017
+\o End netlisting Dec 19 16:45:37 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (21 3).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.21/3/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (21 3) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.22
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.22.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.22/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (22 4) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.22/4/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.22/4/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (22 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:46:37 2017
+\o End netlisting Dec 19 16:46:37 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   13
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (22 4).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.22/4/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (22 4) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.23
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.23.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.23/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (23 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.98"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.23/7/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.23/7/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (23 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:47:21 2017
+\o End netlisting Dec 19 16:47:21 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (23 7).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.23/7/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (23 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.24
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 5) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.98"
+\o Setting temp(T) = 27
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/5/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/5/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 5)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:01 2017
+\o End netlisting Dec 19 16:51:01 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 5).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/5/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 5) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/14/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/14/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:04 2017
+\o End netlisting Dec 19 16:51:04 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 14).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/14/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 24) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.98"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/24/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/24/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 24)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:06 2017
+\o End netlisting Dec 19 16:51:06 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 24).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/24/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 24) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 32) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/32/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/32/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 32)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:08 2017
+\o End netlisting Dec 19 16:51:08 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 32).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/32/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 32) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 41) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/41/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/41/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 41)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:11 2017
+\o End netlisting Dec 19 16:51:11 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 41).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/41/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 41) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (24 58) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/58/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/58/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (24 58)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:51:13 2017
+\o End netlisting Dec 19 16:51:13 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (24 58).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.24/58/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (24 58) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 69,009 MB at UTC 2017.12.19 15:51:15.813
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1:1_AMPLIFIER:buffer_tb:1:1_state_Interactive.25
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/1/AMPLIFIER:buffer_tb:1:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 10) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 27
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/10/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/10/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 10)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:55:47 2017
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o End netlisting Dec 19 16:55:49 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 5821
+\o 
+\o 	Elapsed time:          2.0s (2910.50/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 10).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/10/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 10) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 24) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.98"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/24/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/24/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 24)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:55:57 2017
+\o End netlisting Dec 19 16:55:57 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 24).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/24/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 24) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 33) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/33/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/33/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 33)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:56:05 2017
+\o End netlisting Dec 19 16:56:05 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 33).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/33/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 33) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 42) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.62"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/42/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/42/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 42)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:56:14 2017
+\o End netlisting Dec 19 16:56:14 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 42).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/42/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 42) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 53) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vsupply = "1.98"
+\o Setting temp(T) = 85
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/53/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/53/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 53)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:56:22 2017
+\o End netlisting Dec 19 16:56:22 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 53).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/53/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 53) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (25 65) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/65/AMPLIFIER:buffer_tb:1:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/65/AMPLIFIER:buffer_tb:1:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (25 65)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:56:30 2017
+\o End netlisting Dec 19 16:56:30 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1:1 ]
+\o           for Point ID (25 65).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.25/65/AMPLIFIER:buffer_tb:1:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (25 65) on testbench [
+\o           AMPLIFIER:buffer_tb:1:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.0
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.0/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (27 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.0/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.0/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (27 154)
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'AMPLIFIER buffer av_analog_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:59:57 2017
+\o End netlisting Dec 19 16:59:57 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (27 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.0/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 16:59:58 2017
+\o End netlisting Dec 19 16:59:58 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o Loading stats.cxt 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 67,581 MB at UTC 2017.12.19 16:00:05.798
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (27 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.1
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.1/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (28 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.1/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.1/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (28 154)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:01:00 2017
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o End netlisting Dec 19 17:01:00 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   37
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (28 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.1/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:01:00 2017
+\o End netlisting Dec 19 17:01:00 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (28 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.2
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.2.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.2/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (29 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.2/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.2/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (29 154)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:03:06 2017
+\o End netlisting Dec 19 17:03:06 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (29 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.2/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:03:07 2017
+\o End netlisting Dec 19 17:03:07 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (29 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.3
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.3/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (30 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.3/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.3/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (30 154)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:03:38 2017
+\o End netlisting Dec 19 17:03:38 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (30 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.3/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:03:38 2017
+\o End netlisting Dec 19 17:03:38 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (30 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.4
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.4.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.4/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (31 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.4/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.4/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (31 154)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:04:19 2017
+\o End netlisting Dec 19 17:04:19 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (31 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.4/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:04:19 2017
+\o End netlisting Dec 19 17:04:19 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (31 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.5
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.5.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.5/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (32 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.5/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.5/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (32 154)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:06:19 2017
+\o End netlisting Dec 19 17:06:19 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (32 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.5/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:06:20 2017
+\o End netlisting Dec 19 17:06:20 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (32 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.6
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.6.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.6/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (33 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.6/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.6/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (33 154)
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'AMPLIFIER buffer av_analog_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:07:46 2017
+\o WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+\o directory. Netlist(s) from last session cannot be reused for incremental
+\o netlisting. Therefore, re-netlisting the design.
+\o 
+\o End netlisting Dec 19 17:07:47 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components: 5821
+\o 
+\o 	Elapsed time:          2.0s (2910.50/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (33 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.6/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:07:48 2017
+\o End netlisting Dec 19 17:07:48 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VOUT"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\e *Error* dB20: can't handle dB20(nil)
+\e 
+\e 
+\o ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'dB20(VF("/VSAM"))'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (33 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_none_MonteCarlo.7
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.7.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.7/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (34 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var PS_AC = "0"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VIN_AC = "1"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.7/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.7/154/AMPLIFIER:buffer_tb:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (34 154)
+\o 
+\w *WARNING* (CMGR-6144): The 'ciRefreshCellView' SKILL function is not applicable to the layout constraint cache 'AMPLIFIER buffer av_analog_extracted'. Run the 'dbRefreshCellView' SKILL function to refresh the cellview.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:12:30 2017
+\o End netlisting Dec 19 17:12:31 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   13
+\o 
+\o 	Elapsed time:          1.0s (13.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (34 154).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/MonteCarlo.7/154/AMPLIFIER:buffer_tb:1/groupRunDataDir/psf.
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Dec 19 17:12:32 2017
+\o End netlisting Dec 19 17:12:32 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'154' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 154) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'155' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 155) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'156' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 156) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'157' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 157) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'158' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 158) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'159' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 159) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'160' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 160) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'161' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 161) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'162' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 162) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'163' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 163) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'164' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 164) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: Maximum memory size now 66,152 MB at UTC 2017.12.19 16:13:28.418
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'165' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 165) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'166' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 166) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'167' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 167) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'168' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 168) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'169' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 169) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o ERROR (ADEXL-2709): Evaluation of output 'VDC("/VOUT")' returned 'nil' for point:'170' test:'AMPLIFIER:buffer_tb:1'
+\o 	Expression:'VDC("/VOUT")'.
+\o Ensure that the definition of output is correct.
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (34 170) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\# Memory report: on exit            339 MB, process size 1,153 MB at UTC 2017.12.19 16:19:06.712
+\# Memory report: peak usage         339 MB, process size 1,153 MB

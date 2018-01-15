@@ -1,0 +1,331 @@
+\# Program start time UTC 2018.01.10 16:26:43.414
+\# Local time Wednesday 10 January 2018, 5:26 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18604 -mpshost s2424.it.kth.se -davinciService DaVinciService_18604_1515485992 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job8.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_18604 -nograph -nostdin -axlChildIdFlag 8
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 19739)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        807 MB
+\# Available memory:	     63,741 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     77,717 MB
+\# Max mem available:	     63,812 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		19740
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\# Memory report: using         196 MB, process size 1,010 MB at UTC 2018.01.10 16:26:44.913
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o //
+\o //  Calibre Skill Interface * (v2014.3_27.21) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = TOP
+\o 	Cell         = top_ring_core_tb
+\o 	View         = config_ver
+\o 	Simulator    = ams
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TOP:top_ring_core_tb:1_none_Interactive.44
+\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.44.rdb
+\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.44/1/TOP:top_ring_core_tb:1
+\o 	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (9 1) on testbench [
+\o           TOP:top_ring_core_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.44/1/TOP:top_ring_core_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.44/1/TOP:top_ring_core_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (9 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o Loading verilogI.cxt 
+\o Begin Incremental Netlisting Jan 10 17:26:46 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.44/1/TOP:top_ring_core_tb:1/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o Loading IBM A&MS cmrf7sf Procedures for Cadence Version "6.1.6-64b"
+\o INFO (AMS-2150): Generating the 'changedVarsSummary' file in the 'netlist' directory. This file prints the values of the netlister control variables, which are different from their default values. To disable the file creation, type 'envSetVal("ams.netlisterOpts" "print_control_vars" 'boolean nil )' in the '.cdsinit' file.
+\o 
+\o INFO (VLOGNET-117): Re-netlisting the entire design.
+\o 
+\o INFO (VLOGNET-118): Using connection by name (explicit connections) for all stopping and 
+\o non-stopping cells.
+\o  
+\o Traverse Config lib:TOP cell:top_ring_core_tb view:config_ver
+\o INFO (AMS-2050): The following cells will be netlisted without using the spectre CDF
+\o  simulation information, because they are bound to view symbol:
+\o  ' *** Library - IOLIB_6AM  Cell - IOPAD1V8_3 ***
+\o               *** Library - IOLIB_6AM  Cell - PORGEN_1V8 ***
+\o              '. To use the spectre CDF simulation information, do one of the following:
+\o      1. Open your configuration in Hierarchy Editor and replace 'symbol' 
+\o  with 'spectre' in the view list and stop list. 
+\o       2. Choose Simulation->Options-> AMS Simulator->Netlister and add 'symbol' 
+\o  in the 'Netlist using spectre CDF simInfo' field.
+\o 
+\o WARNING (VLOGNET-110): The cell 'IOLIB_6AM/PWRCUT_DX/schematic' has no ports. Make sure that this was the intended 
+\o design.
+\o  
+\o WARNING (VLOGNET-110): The cell 'TOP/top_ring_core_tb/schematic' has no ports. Make sure that this was the intended 
+\o design.
+\o  
+\o INFO (VLOGNET-169): Module port ordering for lib 'SPC', cell 'config_stimulus', view 'verilogams' will be
+\o  done using the user specified port order as follows:
+\o 
+\o  => ("Cfg_in" "Clk" "Resetn")
+\o 
+\o INFO (VLOGNET-169): Module port ordering for lib 'SENSOR_SWITCH', cell 'sensor_switch', view 'verilogams' will be
+\o  done using the user specified port order as follows:
+\o 
+\o  => ("FET<31:0>" "VD" "VS" "VSUB" "out" "IN<4:0>")
+\o 
+\o INFO (VLOGNET-169): Module port ordering for lib 'SPC', cell 'nnspc', view 'functional' will be
+\o  done using the user specified port order as follows:
+\o 
+\o  => ("Cfg_in" "Clk" "Resetn" "NSEL<4:0>" "DAC<3:0>" "RE")
+\o 
+\o INFO (VLOGNET-169): Module port ordering for lib 'CURRENT_DAC', cell 'current_dac_ts', view 'verilogams' will be
+\o  done using the user specified port order as follows:
+\o 
+\o  => ("BIAS_IN" "CUR_OUT" "CUR_TEST_OUT" "VD" "VS" "VSUB" "IN<3:0>")
+\o 
+\o INFO (VLOGNET-126): ---------- Beginning netlist configuration information ----------
+\o 
+\o 
+\o 
+\o CELL NAME                   VIEW NAME            NOTE             
+\o ---------                   ---------            ----             
+\o 
+\o presistor                   spectre              *Stopping View*  
+\o pfetx                       spectre              *Stopping View*  
+\o nfetx                       spectre              *Stopping View*  
+\o subcx                       spectre              *Stopping View*  
+\o tdndsx                      spectre              *Stopping View*  
+\o opppcresx                   spectre              *Stopping View*  
+\o mosvartx                    spectre              *Stopping View*  
+\o esdndsx                     spectre              *Stopping View*  
+\o PORGEN_1V8                  symbol               *Stopping View*  
+\o IOPAD1V8_3                  symbol               *Stopping View*  
+\o esdvpnpnw                   spectre              *Stopping View*  
+\o current_dac_ts              verilogams           *Stopping View*  
+\o nnspc                       functional           *Stopping View*  
+\o amplifier                   veriloga             *Stopping View*  
+\o sensor_switch               verilogams           *Stopping View*  
+\o bias                        veriloga             *Stopping View*  
+\o config_stimulus             verilogams           *Stopping View*  
+\o cap                         spectre              *Stopping View*  
+\o idc                         spectre              *Stopping View*  
+\o vdc                         spectre              *Stopping View*  
+\o res                         spectre              *Stopping View*  
+\o ind                         spectre              *Stopping View*  
+\o nnpfet                      veriloga             *Stopping View*  
+\o top_ring_core_tb            schematic                             
+\o nnpfet_array                schematic                             
+\o top_ring_core               schematic                             
+\o top_core                    schematic                             
+\o rail4                       schematic                             
+\o rail2                       schematic                             
+\o rail1                       schematic                             
+\o buffer                      schematic                             
+\o ring                        schematic                             
+\o APRIO1V8_00                 schematic                             
+\o ESD18clamp_v2               schematic                             
+\o baiowire_pmx                schematic                             
+\o PWRCUT_DX                   schematic                             
+\o VDDPAD1V8ALL                schematic                             
+\o ESD18rctrigger_asym_v1      schematic                             
+\o ESD18clamp_v4               schematic                             
+\o GNDPAD1V8ALL                schematic                             
+\o ESD18clamp_v3               schematic                             
+\o 
+\o ---------- End of netlist configuration information   ----------
+\o INFO (VLOGNET-80): The library 'TOP', cell 'top_ring_core_tb', and view 'config_ver' has been netlisted successfully.
+\o 
+\o End netlisting Jan 10 17:26:47 2018
+\o INFO (AMS-1241): AMS OSSN netlisting has completed successfully.
+\o To view the modules, right-click the test name on the Tests and Analyses 
+\o assistant pane and choose Netlist->Display menu option.
+\o 
+\o       ...successful.
+\o create cds_globals...
+\o Loading cdf.cxt 
+\a sevSetTableItem(connectModulesForm->ieFormTableBox 0 2 "")
+\r t
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ TOP:top_ring_core_tb:1 ]
+\o           for Point ID (9 1).
+\o 
+\o Delete simulation data in /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.44/1/TOP:top_ring_core_tb:1/psf.
+\o create cds_globals...
+\# Memory report: using         300 MB, process size 1,114 MB at UTC 2018.01.10 16:26:47.887
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o validating simulator hierarchy...
+\o       ...successful.
+\o running...
+\o To check for output from compilation, elaboration and simulation run, 
+\o right-click on the test name, result name, or any value in the "Results" 
+\o tab of the Outputs section and choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Available memory:         63,488 MB at UTC 2018.01.10 16:26:53.678
+\# Memory report: Maximum memory size now 63,789 MB at UTC 2018.01.10 16:26:53.678
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (9 1) on testbench [
+\o           TOP:top_ring_core_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 8 timed out after no activity in 300 seconds.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

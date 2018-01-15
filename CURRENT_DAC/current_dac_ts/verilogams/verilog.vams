@@ -1,0 +1,57 @@
+//Verilog-AMS HDL for "CURRENT_DAC", "current_dac_ts" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+`define N 2.0   //Current divider is multiple of N
+
+module current_dac_ts ( BIAS_IN, CUR_OUT, CUR_TEST_OUT, VD, VS, VSUB, IN );
+
+  inout CUR_OUT;
+  inout VSUB;
+  inout BIAS_IN;
+  input  [3:0] IN;
+  inout CUR_TEST_OUT;
+  inout VS;
+  inout VD;
+
+
+  logic [3:0] IN;
+  electrical  BIAS_IN, CUR_OUT, CUR_TEST_OUT, VD, VS, VSUB;
+
+
+  real out_current;
+  real ref_current;
+  real expon;
+
+  real vcur;
+
+  analog begin
+	expon = IN;
+    ref_current = I(BIAS_IN);
+
+	out_current = 0.5*ref_current/pow(`N,expon);
+
+    vcur = V(CUR_OUT,VS);
+
+    //V(BIAS_IN,VS) <+ ref_current*1e6;
+/*
+    if(vcur > V(VD) )
+    begin
+		V(CUR_OUT,VS) <+ V(VD);
+	end else if (vcur < 0) 
+	begin
+		V(CUR_OUT,VS) <+ V(VS);
+	end else
+	    I(CUR_OUT,VD) <+ -out_current;
+	end
+
+    */
+	 //   I(CUR_OUT,VS) <+ V(CUR_OUT,VS)/10e6;
+	I(CUR_OUT,VD) <+ -out_current;
+
+    I(CUR_TEST_OUT,VD) <+ -out_current;
+	
+  end  
+
+endmodule

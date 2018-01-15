@@ -1,0 +1,114 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = AMPLIFIER
+	Cell         = buffer_tb
+	View         = config
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = AMPLIFIER:buffer_tb:1_none_Interactive.26
+	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26.rdb
+	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1
+	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+	Project Dir  = /home/saul/projects/NANONETS/Sim
+	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (26 1) on testbench [
+          AMPLIFIER:buffer_tb:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var CL = "1p"
+Setting var PS_AC = "0"
+Setting var RL = "1M"
+Setting var VDC = "0.9"
+Setting var VIN_AC = "1"
+Setting var VPULSE = "10m"
+Setting var Vsupply = "1.8"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1
+
+
+*Info*    Creating Netlist for Point ID (26 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Dec 19 16:59:23 2017
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
+
+End netlisting Dec 19 16:59:25 2017
+
+Netlisting Statistics:
+	Number of components: 5821
+
+	Elapsed time:          2.0s (2910.50/s)
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+          for Point ID (26 1).
+
+Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VOUT"))' returned 'nil' for point:'1' test:'AMPLIFIER:buffer_tb:1'
+	Expression:'dB20(VF("/VOUT"))'.
+Ensure that the definition of output is correct.
+
+WARNING (OCN-6038): Results ac are not available for /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/psf. Use results() for a list of available results.
+WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.26/1/AMPLIFIER:buffer_tb:1/psf. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'dB20(VF("/VSAM"))' returned 'nil' for point:'1' test:'AMPLIFIER:buffer_tb:1'
+	Expression:'dB20(VF("/VSAM"))'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (26 1) on testbench [
+          AMPLIFIER:buffer_tb:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

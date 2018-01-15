@@ -1,0 +1,24 @@
+@(#)$CDS: ihdl version 6.1.6-64b 12/07/2015 20:14 (sjfnl118) $  Tue Aug 29 16:17:00 2017
+
+WARNING (VERILOGIN-19): The library, sample, is not specified in the cds.lib file. Add the library in the
+cds.lib file and run the command again.
+INFO (VERILOGIN-211): Module CLKINVX1 already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-211): Module OR2X3 already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-211): Module NAND2XL already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-211): Module NOR2XL already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-211): Module INVXL already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-357): Checked in symbol shift_left_vlog_unsigned.
+INFO (VERILOGIN-372): Checked-in schematic shift_left_vlog_unsigned.
+INFO (VERILOGIN-211): Module CLKBUFX3 already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-211): Module LOGIC1 already exists in the target or reference library CORELIB.
+INFO (VERILOGIN-575): Symbol 'cur_dec' was not imported because it already exists in library 'DIG_CUR_DEC'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+Warning: Port order mismatch between views "schematic" and "symbol" of "DIG_CUR_DEC cur_dec".
+         Please update the "portOrder" property using the Edit Property Pin Order
+         command in the schematic or symbol editor.
+Warning: Port order mismatch between views "schematic" and "functional" of "DIG_CUR_DEC cur_dec".
+         Please update the "portOrder" property using the Edit Property Pin Order
+         command in the schematic or symbol editor.
+INFO (VERILOGIN-372): Checked-in schematic cur_dec.
+INFO (VERILOGIN-206): End of Logfile.

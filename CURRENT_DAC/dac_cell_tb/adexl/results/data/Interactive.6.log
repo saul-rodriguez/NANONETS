@@ -1,0 +1,26 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Aug 23 16:27:44 2017 
+Best design point: 1
+Design specs: 
+	CURRENT_DAC:dac_cell_tb:1	corner	Nominal - 
+	IS("/I0/A0")		1u
+	IS("/I0/A1")		500.1n
+	IS("/I0/A2")		250.1n
+	IS("/I0/A3")		125n
+	IS("/I7/A0")		62.55n
+	IS("/I7/A1")		31.28n
+	IS("/I7/A2")		15.65n
+	IS("/I7/A3")		7.826n
+	IS("/I9/A0")		3.942n
+	IS("/I9/A1")		1.974n
+	IS("/I9/A2")		990.1p
+	IS("/I9/A3")		498.1p
+Design parameters: 
+	IDC		2u
+
+Interactive.6
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.6 completed. 
+Current time: Wed Aug 23 16:27:47 2017 

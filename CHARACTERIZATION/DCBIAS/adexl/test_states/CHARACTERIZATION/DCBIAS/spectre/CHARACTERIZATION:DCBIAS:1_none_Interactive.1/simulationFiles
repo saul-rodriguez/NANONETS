@@ -1,0 +1,13 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles ((t "/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/mcparams.scs"))
+allIncludedPaths nil
+allStimulusFiles nil
+allVectorFiles nil
+definitionFiles ("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/mcparams.scs")
+hlcheck "off"
+includePath ""
+stimulusFile nil

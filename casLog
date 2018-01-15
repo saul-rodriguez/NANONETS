@@ -1,0 +1,12 @@
+
+*** Check Against Source on ('TOP' 'top_ring_core' 'layout') - Thu Jan 11 18:02:57 2018 ***
+
+INFO (LX-1028): Global net 'gnd!' in the layout design has no pin or no pin figure.
+INFO (LX-1028): Global net 'gnda!' in the layout design has no pin or no pin figure.
+INFO (LX-1028): Global net 'vdd!' in the layout design has no pin or no pin figure.
+INFO (LX-1028): Global net 'vdda!' in the layout design has no pin or no pin figure.
+INFO (LX-1041): Layout terminal 'vsub' has no pin figures.
+INFO (LX-1013): Instance terminal 'vsub' is missing from layout instance '|I0'.
+
+*** Check Against Source complete. ***
+

@@ -1,0 +1,3 @@
+projectDir = '"./Sim"
+designInfo = '("TEST_ANALOG" "inv_tb" "schematic" "spectre")
+descriptionText = "None"

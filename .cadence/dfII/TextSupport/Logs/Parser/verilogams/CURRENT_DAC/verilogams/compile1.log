@@ -1,0 +1,21 @@
+ncvlog(64): 14.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.20-s035: Started on Aug 23, 2017 at 22:36:54 CEST
+ncvlog
+    -use5x
+    -SPECIFICUNIT current_dac_ts
+    -zparse /tmp/vamsZparab9201
+    -NOWARN DLNOHV
+    -work CURRENT_DAC
+    -view verilogams
+    -nostdout
+    -logfile /home/saul/projects/NANONETS/.cadence/dfII/TextSupport/Logs/Parser/verilogams/CURRENT_DAC/verilogams/compile1.log
+    -messages
+    -ams
+    -cdslib /home/saul/projects/NANONETS/cds.lib
+    /home/saul/projects/NANONETS/CURRENT_DAC/current_dac_ts/verilogams/verilog.vams
+
+file: /home/saul/projects/NANONETS/CURRENT_DAC/current_dac_ts/verilogams/verilog.vams
+	module CURRENT_DAC.current_dac_ts:verilogams
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	ncvlog(64)	14.20-s035: Exiting on Aug 23, 2017 at 22:36:54 CEST  (total: 00:00:00)

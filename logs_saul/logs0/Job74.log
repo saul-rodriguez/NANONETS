@@ -1,0 +1,725 @@
+\# Program start time UTC 2017.08.21 14:27:25.120
+\# Local time Monday 21 August 2017, 4:27 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso7315 -mpshost s2424.it.kth.se -davinciService DaVinciService_7315_1503319187 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job74.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_7315 -nograph -nostdin -axlChildIdFlag 74
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 30440)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x3800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        671 MB
+\# Available memory:	     69,708 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     77,853 MB
+\# Max mem available:	     69,779 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		30794
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_state1_Interactive.43
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\# Memory report: using         228 MB, process size 1,042 MB at UTC 2017.08.21 14:27:26.919
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (43 2) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "1p"
+\o Setting var RL = "10M"
+\o Setting var VDC = "0.9"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/2/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/2/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (43 2)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:27:28 2017
+\o End netlisting Aug 21 16:27:28 2017
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   10
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (43 2).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/2/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (43 2) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (43 9) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "30p"
+\o Setting var RL = "100M"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/9/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/9/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (43 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:27:30 2017
+\o End netlisting Aug 21 16:27:30 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (43 9).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.43/9/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (43 9) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         68,107 MB at UTC 2017.08.21 14:27:35.336
+\# Memory report: Maximum memory size now 68,393 MB at UTC 2017.08.21 14:27:35.336
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_state1_Interactive.44
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (44 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "30p"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/7/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/7/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (44 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:28:19 2017
+\o End netlisting Aug 21 16:28:20 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   10
+\o 
+\o 	Elapsed time:          1.0s (10.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (44 7).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/7/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (44 7) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (44 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "300p"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/13/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/13/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (44 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:28:22 2017
+\o End netlisting Aug 21 16:28:22 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (44 13).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.44/13/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (44 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_state1_Interactive.45
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (45 4) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "10p"
+\o Setting var RL = "1M"
+\o Setting var VDC = "0.9"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/4/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/4/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (45 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:32:08 2017
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Aug 21 16:32:09 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   30
+\o 
+\o 	Elapsed time:          1.0s (30.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (45 4).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/4/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (45 4) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (45 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "300p"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/13/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/13/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (45 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:32:11 2017
+\o End netlisting Aug 21 16:32:11 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (45 13).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.45/13/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (45 13) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = AMPLIFIER
+\o 	Cell         = buffer_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = AMPLIFIER:buffer_tb:1_state1_Interactive.46
+\o 	Results DB   = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46.rdb
+\o 	Results Dir  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/1/AMPLIFIER:buffer_tb:1
+\o 	Results Loc  = /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/AMPLIFIER/buffer_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (46 6) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "10p"
+\o Setting var RL = "100M"
+\o Setting var VDC = "0.9"
+\o Setting var VPULSE = "10m"
+\o Setting var Vsupply = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/6/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/6/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (46 6)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:34:22 2017
+\o End netlisting Aug 21 16:34:22 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   11
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (46 6).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/6/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (46 6) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (46 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var CL = "300p"
+\o Setting var RL = "10M"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/14/AMPLIFIER:buffer_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/14/AMPLIFIER:buffer_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (46 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 21 16:34:25 2017
+\o End netlisting Aug 21 16:34:25 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ AMPLIFIER:buffer_tb:1 ]
+\o           for Point ID (46 14).
+\o 
+\o Delete psf data in /home/saul/Sim/AMPLIFIER/buffer_tb/adexl/results/data/Interactive.46/14/AMPLIFIER:buffer_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (46 14) on testbench [
+\o           AMPLIFIER:buffer_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

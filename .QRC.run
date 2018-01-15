@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus QRC UI Version 15.27-s638
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/saul/Assura/ASSURA_LVS/top_ring_core/qrc.beta.log -cmd /home/saul/Assura/ASSURA_LVS/top_ring_core/qrc.beta.ccl

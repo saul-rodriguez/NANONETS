@@ -1,0 +1,18 @@
+*drcRulesFile: $AMS_DIR/calibre/ac18a6/caac18a6rules_all.run
+*drcRunDir: /home/saul/projects/NANONETS/Calibre
+*drcLayoutPaths: top_ring_core_seal.calibre.db
+*drcLayoutPrimary: top_ring_core_seal
+*drcLayoutLibrary: TOP
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: top_ring_core_seal.drc.results
+*drcSummaryFile: top_ring_core_seal.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: TOP
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: top_ring_core_seal.def

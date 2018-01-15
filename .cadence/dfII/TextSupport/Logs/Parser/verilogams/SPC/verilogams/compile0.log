@@ -1,0 +1,21 @@
+ncvlog(64): 14.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.20-s035: Started on Aug 24, 2017 at 11:59:00 CEST
+ncvlog
+    -use5x
+    -SPECIFICUNIT config_stimulus
+    -zparse /tmp/vamsZpardz6206
+    -NOWARN DLNOHV
+    -work SPC
+    -view verilogams
+    -nostdout
+    -logfile /home/saul/projects/NANONETS/.cadence/dfII/TextSupport/Logs/Parser/verilogams/SPC/verilogams/compile0.log
+    -messages
+    -ams
+    -cdslib /home/saul/projects/NANONETS/cds.lib
+    /home/saul/projects/NANONETS/SPC/config_stimulus/verilogams/verilog.vams
+
+file: /home/saul/projects/NANONETS/SPC/config_stimulus/verilogams/verilog.vams
+	module SPC.config_stimulus:verilogams
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	ncvlog(64)	14.20-s035: Exiting on Aug 24, 2017 at 11:59:00 CEST  (total: 00:00:00)

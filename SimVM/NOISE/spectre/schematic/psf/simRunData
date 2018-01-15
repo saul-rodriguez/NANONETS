@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"CHARACT_AC8\" \"NOISE_NMOS\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Aug 25 14:48:01 2017"
+"title" ""
+"analysisList" "()"
+END

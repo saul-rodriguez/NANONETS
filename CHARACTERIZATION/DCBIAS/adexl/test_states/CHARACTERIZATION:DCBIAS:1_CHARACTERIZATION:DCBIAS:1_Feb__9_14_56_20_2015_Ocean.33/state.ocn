@@ -1,0 +1,23 @@
+design( "CHARACTERIZATION" "DCBIAS" "schematic")
+modelFile( 
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/design.scs" "noitm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/res.scs" "restm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cap.scs" "captm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/bip.scs" "biptm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/esddi.scs" "esdditm")
+    '("/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/cmos53.scs" "cmostm")
+)
+definitionFile(
+    "/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/c18/mcparams.scs"
+)
+analysis('dc ?saveOppoint t  ?param "VGS"  ?start "0"  
+		?stop "1.8"  ?step "0.05"  )
+desVar(	  "L" 1.8e-07	)
+desVar(	  "W" 1.25e-06	)
+desVar(	  "VDS" 1	)
+desVar(	  "VGS" 1	)
+option( ?categ 'turboOpts
+	'uniMode  "APS" 
+)
+save( 'i "/TN0/D" )
+temp( 27 ) 

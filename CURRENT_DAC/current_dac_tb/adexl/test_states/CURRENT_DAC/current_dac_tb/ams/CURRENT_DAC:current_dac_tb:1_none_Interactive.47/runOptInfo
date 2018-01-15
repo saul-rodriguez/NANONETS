@@ -1,0 +1,13 @@
+restartFlag (nil)
+runElabOnly (t nil)
+saveTimes ""
+snapshot ""
+runCompOnly (t nil)
+saveStartTime ""
+runSimOnly (t)
+snapshotPrefix ""
+compileVAAsVAMS (nil)
+saveTimeInterval ""
+runOpts "Batch (normal)"
+saveStopTime ""
+cleanSnapShot (nil)

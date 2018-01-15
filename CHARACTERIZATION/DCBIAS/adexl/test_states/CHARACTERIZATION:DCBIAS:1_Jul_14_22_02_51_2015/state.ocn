@@ -1,0 +1,21 @@
+design( "CHARACTERIZATION" "DCBIAS" "schematic")
+modelFile( 
+    '("$AMS_DIR/spectre/h18/soac/mcparams.scs" "")
+    '("$AMS_DIR/spectre/h18/soac/design.scs" "noitm")
+    '("$AMS_DIR/spectre/h18/soac/res.scs" "restm")
+    '("$AMS_DIR/spectre/h18/soac/cap.scs" "captm")
+    '("$AMS_DIR/spectre/h18/soac/bip.scs" "biptm")
+    '("$AMS_DIR/spectre/h18/soac/esddi.scs" "esdditm")
+    '("$AMS_DIR/spectre/h18/soac/cmos53.scs" "cmostm")
+)
+analysis('dc ?saveOppoint t  ?param "VGS"  ?start "0"  
+		?stop "1.8"  ?step "0.05"  )
+desVar(	  "VGS" 1	)
+desVar(	  "VDS" 1	)
+desVar(	  "W" 6.24e-06	)
+desVar(	  "L" 1.8e-07	)
+option( ?categ 'turboOpts
+	'uniMode  "APS" 
+)
+save( 'i "/TN0/D" )
+temp( 27 ) 

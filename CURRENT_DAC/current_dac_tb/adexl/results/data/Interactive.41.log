@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug 24 09:37:06 2017 
+Best design point: 1
+Design specs: 
+	CURRENT_DAC:current_dac_tb:1	corner	Nominal - 
+Design parameters: 
+	T		200u
+
+Interactive.41
+Number of points completed: 1
+Number of simulation errors: 1
+Interactive.41 completed. 
+Current time: Thu Aug 24 09:37:07 2017 

@@ -1,0 +1,23 @@
+//Revision 9
+//NOTE
+// Default austriamicrosystems template for AMS Designer
+// Note:
+//      Please remember to replace the Library, Cell, and View fields
+//      for the Top Cell with the actual names used by your design.
+//END_NOTE
+
+config tb_top;
+design TEST_IO_RING.tb_top:schematic;
+
+const digital behavioral, functional, schematic, symbol;
+const analog veriloga, functional, schematic, symbol;
+liblist basic, analogLib;
+
+viewlist verilogams, veriloga, behavioral, functional, schematic, cmos_sch, spectre, symbol;
+stoplist symbol, spectre;
+
+
+cell TEST_DIGITAL.sar5 binding :schematic;
+
+
+endconfig

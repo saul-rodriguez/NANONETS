@@ -1,0 +1,16 @@
+UltraSimEVcdFile ""
+UltraSimEVcdInfo ""
+UltraSimVcdFile ""
+UltraSimVcdInfo ""
+UltraSimVectorFile nil
+allDefinitionFiles ((t "/pkg/AMS414/spectre/ac18/soac.scs"))
+allDspfFiles nil
+allIncludedPaths nil
+allPspiceFiles nil
+allStimulusFiles nil
+allUltraSimVectorFile nil
+definitionFiles ("/pkg/AMS414/spectre/ac18/soac.scs")
+dspfFile nil
+includePath ""
+pspiceFile nil
+stimulusFile nil

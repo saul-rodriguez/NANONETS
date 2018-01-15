@@ -1,0 +1,47 @@
+#--------------------------------------------------------------------------------
+#
+# File Name: : cds.lib
+# File path: : /pkg/AMS414/cds/HK_AC18
+# Author : ams Design Support
+#
+# Owner: ams AG
+# hitkit: Digital
+#
+#--------------------------------------------------------------------------------
+#
+# AMS_LIB = "/pkg/AMS414/cds/HK_AC18"
+# AMS_VERSION = "develop"
+# AMS_TECH = "ac18a6"
+# AMS_kit = "develop"
+# AMS_process = "ac18a6"
+#
+# Standard Cadence libraries
+INCLUDE $AMS_DIR/cds/HK_ALL/env/cds.lib
+#
+# ams AG hitkit libraries
+# Base cds.lib file for C18
+DEFINE cmrf7sf $AMS_DIR/cds/HK_AC18/cmrf7sf
+DEFINE esd7rf $AMS_DIR/cds/HK_AC18/esd7rf
+DEFINE GATES $AMS_DIR/cds/HK_AC18/GATES
+DEFINE CORELIB $AMS_DIR/cds/HK_AC18/CORELIB
+DEFINE CORELIBD $AMS_DIR/cds/HK_AC18/CORELIBD
+DEFINE CORELIB_TW $AMS_DIR/cds/HK_AC18/CORELIB_TW
+DEFINE TECH_C18A6 $AMS_DIR/cds/HK_AC18/TECH_C18A6
+DEFINE CORELIB_DCV_3B $AMS_DIR/cds/HK_AC18/CORELIB_DCV_3B
+DEFINE CORELIB_DCV $AMS_DIR/cds/HK_AC18/CORELIB_DCV
+DEFINE GATES_ANA $AMS_DIR/cds/HK_AC18/GATES_ANA
+DEFINE IOLIB_4AM $AMS_DIR/cds/HK_AC18/IOLIB_4AM
+DEFINE IOLIB_5AM $AMS_DIR/cds/HK_AC18/IOLIB_5AM
+DEFINE IOLIB_6AM $AMS_DIR/cds/HK_AC18/IOLIB_6AM
+DEFINE TECH_C18A3 $AMS_DIR/cds/HK_AC18/TECH_C18A3
+DEFINE TECH_C18A4 $AMS_DIR/cds/HK_AC18/TECH_C18A4
+DEFINE TECH_C18A5 $AMS_DIR/cds/HK_AC18/TECH_C18A5
+DEFINE TECH_C18M3 $AMS_DIR/cds/HK_AC18/TECH_C18M3
+DEFINE TECH_C18M4 $AMS_DIR/cds/HK_AC18/TECH_C18M4
+DEFINE TECH_C18M5 $AMS_DIR/cds/HK_AC18/TECH_C18M5
+DEFINE TECH_C18M6 $AMS_DIR/cds/HK_AC18/TECH_C18M6
+DEFINE LEADFRAMES $AMS_DIR/cds/HK_ALL/LEADFRAMES
+DEFINE PACKAGES $AMS_DIR/cds/HK_ALL/PACKAGES
+DEFINE BORDERS $AMS_DIR/cds/HK_ALL/BORDERS
+DEFINE sbaLib $CDSDIR/tools/dfII/etc/cdslib/artist/sbaLib
+INCLUDE $IUSDIR/tools/inca/files/cds.lib

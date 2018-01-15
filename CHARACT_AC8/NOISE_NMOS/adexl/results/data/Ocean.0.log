@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Feb  2 11:30:59 2015 
+Best design point: 1
+Design specs: 
+	CHARACTERIZATION:NOISE:1	corner	Nominal - 
+	CHARACTERIZATION:NOISE:2	corner	Nominal - 
+Design parameters: 
+	IDC		1m
+	L		180n
+	VDS		1
+	W		10u
+
+Ocean.0
+Number of points completed: 1
+Number of simulation errors: 0
+Ocean.0 completed. 
+Current time: Mon Feb  2 11:31:14 2015 

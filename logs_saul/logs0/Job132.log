@@ -1,0 +1,5171 @@
+\# Program start time UTC 2017.08.08 13:09:38.429
+\# Local time Tuesday 8 August 2017, 3:09 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso23588 -mpshost s2424.it.kth.se -davinciService DaVinciService_23588_1502187545 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job132.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_23588 -nograph -nostdin -axlChildIdFlag 132
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 24870)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        327 MB
+\# Available memory:	     61,084 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     78,197 MB
+\# Max mem available:	     61,155 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		24872
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\# Memory report: using         196 MB, process size 1,010 MB at UTC 2017.08.08 13:09:39.975
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\# Available memory:         60,968 MB at UTC 2017.08.08 13:09:48.677
+\# Memory report: Maximum memory size now 61,166 MB at UTC 2017.08.08 13:09:48.677
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CHARACT_AC8
+\o 	Cell         = FT
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = CHARACT_AC8:FT:1_none_Interactive.12
+\o 	Results DB   = /home/saul/projects/NANONETS/CHARACT_AC8/FT/adexl/results/data/Interactive.12.rdb
+\o 	Results Dir  = /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/1/CHARACT_AC8:FT:1
+\o 	Results Loc  = /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/CHARACT_AC8/FT/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1u"
+\o Setting var L = "0.18u"
+\o Setting var VDS = "1"
+\o Setting var W = "10u"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/1/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/1/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:09:59 2017
+\o End netlisting Aug  8 15:09:59 2017
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   10
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 1).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/1/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.258925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/2/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/2/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:00 2017
+\o End netlisting Aug  8 15:10:00 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 2).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/2/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.584893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/3/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/3/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 3)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:02 2017
+\o End netlisting Aug  8 15:10:02 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 3).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/3/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.995262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/4/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/4/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:03 2017
+\o End netlisting Aug  8 15:10:03 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 4).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/4/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "2.511886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/5/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/5/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 5)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:04 2017
+\o End netlisting Aug  8 15:10:04 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 5).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/5/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 6) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.16227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/6/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/6/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 6)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:05 2017
+\o End netlisting Aug  8 15:10:05 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 6).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/6/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 6) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 7) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.981071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/7/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/7/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:06 2017
+\o End netlisting Aug  8 15:10:06 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 7).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/7/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 7) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 8) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "5.011872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/8/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/8/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:07 2017
+\o End netlisting Aug  8 15:10:07 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 8).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/8/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 8) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 9) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "6.309573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/9/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/9/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:09 2017
+\o End netlisting Aug  8 15:10:09 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 9).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/9/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 10) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "7.943282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/10/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/10/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 10)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:10 2017
+\o End netlisting Aug  8 15:10:10 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 10).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/10/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 10) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 11) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/11/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/11/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 11)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:11 2017
+\o End netlisting Aug  8 15:10:11 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 11).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/11/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 11) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 12) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "12.58925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/12/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/12/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 12)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:12 2017
+\o End netlisting Aug  8 15:10:12 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 12).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/12/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 12) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 13) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "15.84893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/13/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/13/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:13 2017
+\o End netlisting Aug  8 15:10:13 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 13).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/13/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 13) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 14) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "19.95262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/14/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/14/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:14 2017
+\o End netlisting Aug  8 15:10:14 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 14).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/14/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 14) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 15) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "25.11886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/15/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/15/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 15)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:15 2017
+\o End netlisting Aug  8 15:10:15 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 15).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/15/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 15) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 16) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "31.6227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/16/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/16/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 16)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:16 2017
+\o End netlisting Aug  8 15:10:16 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 16).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/16/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 16) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 17) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "39.81071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/17/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/17/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 17)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:17 2017
+\o End netlisting Aug  8 15:10:17 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 17).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/17/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 17) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 18) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "50.11872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/18/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/18/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 18)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:18 2017
+\o End netlisting Aug  8 15:10:18 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 18).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/18/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 18) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 19) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "63.09573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/19/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/19/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 19)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:20 2017
+\o End netlisting Aug  8 15:10:20 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 19).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/19/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 19) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 20) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "79.43282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/20/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/20/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 20)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:21 2017
+\o End netlisting Aug  8 15:10:21 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 20).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/20/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 20) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 21) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "100u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/21/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/21/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:22 2017
+\o End netlisting Aug  8 15:10:22 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 21).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/21/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 21) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 22) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "125.8925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/22/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/22/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 22)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:23 2017
+\o End netlisting Aug  8 15:10:23 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 22).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/22/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 22) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 23) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "158.4893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/23/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/23/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 23)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:24 2017
+\o End netlisting Aug  8 15:10:24 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 23).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/23/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 23) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 24) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "199.5262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/24/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/24/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 24)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:26 2017
+\o End netlisting Aug  8 15:10:26 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 24).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/24/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 24) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 25) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "251.1886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/25/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/25/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:27 2017
+\o End netlisting Aug  8 15:10:27 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 25).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/25/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 25) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 26) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "316.227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/26/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/26/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 26)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:28 2017
+\o End netlisting Aug  8 15:10:28 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 26).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/26/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 26) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 27) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "398.1071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/27/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/27/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 27)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:29 2017
+\o End netlisting Aug  8 15:10:29 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 27).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/27/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 27) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 28) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "501.1872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/28/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/28/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 28)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:30 2017
+\o End netlisting Aug  8 15:10:30 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 28).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/28/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 28) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 29) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "630.9573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/29/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/29/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 29)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:31 2017
+\o End netlisting Aug  8 15:10:31 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 29).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/29/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 29) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 30) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "794.3282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/30/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/30/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 30)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:32 2017
+\o End netlisting Aug  8 15:10:32 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 30).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/30/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 30) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 31) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/31/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/31/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 31)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:33 2017
+\o End netlisting Aug  8 15:10:33 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 31).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/31/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 31) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 32) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.258925412m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/32/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/32/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 32)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:34 2017
+\o End netlisting Aug  8 15:10:34 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 32).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/32/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 32) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 33) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.584893192m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/33/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/33/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 33)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:35 2017
+\o End netlisting Aug  8 15:10:35 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 33).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/33/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 33) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 34) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.995262315m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/34/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/34/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 34)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:36 2017
+\o End netlisting Aug  8 15:10:36 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 34).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/34/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 34) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 35) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "2.511886432m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/35/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/35/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 35)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:37 2017
+\o End netlisting Aug  8 15:10:37 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 35).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/35/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 35) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 36) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.16227766m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/36/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/36/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 36)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:39 2017
+\o End netlisting Aug  8 15:10:39 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 36).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/36/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 36) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 37) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.981071706m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/37/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/37/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 37)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:40 2017
+\o End netlisting Aug  8 15:10:40 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 37).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/37/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 37) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 38) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "5.011872336m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/38/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/38/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 38)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:41 2017
+\o End netlisting Aug  8 15:10:41 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 38).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/38/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 38) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 39) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "6.309573445m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/39/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/39/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 39)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:42 2017
+\o End netlisting Aug  8 15:10:42 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 39).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/39/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 39) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 40) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "7.943282347m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/40/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/40/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 40)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:43 2017
+\o End netlisting Aug  8 15:10:43 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 40).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/40/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 40) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 41) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "10m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/41/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/41/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 41)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:10:44 2017
+\o End netlisting Aug  8 15:10:44 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (0 41).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.12/41/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 41) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CHARACT_AC8
+\o 	Cell         = FT
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = CHARACT_AC8:FT:1_none_Interactive.13
+\o 	Results DB   = /home/saul/projects/NANONETS/CHARACT_AC8/FT/adexl/results/data/Interactive.13.rdb
+\o 	Results Dir  = /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/1/CHARACT_AC8:FT:1
+\o 	Results Loc  = /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/CHARACT_AC8/FT/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1u"
+\o Setting var L = "0.18u"
+\o Setting var VDS = "1"
+\o Setting var W = "10u"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/1/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/1/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:51 2017
+\o End netlisting Aug  8 15:12:51 2017
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   10
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 1).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/1/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 2) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.258925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/2/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/2/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 2)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:52 2017
+\o End netlisting Aug  8 15:12:52 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 2).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/2/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 3) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.584893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/3/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/3/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 3)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:54 2017
+\o End netlisting Aug  8 15:12:54 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 3).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/3/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 3) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 4) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.995262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/4/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/4/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 4)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:55 2017
+\o End netlisting Aug  8 15:12:55 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 4).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/4/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 4) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 5) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "2.511886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/5/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/5/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 5)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:56 2017
+\o End netlisting Aug  8 15:12:56 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 5).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/5/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 5) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 6) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.16227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/6/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/6/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 6)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:57 2017
+\o End netlisting Aug  8 15:12:57 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 6).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/6/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 6) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 7) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.981071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/7/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/7/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:12:58 2017
+\o End netlisting Aug  8 15:12:58 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 7).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/7/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 7) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 8) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "5.011872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/8/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/8/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 8)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:00 2017
+\o End netlisting Aug  8 15:13:00 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 8).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/8/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 8) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 9) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "6.309573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/9/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/9/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 9)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:01 2017
+\o End netlisting Aug  8 15:13:01 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 9).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/9/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 9) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 10) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "7.943282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/10/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/10/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 10)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:02 2017
+\o End netlisting Aug  8 15:13:02 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 10).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/10/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 10) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 11) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/11/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/11/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 11)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:03 2017
+\o End netlisting Aug  8 15:13:03 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 11).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/11/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 11) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 12) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "12.58925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/12/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/12/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 12)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:04 2017
+\o End netlisting Aug  8 15:13:04 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 12).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/12/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 12) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 13) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "15.84893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/13/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/13/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 13)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:05 2017
+\o End netlisting Aug  8 15:13:05 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 13).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/13/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 13) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 14) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "19.95262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/14/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/14/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 14)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:06 2017
+\o End netlisting Aug  8 15:13:06 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 14).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/14/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 14) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 15) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "25.11886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/15/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/15/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 15)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:07 2017
+\o End netlisting Aug  8 15:13:07 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 15).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/15/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 15) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 16) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "31.6227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/16/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/16/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 16)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:09 2017
+\o End netlisting Aug  8 15:13:09 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 16).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/16/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 16) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 17) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "39.81071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/17/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/17/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 17)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:10 2017
+\o End netlisting Aug  8 15:13:10 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 17).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/17/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 17) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 18) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "50.11872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/18/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/18/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 18)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:11 2017
+\o End netlisting Aug  8 15:13:11 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 18).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/18/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 18) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 19) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "63.09573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/19/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/19/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 19)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:12 2017
+\o End netlisting Aug  8 15:13:12 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 19).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/19/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 19) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 20) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "79.43282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/20/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/20/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 20)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:14 2017
+\o End netlisting Aug  8 15:13:14 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 20).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/20/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 20) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 21) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "100u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/21/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/21/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 21)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:15 2017
+\o End netlisting Aug  8 15:13:15 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 21).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/21/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 21) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 22) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "125.8925412u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/22/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/22/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 22)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:16 2017
+\o End netlisting Aug  8 15:13:16 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 22).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/22/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 22) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 23) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "158.4893192u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/23/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/23/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 23)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:17 2017
+\o End netlisting Aug  8 15:13:17 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 23).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/23/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 23) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 24) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "199.5262315u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/24/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/24/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 24)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:18 2017
+\o End netlisting Aug  8 15:13:18 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 24).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/24/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 24) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 25) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "251.1886432u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/25/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/25/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:19 2017
+\o End netlisting Aug  8 15:13:19 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 25).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/25/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 25) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 26) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "316.227766u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/26/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/26/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 26)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:21 2017
+\o End netlisting Aug  8 15:13:21 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 26).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/26/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 26) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 27) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "398.1071706u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/27/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/27/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 27)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:22 2017
+\o End netlisting Aug  8 15:13:22 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 27).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/27/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 27) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 28) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "501.1872336u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/28/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/28/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 28)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:23 2017
+\o End netlisting Aug  8 15:13:23 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 28).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/28/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 28) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 29) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "630.9573445u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/29/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/29/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 29)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:24 2017
+\o End netlisting Aug  8 15:13:24 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 29).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/29/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 29) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 30) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "794.3282347u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/30/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/30/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 30)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:25 2017
+\o End netlisting Aug  8 15:13:25 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 30).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/30/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 30) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 31) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/31/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/31/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 31)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:26 2017
+\o End netlisting Aug  8 15:13:26 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 31).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/31/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 31) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 32) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.258925412m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/32/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/32/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 32)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:27 2017
+\o End netlisting Aug  8 15:13:27 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 32).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/32/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 32) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 33) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.584893192m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/33/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/33/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 33)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:28 2017
+\o End netlisting Aug  8 15:13:28 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 33).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/33/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 33) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 34) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "1.995262315m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/34/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/34/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 34)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:29 2017
+\o End netlisting Aug  8 15:13:29 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 34).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/34/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 34) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 35) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "2.511886432m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/35/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/35/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 35)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:30 2017
+\o End netlisting Aug  8 15:13:30 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 35).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/35/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 35) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 36) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.16227766m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/36/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/36/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 36)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:32 2017
+\o End netlisting Aug  8 15:13:32 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 36).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/36/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 36) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 37) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "3.981071706m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/37/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/37/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 37)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:33 2017
+\o End netlisting Aug  8 15:13:33 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 37).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/37/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 37) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 38) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "5.011872336m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/38/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/38/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 38)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:34 2017
+\o End netlisting Aug  8 15:13:34 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 38).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/38/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 38) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 39) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "6.309573445m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/39/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/39/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 39)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:35 2017
+\o End netlisting Aug  8 15:13:35 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 39).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/39/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 39) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 40) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "7.943282347m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/40/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/40/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 40)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:36 2017
+\o End netlisting Aug  8 15:13:36 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 40).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/40/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 40) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 41) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var IDC = "10m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/41/CHARACT_AC8:FT:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/41/CHARACT_AC8:FT:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 41)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug  8 15:13:37 2017
+\o End netlisting Aug  8 15:13:37 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CHARACT_AC8:FT:1 ] for
+\o           Point ID (1 41).
+\o 
+\o Delete psf data in /home/saul/projects/NANONETS/Sim/CHARACT_AC8/FT/adexl/results/data/Interactive.13/41/CHARACT_AC8:FT:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 41) on testbench [
+\o           CHARACT_AC8:FT:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            294 MB, process size 1,109 MB at UTC 2017.08.08 13:18:04.612
+\# Memory report: peak usage         294 MB, process size 1,109 MB

@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug 10 13:00:19 2017 
+Best design point: 2
+Design specs: 
+	FE_CONCEPT:pmos_test:1:1	corner	Nominal - 
+	VIN		Error	No
+	VOUT		Error	No
+Design parameters: 
+	IPULSE		200p
+	IT		1n
+
+Interactive.11
+Number of points completed: 14
+Number of simulation errors: 28
+Interactive.11 completed. 
+Current time: Thu Aug 10 13:00:22 2017 

@@ -1,0 +1,768 @@
+\# Program start time UTC 2017.08.25 13:53:58.918
+\# Local time Friday 25 August 2017, 3:53 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso9788 -mpshost s2424.it.kth.se -davinciService DaVinciService_9788_1503645490 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job18.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_9788 -nograph -nostdin -axlChildIdFlag 18
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 16576)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x1c00000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        355 MB
+\# Available memory:	     68,751 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     78,169 MB
+\# Max mem available:	     68,822 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		32017
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\# Memory report: using         184 MB, process size 998 MB at UTC 2017.08.25 13:54:00.401
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = NNFET
+\o 	Cell         = nnpfet_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = NNFET:nnpfet_tb:1_none_Interactive.4
+\o 	Results DB   = /home/saul/projects/NANONETS/NNFET/nnpfet_tb/adexl/results/data/Interactive.4.rdb
+\o 	Results Dir  = /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.4/34/NNFET:nnpfet_tb:1
+\o 	Results Loc  = /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/NNFET/nnpfet_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Available memory:         68,143 MB at UTC 2017.08.25 13:54:09.168
+\# Memory report: Maximum memory size now 68,422 MB at UTC 2017.08.25 13:54:09.168
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = NNFET
+\o 	Cell         = nnpfet_tb
+\o 	View         = config
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = NNFET:nnpfet_tb:1_none_Interactive.5
+\o 	Results DB   = /home/saul/projects/NANONETS/NNFET/nnpfet_tb/adexl/results/data/Interactive.5.rdb
+\o 	Results Dir  = /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/1/NNFET:nnpfet_tb:1
+\o 	Results Loc  = /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/NNFET/nnpfet_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 2) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VD = "1"
+\o Setting var VG = "0.05"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/2/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/2/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 2)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:10 2017
+\o End netlisting Aug 25 15:54:10 2017
+\o Loading monte.cxt 
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 2).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/2/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Memory report: using         290 MB, process size 1,105 MB at UTC 2017.08.25 13:54:11.515
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 2) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 7) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/7/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/7/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 7)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:12 2017
+\o End netlisting Aug 25 15:54:12 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 7).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/7/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 7) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 12) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "0.55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/12/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/12/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 12)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:13 2017
+\o End netlisting Aug 25 15:54:13 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 12).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/12/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 12) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 16) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "0.75"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/16/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/16/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 16)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:14 2017
+\o End netlisting Aug 25 15:54:15 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 16).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/16/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 16) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 18) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "0.85"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/18/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/18/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 18)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:16 2017
+\o End netlisting Aug 25 15:54:16 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 18).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/18/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 18) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 22) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "1.05"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/22/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/22/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 22)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:17 2017
+\o End netlisting Aug 25 15:54:17 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 22).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/22/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 22) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 25) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "1.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/25/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/25/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 25)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:18 2017
+\o End netlisting Aug 25 15:54:18 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 25).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/25/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 25) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 29) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "1.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/29/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/29/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 29)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:19 2017
+\o End netlisting Aug 25 15:54:19 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 29).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/29/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 29) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 33) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "1.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/33/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/33/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 33)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:20 2017
+\o End netlisting Aug 25 15:54:20 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 33).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/33/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 33) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (5 37) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VG = "1.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/37/NNFET:nnpfet_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/37/NNFET:nnpfet_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (5 37)
+\o 
+\o generate netlist...
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Aug 25 15:54:21 2017
+\o End netlisting Aug 25 15:54:21 2017
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ NNFET:nnpfet_tb:1 ] for
+\o           Point ID (5 37).
+\o 
+\o Delete psf data in /home/saul/Sim/NNFET/nnpfet_tb/adexl/results/data/Interactive.5/37/NNFET:nnpfet_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (5 37) on testbench [
+\o           NNFET:nnpfet_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 18 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

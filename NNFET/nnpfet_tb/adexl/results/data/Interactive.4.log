@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Aug 25 15:53:19 2017 
+Best design point: 1
+Design specs: 
+	NNFET:nnpfet_tb:1	corner	Nominal - 
+Design parameters: 
+	VD		1
+	VG		100m
+
+Interactive.4
+Number of points completed: 35
+Number of simulation errors: 0
+Interactive.4 completed. 
+Current time: Fri Aug 25 15:54:02 2017 

@@ -1,0 +1,16 @@
+(envOpts analysisOrder) ("noise")
+(envOpts autoDisplay) t
+(envOpts cmd64bit) nil
+(envOpts enableArclength) nil
+(envOpts firstRun) t
+(envOpts paramRangeCheckFile) "/afs/ict.kth.se/proj/ektlab/PDK/AMS411/spectre/ams_range.lmts"
+(envOpts pllPlugin) ""
+(envOpts pllWizardinfo) ""
+(envOpts printComments) nil
+(envOpts restart) ""
+(envOpts savestate) ""
+(envOpts sst2usecolon) nil
+(envOpts stopViewList) ("spectre" "ahdl" "veriloga")
+(envOpts switchViewList) ("spectre" "cmos_sch" "schematic")
+(envOpts userCmdLineOption) ""
+(envOpts vcoType) ""

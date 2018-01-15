@@ -1,0 +1,4 @@
+techLib "TECH_C18A6"
+userSkillFile "/pkg/AMS414/cds/HK_AC18/skill/ams_sdl.il"
+case "preserve"
+maxVertices 1024

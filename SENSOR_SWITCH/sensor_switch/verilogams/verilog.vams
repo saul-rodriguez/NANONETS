@@ -1,0 +1,96 @@
+//Verilog-AMS HDL for "SENSOR_SWITCH", "sensor_switch" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module sensor_switch ( FET, VD, VS, VSUB, out, IN );
+
+  inout out;
+  inout  [31:0] FET;
+  inout VSUB;
+  input  [4:0] IN;
+  inout VS;
+  inout VD;
+
+
+
+  logic [4:0] IN;
+  electrical  [31:0] FET;
+  electrical VD, VS, VSUB, out;
+
+  analog begin
+
+	I(FET[0],VS) <+ V(FET[0],VS)/10e9;
+	I(FET[1],VS) <+ V(FET[1],VS)/10e9;
+	I(FET[2],VS) <+ V(FET[2],VS)/10e9;
+	I(FET[3],VS) <+ V(FET[3],VS)/10e9;
+	I(FET[4],VS) <+ V(FET[4],VS)/10e9;
+	I(FET[5],VS) <+ V(FET[5],VS)/10e9;
+	I(FET[6],VS) <+ V(FET[6],VS)/10e9;
+	I(FET[7],VS) <+ V(FET[7],VS)/10e9;
+	I(FET[8],VS) <+ V(FET[8],VS)/10e9;
+	I(FET[9],VS) <+ V(FET[9],VS)/10e9;
+	I(FET[10],VS) <+ V(FET[10],VS)/10e9;
+	I(FET[11],VS) <+ V(FET[11],VS)/10e9;
+	I(FET[12],VS) <+ V(FET[12],VS)/10e9;
+	I(FET[13],VS) <+ V(FET[13],VS)/10e9;
+	I(FET[14],VS) <+ V(FET[14],VS)/10e9;
+	I(FET[15],VS) <+ V(FET[15],VS)/10e9;
+	I(FET[16],VS) <+ V(FET[16],VS)/10e9;
+	I(FET[17],VS) <+ V(FET[17],VS)/10e9;
+	I(FET[18],VS) <+ V(FET[18],VS)/10e9;
+	I(FET[19],VS) <+ V(FET[19],VS)/10e9;
+	I(FET[20],VS) <+ V(FET[20],VS)/10e9;
+	I(FET[21],VS) <+ V(FET[21],VS)/10e9;
+	I(FET[22],VS) <+ V(FET[22],VS)/10e9;
+	I(FET[23],VS) <+ V(FET[23],VS)/10e9;
+	I(FET[24],VS) <+ V(FET[24],VS)/10e9;
+	I(FET[25],VS) <+ V(FET[25],VS)/10e9;
+	I(FET[26],VS) <+ V(FET[26],VS)/10e9;
+	I(FET[27],VS) <+ V(FET[27],VS)/10e9;
+	I(FET[28],VS) <+ V(FET[28],VS)/10e9;
+	I(FET[29],VS) <+ V(FET[29],VS)/10e9;
+	I(FET[30],VS) <+ V(FET[30],VS)/10e9;
+	I(FET[31],VS) <+ V(FET[31],VS)/10e9;
+
+
+
+	case(IN)
+		5'b00000: V(FET[0],out) <+ transition(0,0,5n);
+		5'b00001: V(FET[1],out) <+ transition(0,0,5n);
+		5'b00010: V(FET[2],out) <+ transition(0,0,5n);
+		5'b00011: V(FET[3],out) <+ transition(0,0,5n);
+		5'b00100: V(FET[4],out) <+ transition(0,0,5n);
+		5'b00101: V(FET[5],out) <+ transition(0,0,5n);
+		5'b00110: V(FET[6],out) <+ transition(0,0,5n);
+		5'b00111: V(FET[7],out) <+ transition(0,0,5n);
+		5'b01000: V(FET[8],out) <+ transition(0,0,5n);
+		5'b01001: V(FET[9],out) <+ transition(0,0,5n);
+		5'b01010: V(FET[10],out) <+ transition(0,0,5n);
+		5'b01011: V(FET[11],out) <+ transition(0,0,5n);
+		5'b01100: V(FET[12],out) <+ transition(0,0,5n);
+		5'b01101: V(FET[13],out) <+ transition(0,0,5n);
+		5'b01110: V(FET[14],out) <+ transition(0,0,5n);
+		5'b01111: V(FET[15],out) <+ transition(0,0,5n);
+		5'b10000: V(FET[16],out) <+ transition(0,0,5n);
+		5'b10001: V(FET[17],out) <+ transition(0,0,5n);
+		5'b10010: V(FET[18],out) <+ transition(0,0,5n);
+		5'b10011: V(FET[19],out) <+ transition(0,0,5n);
+		5'b10100: V(FET[20],out) <+ transition(0,0,5n);
+		5'b10101: V(FET[21],out) <+ transition(0,0,5n);
+		5'b10110: V(FET[22],out) <+ transition(0,0,5n);
+		5'b10111: V(FET[23],out) <+ transition(0,0,5n);
+		5'b11000: V(FET[24],out) <+ transition(0,0,5n);
+		5'b11001: V(FET[25],out) <+ transition(0,0,5n);
+		5'b11010: V(FET[26],out) <+ transition(0,0,5n);
+		5'b11011: V(FET[27],out) <+ transition(0,0,5n);
+		5'b11100: V(FET[28],out) <+ transition(0,0,5n);
+		5'b11101: V(FET[29],out) <+ transition(0,0,5n);
+		5'b11110: V(FET[30],out) <+ transition(0,0,5n);
+		5'b11111: V(FET[31],out) <+ transition(0,0,5n);
+
+
+	endcase
+  end
+
+endmodule

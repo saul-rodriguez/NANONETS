@@ -1,0 +1,20 @@
+ncvlog(64): 14.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.20-s035: Started on Aug 29, 2017 at 16:22:26 CEST
+ncvlog
+    -use5x
+    -SPECIFICUNIT fet_dec
+    -zparse /tmp/vamsZparfa5075
+    -NOWARN DLNOHV
+    -work DIG_FET_DEC
+    -view functional
+    -nostdout
+    -logfile /home/saul/projects/NANONETS/.cadence/dfII/TextSupport/Logs/Parser/verilog/DIG_FET_DEC/functional/compile0.log
+    -messages
+    -cdslib /home/saul/projects/NANONETS/cds.lib
+    /home/saul/projects/NANONETS/DIG_FET_DEC/fet_dec/functional/verilog.v
+
+file: /home/saul/projects/NANONETS/DIG_FET_DEC/fet_dec/functional/verilog.v
+	module DIG_FET_DEC.fet_dec:functional
+		errors: 0, warnings: 0
+	 writing out DPL output:
+TOOL:	ncvlog(64)	14.20-s035: Exiting on Aug 29, 2017 at 16:22:26 CEST  (total: 00:00:00)

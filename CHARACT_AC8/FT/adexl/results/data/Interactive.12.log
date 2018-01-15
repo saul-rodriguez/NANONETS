@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Aug  8 15:09:58 2017 
+Best design point: 1
+Design specs: 
+	CHARACT_AC8:FT:1	corner	Nominal - 
+	Ft		73.37M
+	gm		26.68u
+Design parameters: 
+	IDC		1u
+	L		180n
+	VDS		1
+	W		10u
+
+Interactive.12
+Number of points completed: 41
+Number of simulation errors: 0
+Interactive.12 completed. 
+Current time: Tue Aug  8 15:10:45 2017 

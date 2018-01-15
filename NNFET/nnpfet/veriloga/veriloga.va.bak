@@ -1,0 +1,97 @@
+// VerilogA for NNFET, nnpfet, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module nnpfet(B, D, G, S);
+inout B;
+electrical B;
+inout D;
+electrical D;
+inout G;
+electrical G;
+inout S;
+electrical S;
+
+//Definitions
+
+`define k 86E-6 		// k/q constant
+`define T 300.0 	    	//Absolute temp (K)
+`define kT (`k * `T) 	//Thermal voltage
+`define Er 4.0 			//Epsilon relative, material ?
+`define epsox (`Er * 8.85e-14) // epsilon oxide cgs unit (F/cm)
+`define tox 15e-7		//Bottom oxide thcikness (cm)
+`define Cox (`epsox / `tox) //Capacitance density F/cm^ 2 (Added by Saul)
+`define CoxSI (`Cox * 10000) // Capacitance density F/m^2 (Added by Saul)
+`define CovSI 0
+`define CGDO  0.4e-9		//gate-drain, gate-source overlap capacitance (F/m) 
+`define theta1 1.0		// First order mobility attenuation coefficient /V
+`define theta2 0		// Second order mobility attenuation  coefficient /V^2
+
+//Parameters
+
+parameter real W = 100e-6;  //Transistor width (m)
+parameter real L = 10e-6;   //Transistor lenght (m)
+parameter real Vth = -1;    //Transistor threshold voltage (V)
+parameter real U0 = 200;	//low mobility field (cm^2/Vs) 
+parameter n = 2.0;		  	//ideality factor (n=1+Cit/Cox, with Cit=q*Nit, Nit trap density in /eVcm^2)
+parameter Er = 4.0;			//Epsilon relative, material ?
+
+//Internal variables
+
+real vgs;
+real vds;
+real vgd;
+
+real As = 0;
+real Qis = 0;
+real Ad = 0;
+real Qid = 0;
+real Id = 0;
+real lambda = -0.01;	// Channel lenght modulation (ADDED SAUL)
+real Ids = 0;
+real cgs_ov = 0;
+real cgd_ov = 0;
+real cgs = 0;
+real cgd = 0;
+
+real veff = 0;
+real aux,aux2;
+
+//Implementation
+analog begin
+
+vgs = V(G,S);
+vgd = V(G,D);
+vds = V(D,S);
+
+
+//Drain current calculation
+
+As = ln(1 + exp(-(vgs - Vth)/ `kT / n));
+Qis = `Cox * n * `kT * As * (1-ln(1+As)/(2+As)); //%! Inversion charge at source (C/cm^2)
+
+Ad = ln(1 + exp(-(vgd - Vth)/ `kT / n));
+Qid = `Cox * n * `kT * Ad * (1-ln(1+Ad)/(2+Ad)); //%! Inversion charge at drain (C/cm^2)
+
+Id = W/L * `Cox * U0 *( pow((Qis/`Cox),2.0)/2.0 + n*`kT*Qis/`Cox - pow((Qid/`Cox),2.0)/2.0 - n * `kT *Qid/`Cox ); 
+
+Ids = Id * (1.0 + lambda*vds); // Channel lenght modulation (ADDED SAUL)
+
+//Intrinsic Capacitance calculation 
+//cgs = abs(ddx(Qis,V(G)));
+
+cgs = 0.5 * `CoxSI * W * L + `CGDO*W;
+cgd = cgs;
+
+//$strobe("cgs = %e, cgd = %e", cgs, cgd);
+
+//Assignments
+I(S,D) <+ Ids;
+I(S,G) <+ cgs*ddt(V(S,G));
+I(G,D) <+ cgd*ddt(V(G,D));
+
+end
+
+
+endmodule
