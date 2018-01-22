@@ -1,16 +1,16 @@
-\# Program start time UTC 2018.01.12 14:55:44.110
-\# Local time Friday 12 January 2018, 3:55 pm
+\# Program start time UTC 2018.01.16 08:48:00.074
+\# Local time Tuesday 16 January 2018, 9:48 am
 \o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
 \o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
-\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18708 -mpshost s2424.it.kth.se -davinciService DaVinciService_18708_1515768939 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_18708 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso5618 -mpshost s2424.it.kth.se -davinciService DaVinciService_5618_1516092475 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_5618 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	s2424.it.kth.se (x86_64)
 \# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
 \# Linux /etc/issue:	CentOS release 5.11 (Final)
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 32064)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 9677)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,18 +18,18 @@
 \# 			current id 0x33, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        577 MB
-\# Available memory:	     63,037 MB
+\# Initial sbrk value:	        612 MB
+\# Available memory:	     61,268 MB
 \# System memory:	     78,453 MB
-\# Maximum memory size:	     77,947 MB
-\# Max mem available:	     63,108 MB
+\# Maximum memory size:	     77,912 MB
+\# Max mem available:	     61,339 MB
 \# Initial memory used:	         71 MB
 \#        process size:	        754 MB
 \# Qt version:		4.7.2
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
-\# Process Id:		32071
+\# Process Id:		9682
 \o 
 \o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
@@ -67,6 +67,7 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
+\# Memory report: using         180 MB, process size 991 MB at UTC 2018.01.16 08:48:04.493
 \o ......................................................................................
 \o            ams AG hitkit v.ams_4.14
 \o ......................................................................................
@@ -89,17 +90,17 @@
 \o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 \o //
 \o //
-\# Memory report: using         198 MB, process size 1,012 MB at UTC 2018.01.12 14:55:45.791
 \o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
 \o Loading customization file: $HOME/.cdsinit_personal
 \o Loading simulator default settings.
 \o *Info*    Client has finished starting ... 
 \o 
 \p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
-\# Available memory:         62,909 MB at UTC 2018.01.12 14:55:54.342
-\# Memory report: Maximum memory size now 63,112 MB at UTC 2018.01.12 14:55:54.342
+\# Available memory:         61,134 MB at UTC 2018.01.16 08:48:13.183
+\# Memory report: Maximum memory size now 61,337 MB at UTC 2018.01.16 08:48:13.183
+\# Memory report: Maximum memory size now 60,115 MB at UTC 2018.01.16 08:52:03.193
 \o Job 0 timed out after no activity in 300 seconds.
 \o Loading viva.cxt 
 \o Loading lce.cxt 
-\# Memory report: on exit            204 MB, process size 1,018 MB at UTC 2018.01.12 15:00:46.359
+\# Memory report: on exit            204 MB, process size 1,018 MB at UTC 2018.01.16 08:53:05.456
 \# Memory report: peak usage         204 MB, process size 1,018 MB

@@ -18,9 +18,9 @@ vuiDRCFormTable = '(
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "ac18a6dmca"
-	runsetField  "global density"
-	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/global.rul"
-	switches  ""
+	runsetField  "local density"
+	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/local.rul"
+	switches  "Cell"
 	rsfInclude  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/DRCinclude.rsf"
 	varTag  "None"
 	varVal  ""

@@ -55,7 +55,7 @@ vuiRcxRunFormOptions = '(
 	(spefUnits	 "")
     )
     ((?vuiRCXExtractionTab)
-        (refNode      "VSUB")
+        (refNode      "vsub")
         (contourDirField      "")
         (splitPinDistance      "5")
         (enableHrcx      nil)

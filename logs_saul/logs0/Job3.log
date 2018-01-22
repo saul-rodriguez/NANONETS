@@ -1,109 +1,192 @@
-\# Program start time UTC 2018.01.12 15:46:22.139
-\# Local time Friday 12 January 2018, 4:46 pm
-\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
-\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
-\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
-\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18708 -mpshost s2424.it.kth.se -davinciService DaVinciService_18708_1515768939 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job3.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_18708 -nograph -nostdin -axlChildIdFlag 3
-\# Host name (type):	s2424.it.kth.se (x86_64)
-\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
-\# Linux /etc/issue:	CentOS release 5.11 (Final)
-\# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
-\# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 11584)
-\# Depth of Visual (Root):	16 (16)
-\# Number of Planes Used:	16
-\# X version:		11.0 (vendor release 3370)
-\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
-\# 			current id 0x33, current max 0x3ffffa (4194298)
-\# Max data seg size:	     unlimited
-\# Max process size:	     unlimited
-\# Initial sbrk value:	        649 MB
-\# Available memory:	     59,391 MB
-\# System memory:	     78,453 MB
-\# Maximum memory size:	     77,875 MB
-\# Max mem available:	     59,462 MB
-\# Initial memory used:	         71 MB
-\#        process size:	        754 MB
-\# Qt version:		4.7.2
-\# Window Manager:	other
-\# User Name:		saul
-\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
-\# Process Id:		11589
-\o 
-\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
-\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
-\o                          Reproduced with permission.
-\o 
-\o This Cadence Design Systems program and online documentation are
-\o proprietary/confidential information and may be disclosed/used only
-\o as authorized in a license agreement controlling such use and disclosure.
-\o 
-\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
-\o Use/reproduction/disclosure is subject to restriction
-\o set forth at FAR 1252.227-19 or its equivalent.
-\o Loading geView.cxt 
-\o Loading menuBuilder.cxt 
-\o Loading schView.cxt 
-\o Loading selectSv.cxt 
-\o Loading LVS.cxt 
-\o Loading layerProc.cxt 
-\o Loading pte2.cxt 
-\o Loading xlUI.cxt 
-\o Loading auCore.cxt 
-\o Loading vhdl.cxt 
-\o Loading seismic.cxt 
-\o Loading ci.cxt 
-\o Loading ams.cxt 
-\o Loading oasis.cxt 
-\o Loading analog.cxt 
-\o Loading asimenv.cxt 
-\o Loading socket.cxt 
-\o Loading dal.cxt 
-\o Loading awv.cxt 
-\o Loading par.cxt 
-\o Loading alvs.cxt 
-\o Loading caa.cxt 
-\o Loading adexl.cxt 
-\o *Info*    Exporting services from client ... 
-\o 
-\# Memory report: using         180 MB, process size 991 MB at UTC 2018.01.12 15:46:24.230
-\o ......................................................................................
-\o            ams AG hitkit v.ams_4.14
-\o ......................................................................................
-\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
-\o This hitkit and attached documentation are confidential information and may 
-\o only be used as authorized by the hitkit license agreement.
-\o ......................................................................................
-\o Loading simulator default settings.
-\o Defining layer name mapping for Pcells
-\o ROD pcell code loaded
-\o Additional code for low-voltage devices loaded
-\o Loading customization file: ./.cdsinit_local
-\o //
-\o //  Calibre Skill Interface * (v2014.3_27.21) *
-\o //
-\o //                 Copyright Mentor Graphics Corporation 2005
-\o //                             All Rights Reserved.
-\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
-\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
-\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
-\o //
-\o //
-\o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
-\o Loading customization file: $HOME/.cdsinit_personal
-\o Loading simulator default settings.
-\o *Info*    Client has finished starting ... 
-\o 
-\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
-\# Available memory:         59,255 MB at UTC 2018.01.12 15:46:32.146
-\# Memory report: Maximum memory size now 59,458 MB at UTC 2018.01.12 15:46:32.146
-\# Memory report: Maximum memory size now 57,109 MB at UTC 2018.01.12 15:48:42.150
-\o Job 3 timed out after no activity in 300 seconds.
-\o Loading viva.cxt 
-\o Loading lce.cxt 
-\o 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
-\o Loading simui.cxt 
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = TOP
+	Cell         = top_ring_core_tb_spectre
+	View         = config
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = TOP:top_ring_core_tb_spectre:1_none_Interactive.9
+	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.9.rdb
+	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.9/1/TOP:top_ring_core_tb_spectre:1
+	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data
+	Project Dir  = /home/saul/projects/NANONETS/Sim
+	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb_spectre/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (1 1) on testbench [
+          TOP:top_ring_core_tb_spectre:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.9/1/TOP:top_ring_core_tb_spectre:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.9/1/TOP:top_ring_core_tb_spectre:1
+
+
+*Info*    Creating Netlist for Point ID (1 1)
+
+generate netlist...
+function ansCdlCompPrim redefined
+function ansCdlCompPrim redefined
+Begin Incremental Netlisting Jan 17 09:52:25 2018
+WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
+directory. Netlist(s) from last session cannot be reused for incremental
+netlisting. Therefore, re-netlisting the design.
+
+WARNING (ADE-6003): Terminal "CLAMP18", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "GNDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "TRIG18", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "GNDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "VSS", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "GNDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "VSUB", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "GNDPAD1V8ALL" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+WARNING (ADE-6003): Terminal "TRIG18", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "VDDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "VDD18", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "VDDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "VSS", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "VDDPAD1V8ALL" "schematic"
+WARNING (ADE-6003): Terminal "VSUB", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "VDDPAD1V8ALL" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+WARNING (ADE-6003): Terminal "m1a", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "n1", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "n5", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "p20", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "p6", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "q10", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6003): Terminal "q3", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "io_drvr_1V8" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+WARNING (ADE-6003): Terminal "PAD", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "PWRCUT_DX" "schematic"
+WARNING (ADE-6003): Terminal "TRIG50", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "PWRCUT_DX" "schematic"
+WARNING (ADE-6003): Terminal "VDD50", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "PWRCUT_DX" "schematic"
+WARNING (ADE-6003): Terminal "VSS", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "PWRCUT_DX" "schematic"
+WARNING (ADE-6003): Terminal "VSUB", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "PWRCUT_DX" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+WARNING (ADE-6003): Terminal "TRIG50", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "APRIO1V8_00" "schematic"
+WARNING (ADE-6003): Terminal "VDD50", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "APRIO1V8_00" "schematic"
+WARNING (ADE-6003): Terminal "VSS", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "APRIO1V8_00" "schematic"
+WARNING (ADE-6003): Terminal "VSUB", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "APRIO1V8_00" "schematic"
+WARNING (ADE-6003): Terminal "VSUBC", specified in the CDF termOrder, does not exist
+           in the cell-view "IOLIB_6AM" "APRIO1V8_00" "schematic"
+WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+           termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+           be ignored. The terminals in the cellView will be netlisted in the alphabetical
+           order of their names. Eliminate the mismatch if you want the CDF termOrder
+           property to be used for netlisting.
+           To edit CDF of a cell, 
+           i) Open CIW->Tools->CDF->Edit.
+           ii) Select Library Name & Cell Name.
+           iii) Click on the Edit button in the simulation information section of the
+                Edit CDF window.
+End netlisting Jan 17 09:52:25 2018
+
+Netlisting Statistics:
+	Number of components:  977
+
+	Elapsed time:          1.0s (977.00/s)
+Errors: 0	Warnings: 30
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          TOP:top_ring_core_tb_spectre:1 ] for Point ID (1 1).
+
+Delete psf data in /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.9/1/TOP:top_ring_core_tb_spectre:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (1 1) on testbench [
+          TOP:top_ring_core_tb_spectre:1 ].
+
+
+
+
+
