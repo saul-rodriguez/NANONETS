@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      saul
+HostName                       s2424.it.kth.se
+ProcessIdentifier              3752
+ProcessCreationTime_UTC        1516691355
+ProcessCreationTime_Readable   Tue Jan 23 08:09:15 2018 CET
+AppIdentifier                  /pkg/Cadence/installs/IC616/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/saul/projects/NANONETS/libManager.log
+TimeEditLocked                 Tue Jan 23 08:09:15 2018 CET

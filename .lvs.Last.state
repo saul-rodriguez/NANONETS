@@ -14,7 +14,7 @@ vuiLVSFormTable = '(
 	schematicSource  "DFII"
 	layoutSource  "DFII"
 	runName  "beta"
-	runDir  "ASSURA_LVS/top_ring_core_seal"
+	runDir  "ASSURA_LVS/bias"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "ac18a6dmca"
@@ -31,13 +31,13 @@ vuiLVSFormTable = '(
 	avView  nil
 	avCompareView  nil
 	additionalFunctionsButton  t
-	schLibrary  "TOP"
-	schCell  "top_ring_core_seal"
+	schLibrary  "AMPLIFIER"
+	schCell  "bias"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
-	layLibrary  "TOP"
-	layCell  "top_ring_core_seal"
+	layLibrary  "AMPLIFIER"
+	layCell  "bias"
 	layView  "layout"
 	layUseExistingNL  nil
 	flattenCellButton  nil

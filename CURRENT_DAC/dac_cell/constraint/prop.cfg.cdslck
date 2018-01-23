@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      saul
+HostName                       s2424.it.kth.se
+ProcessIdentifier              3400
+ProcessCreationTime_UTC        1516691351
+ProcessCreationTime_Readable   Tue Jan 23 08:09:11 2018 CET
+AppIdentifier                  /pkg/Cadence/installs/IC616/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/saul/projects/NANONETS/CURRENT_DAC/dac_cell/constraint/prop.cfg
+TimeEditLocked                 Tue Jan 23 08:52:16 2018 CET
