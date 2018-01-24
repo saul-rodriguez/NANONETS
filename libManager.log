@@ -1,13 +1,13 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-mpssession virtuoso3400 -mpshost s2424.it.kth.se 
+\o Arguments:		-mpssession virtuoso30955 -mpshost s2424.it.kth.se 
 \o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
 \o 64-bit offsets
 \o Qt version: 		4.7.2
 \o Log file is "/home/saul/projects/NANONETS/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2313 14 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 170 960 872))
 \o changeWorkingDir("/home/saul/projects/NANONETS") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
@@ -15,521 +15,99 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "TOP"
 \a cdsLibManager->libLineEdit->value = "TOP"
-\a cdsLibManager->cellListBox->value = "logo"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "logo"
+\a cdsLibManager->cellListBox->value = "top_ring_core"
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->cellListBox->value = "top_ring_core"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core"
+\a cdsLibManager->viewListBox->value = "av_extracted"
+\a cdsLibManager->viewLineEdit->value = "av_extracted"
+\a lmgrLogShowPopup("mainListPopup2" 55 34 2 "av_extracted")
+\a cdsLibManager->viewListBox->value = "av_analog_extracted"
+\a cdsLibManager->viewLineEdit->value = "av_analog_extracted"
+\a lmgrLogShowPopup("mainListPopup2" 34 6 2 "av_analog_extracted")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(3037 328 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(3148 400 405 367))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "av_analog_extracted" from cell "top_ring_core" in library "TOP".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->viewLineEdit->value = "av_extracted"
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->viewLineEdit->value = ""
+\o Deleted cellview 'TOP/top_ring_core/av_analog_extracted'.
+\o Deletion of 1 view done.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3211 463 298 134))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "TOP"
 \a cdsLibManager->libLineEdit->value = "TOP"
-\a cdsLibManager->cellListBox->value = "logo"
-\a cdsLibManager->cellLineEdit->value = "logo"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(2313 -1066 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 1094 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 14 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 -1066 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 14 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "top_ring_core"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = "top_ring_core"
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "top_ring_core"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrResizeWindow(cdsLibManager list(2313 -1066 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 -2146 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 -1066 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 14 960 872))
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup2" 132 129 2 "")
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "AMPLIFIER"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "AMPLIFIER"
-\a cdsLibManager->cellListBox->value = "buffer"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "buffer"
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = "TOP"
-\a cdsLibManager->cellListBox->value = "top_core"
+\a cdsLibManager->cellListBox->value = "top_ring_core"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core"
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "top_core"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a lmgrLogShowPopup("mainListPopup2" 48 66 2 "schematic")
-\a cdsLibManager->FileOpenROButton->value = t
-\o MPS request: open design readonly
-\a nrResizeWindow(cdsLibManager list(2313 -1066 960 872))
-\a nrResizeWindow(cdsLibManager list(2313 14 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrResizeWindow(cdsLibManager list(2348 595 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(cdsLibManager list(2870 -910 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -1990 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -3070 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -4150 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -5230 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -4150 960 872))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "dac_cell"
-\a cdsLibManager->cellLineEdit->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "dac_cell"
-\a cdsLibManager->cellLineEdit->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "dac_cell"
-\a cdsLibManager->cellLineEdit->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "dac_cell"
-\a cdsLibManager->cellLineEdit->value = "dac_cell"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = "TOP"
-\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CURRENT_DAC"
-\a cdsLibManager->cellListBox->value = "cur_sel"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "cur_sel_bk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "cur_sel"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "cur_sel"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "AMPLIFIER"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "AMPLIFIER"
-\a cdsLibManager->cellListBox->value = "buffer"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "buffer"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "AMPLIFIER"
-\a cdsLibManager->libLineEdit->value = "AMPLIFIER"
-\a cdsLibManager->cellListBox->value = "buffer"
-\a cdsLibManager->cellLineEdit->value = "buffer"
+\a cdsLibManager->cellListBox->value = "top_ring_core"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core"
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "bias"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "bias"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -4222 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -3142 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -3070 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 -1990 960 872))
+\a nrResizeWindow(cdsLibManager list(2870 170 960 872))
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -2062 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 -982 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 1178 960 872))
-\a nrResizeWindow(cdsLibManager list(2380 98 960 872))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
