@@ -1,2 +1,2 @@
-runDir = ASSURA_LVS/top_ring_core
-runName = beta
+runDir = ASSURA_DRC/top_ring_core_seal
+runName = bravo
