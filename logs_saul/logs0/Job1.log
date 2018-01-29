@@ -1,94 +1,734 @@
-*Info*    Exporting services from client ... 
-
-*Info*    Client has finished starting ... 
-
-
-
-*Info*    Configuring the session ...
-
-	Library      = TOP
-	Cell         = top_ring_core_tb_spectre
-	View         = config
-	Simulator    = spectre
-	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = TOP:top_ring_core_tb_spectre:1_none_Interactive.8
-	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.8.rdb
-	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.8/1/TOP:top_ring_core_tb_spectre:1
-	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data
-	Project Dir  = /home/saul/projects/NANONETS/Sim
-	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb_spectre/adexl
-	File Encoding = 0
-
-
-*Info*    Spectre controlMode is set "batch".
-
-
-
-
-
-
-*Info*    Run start for Point ID (0 1) on testbench [
-          TOP:top_ring_core_tb_spectre:1 ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.8/1/TOP:top_ring_core_tb_spectre:1/netlist
-
-
-*Info*    Data Directory    =
-          /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.8/1/TOP:top_ring_core_tb_spectre:1
-
-
-*Info*    Creating Netlist for Point ID (0 1)
-
-generate netlist...
-Loading seCore.cxt 
-function ansCdlCompPrim redefined
-function ansCdlCompPrim redefined
-Begin Incremental Netlisting Jan 16 09:49:40 2018
-WARNING (OSSHNL-335): Design configuration has changed since last netlisting session in this run
-directory. Netlist(s) from last session cannot be reused for incremental
-netlisting. Therefore, re-netlisting the design.
-
-End netlisting Jan 16 09:51:32 2018
-Loading monte.cxt 
-
-Netlisting Statistics:
-	Number of components: 546043
-
-	Elapsed time:         112.0s (4875.38/s)
-Errors: 0	Warnings: 0
-      ...successful.
-compose simulator input file...
-      ...successful.
-
-*Info*    Running simulation on testbench [
-          TOP:top_ring_core_tb_spectre:1 ] for Point ID (0 1).
-
-Delete psf data in /home/saul/Sim/TOP/top_ring_core_tb_spectre/adexl/results/data/Interactive.8/1/TOP:top_ring_core_tb_spectre:1/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
-
-
-*Info*    Run complete for Point ID (0 1) on testbench [
-          TOP:top_ring_core_tb_spectre:1 ].
-
-
-
-
-
+\# Program start time UTC 2018.01.26 11:22:31.774
+\# Local time Friday 26 January 2018, 12:22 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso16303 -mpshost s2424.it.kth.se -davinciService DaVinciService_16303_1516963447 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job1.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_16303 -nograph -nostdin -axlChildIdFlag 1
+\# Host name (type):	s2424.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 27361)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        750 MB
+\# Available memory:	     68,927 MB
+\# System memory:	     78,453 MB
+\# Maximum memory size:	     77,775 MB
+\# Max mem available:	     68,998 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        754 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		saul
+\o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
+\# Process Id:		27364
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\# Memory report: using         180 MB, process size 991 MB at UTC 2018.01.26 11:22:33.060
+\o ......................................................................................
+\o            ams AG hitkit v.ams_4.14
+\o ......................................................................................
+\o COPYRIGHT (c) 2013 Full Service Foundry @ ams AG.  ALL RIGHTS RESERVED
+\o This hitkit and attached documentation are confidential information and may 
+\o only be used as authorized by the hitkit license agreement.
+\o ......................................................................................
+\o Loading simulator default settings.
+\o Defining layer name mapping for Pcells
+\o ROD pcell code loaded
+\o Additional code for low-voltage devices loaded
+\o Loading customization file: ./.cdsinit_local
+\o //
+\o //  Calibre Skill Interface * (v2014.3_27.21) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o *SAUL_INFO* .cdsinit_local: Loading Calibre SKILL interface done
+\o Loading customization file: $HOME/.cdsinit_personal
+\o Loading simulator default settings.
+\o *Info*    Client has finished starting ... 
+\o 
+\p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = TOP
+\o 	Cell         = top_ring_core_tb
+\o 	View         = config_sch
+\o 	Simulator    = ams
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TOP:top_ring_core_tb:2_none_Interactive.76
+\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.76.rdb
+\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2
+\o 	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o Loading seCore.cxt 
+\o function ansCdlCompPrim redefined
+\o Loading verilogI.cxt 
+\o Begin Incremental Netlisting Jan 26 12:22:35 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o Loading IBM A&MS cmrf7sf Procedures for Cadence Version "6.1.6-64b"
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:22:35 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (2 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\# Memory report: using         296 MB, process size 1,111 MB at UTC 2018.01.26 11:22:35.747
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 26 12:22:35 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.76/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:22:35 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (2 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         68,699 MB at UTC 2018.01.26 11:22:42.005
+\# Memory report: Maximum memory size now 68,996 MB at UTC 2018.01.26 11:22:42.005
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = TOP
+\o 	Cell         = top_ring_core_tb
+\o 	View         = config_sch
+\o 	Simulator    = ams
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TOP:top_ring_core_tb:2_none_Interactive.77
+\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.77.rdb
+\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2
+\o 	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 26 12:23:11 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:23:11 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (3 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 26 12:23:11 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.77/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:23:11 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (3 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = TOP
+\o 	Cell         = top_ring_core_tb
+\o 	View         = config_sch
+\o 	Simulator    = ams
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = TOP:top_ring_core_tb:2_none_Interactive.78
+\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.78.rdb
+\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2
+\o 	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data
+\o 	Project Dir  = /home/saul/projects/NANONETS/Sim
+\o 	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (4 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (4 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o function ansCdlCompPrim redefined
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 26 12:23:45 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:23:45 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (4 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (4 1) on testbench [
+\o           TOP:top_ring_core_tb:2 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (4 1)
+\o 
+\o generate netlist...
+\o INFO (AMS-2142): The AMS OSS-based Netlisting (AMS OSSN) flow has been enabled.
+\o 
+\o INFO (AMS-2031): The instances bound to the views specified in the 'Netlist using spectre CDF simInfo'
+\o  field in the Netlister form (Simulation->Options->Netlister) will be netlisted as
+\o  analog primitives using the Spectre CDF simulation information.
+\o 
+\o function ansCdlCompPrim redefined
+\o Begin Incremental Netlisting Jan 26 12:23:45 2018
+\o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
+\o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
+\o 
+\o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.78/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
+\o before invoking Verilog netlister.
+\o  
+\o INFO (VLOGNET-62): Database internal net names will be printed for floating instance ports. To prevent 
+\o them from being printed, set simVerilogProcessNullPorts = t either in CIW or 
+\o the .simrc file.
+\o  
+\o INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist Configuration list. 
+\o If you want to print only those cellviews that need to be re-netlisted in the 
+\o list, set simVerilogIncrementalNetlistConfigList = t either in CIW or the 
+\o .simrc file.
+\o  
+\o INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to "z". To get inout 
+\o pins with initial state of "0", set hnlVerilogIOInitStimulusStr = "0" 
+\o either in CIW or the .simrc file.
+\o  
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX3/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/NOR2XL/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/INVX1/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o ERROR (OSSHNL-381): Missing or corrupt .oa file in cellview 'CORELIB/CLKBUFX4/module'. The OSS netlister can only
+\o process cellviews that have a valid .oa file. This file can be created by
+\o either importing the cellview using tools like 'Verilog In' or 'VHDL IN', or by
+\o opening and writing the text file in the Library Manager.
+\o 
+\o End netlisting Jan 26 12:23:45 2018
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o ERROR (AMS-1245): AMS OSSN netlisting has failed because of errors in the design.
+\o Right-click the test name on the Outputs assistant pane 
+\o and check Output Log->Netlister Log for errors.
+\o Correct your design and netlist again.
+\o 
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (4 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

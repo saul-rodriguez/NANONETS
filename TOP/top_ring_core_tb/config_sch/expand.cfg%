@@ -1,4 +1,4 @@
-//Revision 26
+//Revision 28
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -13,24 +13,30 @@ const digital behavioral, functional, schematic, symbol;
 const analog veriloga, functional, schematic, symbol;
 liblist basic, analogLib;
 
-viewlist verilogams, veriloga, behavioral, functional, schematic, spectre, symbol;
+viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spectre, symbol;
 stoplist symbol, spectre;
 
 
 cell AMPLIFIER.amplifier binding :schematic;
 cell AMPLIFIER.bias binding :schematic;
+cell AMPLIFIER.buffer binding :schematic;
+
+cell NNFET.nnpfet binding :veriloga;
+
+cell SPC.config_stimulus binding :verilogams;
+cell SPC.nnspc binding :schematic;
+
+cell TOP.top_ring_core binding :schematic;
+cell TOP.top_core binding :schematic;
+cell TOP.ring binding :schematic;
 
 cell CURRENT_DAC.current_dac_ts binding :schematic;
 
 cell SENSOR_SWITCH.sensor_switch binding :schematic;
 
-cell CORELIB.INVX1 binding :cmos_sch;
-
 cell DIG_CUR_DEC.cur_dec binding :schematic;
 
 cell DIG_FET_DEC.fet_dec binding :schematic;
-
-cell SPC.nnspc binding :schematic;
 
 
 endconfig

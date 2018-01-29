@@ -1,3 +1,3 @@
 #!/bin/sh -f
-/pkg/Cadence/installs/ASSURA41_616/tools.lnx86/assura/bin/assura /home/saul/Assura/ASSURA_LVS/top_ring_core/beta.rsf -cdslib /home/saul/projects/NANONETS/cds.lib -gui
+/pkg/Cadence/installs/ASSURA41_616/tools.lnx86/assura/bin/assura /home/saul/Assura/ASSURA_LVS/top_ring_core_seal/beta.rsf -cdslib /home/saul/projects/NANONETS/cds.lib -gui
 exit $?

@@ -1,0 +1,45 @@
+//Revision 36
+//NOTE
+// Default austriamicrosystems template for AMS Designer
+// Note:
+//      Please remember to replace the Library, Cell, and View fields
+//      for the Top Cell with the actual names used by your design.
+//END_NOTE
+
+config top_ring_core_tb;
+design TOP.top_ring_core_tb:schematic;
+
+const digital behavioral, functional, schematic, symbol;
+const analog veriloga, functional, schematic, symbol;
+liblist basic, analogLib;
+
+viewlist verilogams, veriloga, behavioral, functional, schematic, spectre, cmos_sch, symbol;
+stoplist symbol, spectre;
+
+
+cell AMPLIFIER.amplifier binding :schematic;
+cell AMPLIFIER.bias binding :av_analog_extracted;
+cell AMPLIFIER.buffer binding :av_analog_extracted;
+
+cell NNFET.nnpfet binding :veriloga;
+
+cell SPC.config_stimulus binding :verilogams;
+cell SPC.nnspc binding :schematic;
+
+cell TOP.top_ring_core binding :schematic;
+cell TOP.top_core binding :schematic;
+cell TOP.ring binding :schematic;
+
+cell CURRENT_DAC.current_dac_ts binding :schematic;
+cell CURRENT_DAC.cur_sel binding :av_analog_extracted;
+cell CURRENT_DAC.dac_bin_cur binding :av_analog_extracted;
+
+cell SENSOR_SWITCH.sensor_switch binding :schematic;
+cell SENSOR_SWITCH.fet_sel binding :av_analog_extracted;
+
+cell DIG_CUR_DEC.cur_dec binding :schematic;
+
+cell DIG_FET_DEC.fet_dec binding :schematic;
+
+
+endconfig

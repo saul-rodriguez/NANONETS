@@ -1,4 +1,4 @@
-//Revision 17
+//Revision 20
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -16,6 +16,17 @@ liblist basic, analogLib;
 viewlist verilogams, veriloga, behavioral, functional, \module , schematic, spectre, symbol;
 stoplist symbol, spectre;
 
+
+cell AMPLIFIER.amplifier binding :veriloga;
+cell AMPLIFIER.bias binding :veriloga;
+
+cell NNFET.nnpfet binding :veriloga;
+
+cell SPC.config_stimulus binding :verilogams;
+
+cell TOP.top_ring_core binding :schematic;
+cell TOP.top_core binding :schematic;
+cell TOP.ring binding :schematic;
 
 
 endconfig
