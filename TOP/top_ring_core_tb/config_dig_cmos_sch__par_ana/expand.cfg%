@@ -1,4 +1,4 @@
-//Revision 36
+//Revision 38
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -27,7 +27,7 @@ cell SPC.config_stimulus binding :verilogams;
 cell SPC.nnspc binding :schematic;
 
 cell TOP.top_ring_core binding :schematic;
-cell TOP.top_core binding :schematic;
+cell TOP.top_core binding :av_analog_extracted;
 cell TOP.ring binding :schematic;
 
 cell CURRENT_DAC.current_dac_ts binding :schematic;

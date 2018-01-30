@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Jan 29 12:21:28 2018 
+Best design point: 1
+Design specs: 
+	TOP:top_ring_core_tb:2	corner	Nominal - 
+	I1		Error	No
+	I4		Error	No
+Design parameters: 
+
+Interactive.82
+Number of points completed: 1
+Number of simulation errors: 2
+Interactive.82 completed. 
+Current time: Tue Jan 30 02:36:22 2018 
