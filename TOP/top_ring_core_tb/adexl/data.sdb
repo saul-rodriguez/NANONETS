@@ -154,175 +154,6 @@
 		</disabledtests>
 	</active>
 	<history>History
-		<historyentry>Interactive.73
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">TOP:top_ring_core_tb:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>top_ring_core_tb</value>
-							</option>
-							<option>lib
-								<value>TOP</value>
-							</option>
-							<option>sim
-								<value>ams</value>
-							</option>
-							<option>view
-								<value>config_sch</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>TOP:top_ring_core_tb:1_none_Interactive.73</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>top_ring_core_tb</value>
-							</option>
-							<option>lib
-								<value>TOP</value>
-							</option>
-							<option>sim
-								<value>ams</value>
-							</option>
-							<option>view
-								<value>config</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>I1
-								<evalType>point</evalType>
-							</output>
-							<output>sample(IT("/I0/I1/I6/CUR_OUT") 0 0.02 "linear" 0.002)
-								<evalType>point</evalType>
-							</output>
-							<output>I4
-								<evalType>point</evalType>
-							</output>
-							<output>Vout1
-								<evalType>point</evalType>
-							</output>
-							<output>Vout2
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">TOP:top_ring_core_tb:2
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>top_ring_core_tb</value>
-							</option>
-							<option>lib
-								<value>TOP</value>
-							</option>
-							<option>sim
-								<value>ams</value>
-							</option>
-							<option>view
-								<value>config_extracted_blocks</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>TOP:top_ring_core_tb:2_none_Interactive.73</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>top_ring_core_tb</value>
-							</option>
-							<option>lib
-								<value>TOP</value>
-							</option>
-							<option>sim
-								<value>ams</value>
-							</option>
-							<option>view
-								<value>config_sch</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>I1
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>I4
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>Vout1
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-							<output>Vout2
-								<units></units>
-								<significantDigits>0</significantDigits>
-								<notation></notation>
-								<suffix></suffix>
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<disabledtests>
-					<test>TOP:top_ring_core_tb:1</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Thu Jan 11 09:55:32 2018</timestamp>
-			<resultsname>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.73.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.73.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/s2424.it.kth.se_saul_095532304</localpsfdir>
-			<psfdir>/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.73</psfdir>
-			<simdir>$AXL_PROJECT_DIR/TOP/top_ring_core_tb/adexl/results/data/Interactive.73</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.73.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.73.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry>Interactive.74
 			<checkpoint>
 				<corners>
@@ -1829,8 +1660,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Jan 29 12:21:27 2018
-</timestamp>
+			<timestamp>Mon Jan 29 12:21:27 2018</timestamp>
 			<resultsname>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.82.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.82.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1842,6 +1672,176 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.82.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.82.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry>Interactive.83
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">TOP:top_ring_core_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>top_ring_core_tb</value>
+							</option>
+							<option>lib
+								<value>TOP</value>
+							</option>
+							<option>sim
+								<value>ams</value>
+							</option>
+							<option>view
+								<value>config_sch</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>TOP:top_ring_core_tb:1_none_Interactive.83</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>top_ring_core_tb</value>
+							</option>
+							<option>lib
+								<value>TOP</value>
+							</option>
+							<option>sim
+								<value>ams</value>
+							</option>
+							<option>view
+								<value>config</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>I1
+								<evalType>point</evalType>
+							</output>
+							<output>sample(IT("/I0/I1/I6/CUR_OUT") 0 0.02 "linear" 0.002)
+								<evalType>point</evalType>
+							</output>
+							<output>I4
+								<evalType>point</evalType>
+							</output>
+							<output>Vout1
+								<evalType>point</evalType>
+							</output>
+							<output>Vout2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">TOP:top_ring_core_tb:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>top_ring_core_tb</value>
+							</option>
+							<option>lib
+								<value>TOP</value>
+							</option>
+							<option>sim
+								<value>ams</value>
+							</option>
+							<option>view
+								<value>config_dig_cmos_sch__par_ana</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>TOP:top_ring_core_tb:2_none_Interactive.83</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>top_ring_core_tb</value>
+							</option>
+							<option>lib
+								<value>TOP</value>
+							</option>
+							<option>sim
+								<value>ams</value>
+							</option>
+							<option>view
+								<value>config_sch</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>I1
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>I4
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>Vout1
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>Vout2
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>TOP:top_ring_core_tb:1</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Tue Jan 30 10:34:44 2018
+</timestamp>
+			<resultsname>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.83.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.83.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/s2424.it.kth.se_saul_103444518</localpsfdir>
+			<psfdir>/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83</psfdir>
+			<simdir>$AXL_PROJECT_DIR/TOP/top_ring_core_tb/adexl/results/data/Interactive.83</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.83.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.83.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

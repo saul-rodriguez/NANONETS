@@ -3,8 +3,8 @@ saveStopTime ""
 cleanSnapShot (nil)
 runOpts "Batch (normal)"
 saveTimes ""
-snapshot ""
 runCompOnly (t nil)
+snapshot ""
 restartFlag (nil)
 runElabOnly (t nil)
 snapshotPrefix ""

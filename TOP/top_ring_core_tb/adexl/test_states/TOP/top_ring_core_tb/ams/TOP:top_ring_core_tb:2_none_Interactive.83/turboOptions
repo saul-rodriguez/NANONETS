@@ -15,7 +15,7 @@
 (amsTurboOpts proc_affinity) ""
 (amsTurboOpts psrFmax) ""
 (amsTurboOpts psrOption) "Default"
-(amsTurboOpts psrSwitch) nil
+(amsTurboOpts psrSwitch) t
 (amsTurboOpts uniMode) "APS"
 (amsTurboOpts virtualGroundNodes) nil
 (amsTurboOpts virtualPowerNodeListBox) (nil choices nil value nil)

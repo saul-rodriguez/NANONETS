@@ -1,16 +1,16 @@
-\# Program start time UTC 2018.01.29 11:19:22.199
-\# Local time Monday 29 January 2018, 12:19 pm
+\# Program start time UTC 2018.01.30 09:31:38.647
+\# Local time Tuesday 30 January 2018, 10:31 am
 \o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
 \o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
-\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso27499 -mpshost s2424.it.kth.se -davinciService DaVinciService_27499_1517224757 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_27499 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso25567 -mpshost s2424.it.kth.se -davinciService DaVinciService_25567_1517304693 -log /home/saul/projects/NANONETS/logs_saul/logs0/Job0.log -licenseLockFileName /home/saul/projects/NANONETS/.tmp_saul/.s2424.it.kth.se_25567 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	s2424.it.kth.se (x86_64)
 \# Operating system:	Linux 2.6.18-417.el5 #1 SMP Tue Dec 20 13:11:30 UTC 2016
 \# Linux /etc/issue:	CentOS release 5.11 (Final)
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	s2424.it.kth.se:80.0 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 7658)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 26114)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,18 +18,18 @@
 \# 			current id 0x33, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        393 MB
-\# Available memory:	     68,868 MB
+\# Initial sbrk value:	        511 MB
+\# Available memory:	     68,609 MB
 \# System memory:	     78,453 MB
-\# Maximum memory size:	     78,131 MB
-\# Max mem available:	     68,939 MB
+\# Maximum memory size:	     78,014 MB
+\# Max mem available:	     68,680 MB
 \# Initial memory used:	         71 MB
 \#        process size:	        754 MB
 \# Qt version:		4.7.2
 \# Window Manager:	other
 \# User Name:		saul
 \o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
-\# Process Id:		7669
+\# Process Id:		26121
 \o 
 \o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
@@ -74,10 +74,10 @@
 \o This hitkit and attached documentation are confidential information and may 
 \o only be used as authorized by the hitkit license agreement.
 \o ......................................................................................
+\# Memory report: using         184 MB, process size 998 MB at UTC 2018.01.30 09:31:40.005
 \o Loading simulator default settings.
 \o Defining layer name mapping for Pcells
 \o ROD pcell code loaded
-\# Memory report: using         196 MB, process size 1,010 MB at UTC 2018.01.29 11:19:23.670
 \o Additional code for low-voltage devices loaded
 \o Loading customization file: ./.cdsinit_local
 \o //
@@ -96,8 +96,8 @@
 \o *Info*    Client has finished starting ... 
 \o 
 \p hitkit: ams_4.14  Tech: ac18a6dmca  User: saul 
-\# Available memory:         68,746 MB at UTC 2018.01.29 11:19:32.438
-\# Memory report: Maximum memory size now 68,949 MB at UTC 2018.01.29 11:19:32.438
+\# Available memory:         68,484 MB at UTC 2018.01.30 09:31:48.904
+\# Memory report: Maximum memory size now 68,687 MB at UTC 2018.01.30 09:31:48.904
 \o 
 \o 
 \o *Info*    Configuring the session ...
@@ -107,9 +107,9 @@
 \o 	View         = config_dig_cmos_sch__par_ana
 \o 	Simulator    = ams
 \o 	State Path   = $AXL_SETUPDB_DIR/test_states
-\o 	State Name   = TOP:top_ring_core_tb:2_none_Interactive.82
-\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.82.rdb
-\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.82/1/TOP:top_ring_core_tb:2
+\o 	State Name   = TOP:top_ring_core_tb:2_none_Interactive.83
+\o 	Results DB   = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl/results/data/Interactive.83.rdb
+\o 	Results Dir  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83/1/TOP:top_ring_core_tb:2
 \o 	Results Loc  = /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data
 \o 	Project Dir  = /home/saul/projects/NANONETS/Sim
 \o 	Setup DB loc = /home/saul/projects/NANONETS/TOP/top_ring_core_tb/adexl
@@ -127,6 +127,7 @@
 \o Loading UltraSim.cxt 
 \o Loading AMSOSS.cxt 
 \o Loading AMS.cxt 
+\# Memory report: using         879 MB, process size 1,694 MB at UTC 2018.01.30 09:34:47.091
 \o 
 \o 
 \o 
@@ -140,14 +141,13 @@
 \o *Info*    Setting parameter values ...
 \o 
 \o Setting temp(T) = 27
-\# Memory report: using         319 MB, process size 1,133 MB at UTC 2018.01.29 11:21:29.711
 \o 
 \o *Info*    Netlist Directory =
-\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.82/1/TOP:top_ring_core_tb:2/netlist
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83/1/TOP:top_ring_core_tb:2/netlist
 \o 
 \o 
 \o *Info*    Data Directory    =
-\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.82/1/TOP:top_ring_core_tb:2
+\o           /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83/1/TOP:top_ring_core_tb:2
 \o 
 \o 
 \o *Info*    Creating Netlist for Point ID (0 1)
@@ -162,12 +162,12 @@
 \o Loading seCore.cxt 
 \o function ansCdlCompPrim redefined
 \o Loading verilogI.cxt 
-\o Begin Incremental Netlisting Jan 29 12:21:29 2018
+\o Begin Incremental Netlisting Jan 30 10:34:47 2018
 \o INFO (VLOGNET-187): While generating an explicit netlist, it is recommended to set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' with this option.
 \o Alternatively, you can set the hnlVerilogTermSyncUp variable as 'mergeAll'. This helps in generating a pure explicit netlist.
 \o 
 \o INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the 
-\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.82/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
+\o "/home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83/1/TOP:top_ring_core_tb:2/netlist/testfixture.verilog" file. To print the stimulus name mapped table, set 
 \o simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file 
 \o before invoking Verilog netlister.
 \o  
@@ -185,6 +185,8 @@
 \o either in CIW or the .simrc file.
 \o  
 \o Loading IBM A&MS cmrf7sf Procedures for Cadence Version "6.1.6-64b"
+\w *WARNING* (loadContext): context cmrf7sf610 already loaded
+\# Memory report: using         980 MB, process size 1,795 MB at UTC 2018.01.30 09:34:52.996
 \o INFO (AMS-2150): Generating the 'changedVarsSummary' file in the 'netlist' directory. This file prints the values of the netlister control variables, which are different from their default values. To disable the file creation, type 'envSetVal("ams.netlisterOpts" "print_control_vars" 'boolean nil )' in the '.cdsinit' file.
 \o 
 \o INFO (VLOGNET-117): Re-netlisting the entire design.
@@ -196,6 +198,7 @@
 \o       4096 nodes ...
 \o       8192 nodes ...
 \o      12288 nodes ...
+\# Memory report: using       1,082 MB, process size 1,896 MB at UTC 2018.01.30 09:34:58.002
 \o      16384 nodes ...
 \o      20480 nodes ...
 \o      24576 nodes ...
@@ -218,13 +221,117 @@
 \o      94208 nodes ...
 \o      98304 nodes ...
 \o     102400 nodes ...
-\o WARNING (VLOGNET-110): The cell 'IOLIB_6AM/PORGEN_1V8/cmos_sch' has no ports. Make sure that this was the intended 
-\o design.
-\o  
-\o WARNING (VLOGNET-110): The cell 'IOLIB_6AM/PWRCUT_DX/schematic' has no ports. Make sure that this was the intended 
-\o design.
-\o  
-\o WARNING (VLOGNET-186): Unable to generate explicit netlist for the 'TOP/top_core/av_analog_extracted' cell view because split buses and/or bundle terminals are present in it.  
+\o     106496 nodes ...
+\o     110592 nodes ...
+\o     114688 nodes ...
+\o     118784 nodes ...
+\o     122880 nodes ...
+\o     126976 nodes ...
+\o     131072 nodes ...
+\o     135168 nodes ...
+\o     139264 nodes ...
+\o     143360 nodes ...
+\o     147456 nodes ...
+\o     151552 nodes ...
+\o     155648 nodes ...
+\o     159744 nodes ...
+\o     163840 nodes ...
+\o     167936 nodes ...
+\o     172032 nodes ...
+\o     176128 nodes ...
+\o     180224 nodes ...
+\o     184320 nodes ...
+\o     188416 nodes ...
+\o     192512 nodes ...
+\o     196608 nodes ...
+\o     200704 nodes ...
+\o     204800 nodes ...
+\o     208896 nodes ...
+\o     212992 nodes ...
+\o     217088 nodes ...
+\o     221184 nodes ...
+\o     225280 nodes ...
+\o     229376 nodes ...
+\o     233472 nodes ...
+\o     237568 nodes ...
+\o     241664 nodes ...
+\o     245760 nodes ...
+\o     249856 nodes ...
+\o     253952 nodes ...
+\o     258048 nodes ...
+\o     262144 nodes ...
+\o     266240 nodes ...
+\o     270336 nodes ...
+\o     274432 nodes ...
+\o     278528 nodes ...
+\o     282624 nodes ...
+\o     286720 nodes ...
+\o     290816 nodes ...
+\o     294912 nodes ...
+\o     299008 nodes ...
+\o     303104 nodes ...
+\o     307200 nodes ...
+\o     311296 nodes ...
+\o     315392 nodes ...
+\o     319488 nodes ...
+\o     323584 nodes ...
+\o     327680 nodes ...
+\o     331776 nodes ...
+\o     335872 nodes ...
+\o     339968 nodes ...
+\o     344064 nodes ...
+\o     348160 nodes ...
+\o     352256 nodes ...
+\o     356352 nodes ...
+\o     360448 nodes ...
+\o     364544 nodes ...
+\o     368640 nodes ...
+\o     372736 nodes ...
+\o     376832 nodes ...
+\o     380928 nodes ...
+\o     385024 nodes ...
+\o     389120 nodes ...
+\o     393216 nodes ...
+\o     397312 nodes ...
+\o     401408 nodes ...
+\o     405504 nodes ...
+\o     409600 nodes ...
+\o     413696 nodes ...
+\o     417792 nodes ...
+\o     421888 nodes ...
+\o     425984 nodes ...
+\o     430080 nodes ...
+\o     434176 nodes ...
+\o     438272 nodes ...
+\o     442368 nodes ...
+\o     446464 nodes ...
+\o     450560 nodes ...
+\o     454656 nodes ...
+\o     458752 nodes ...
+\o     462848 nodes ...
+\o     466944 nodes ...
+\o     471040 nodes ...
+\o     475136 nodes ...
+\o     479232 nodes ...
+\o     483328 nodes ...
+\o     487424 nodes ...
+\o     491520 nodes ...
+\o     495616 nodes ...
+\o     499712 nodes ...
+\o     503808 nodes ...
+\o     507904 nodes ...
+\o     512000 nodes ...
+\o     516096 nodes ...
+\o     520192 nodes ...
+\o     524288 nodes ...
+\o     528384 nodes ...
+\o     532480 nodes ...
+\o     536576 nodes ...
+\o     540672 nodes ...
+\o     544768 nodes ...
+\# Memory report: using       1,182 MB, process size 1,997 MB at UTC 2018.01.30 09:37:07.000
+\# Memory report: using       1,282 MB, process size 2,097 MB at UTC 2018.01.30 09:39:06.002
+\o WARNING (VLOGNET-186): Unable to generate explicit netlist for the 'TOP/top_ring_core/av_analog_extracted' cell view because split buses and/or bundle terminals are present in it.  
 \o Set the Terminal SyncUp option on the Netlist Setup form as 'Merge All' or set the hnlVerilogTermSyncUp variable as 'mergeAll' and netlist again.
 \o 
 \o WARNING (VLOGNET-110): The cell 'TOP/top_ring_core_tb/schematic' has no ports. Make sure that this was the intended 
@@ -242,21 +349,21 @@
 \o CELL NAME                   VIEW NAME            NOTE             
 \o ---------                   ---------            ----             
 \o 
-\o presistor                   spectre              *Stopping View*  
-\o pfetx                       spectre              *Stopping View*  
-\o nfetx                       spectre              *Stopping View*  
-\o subcx                       spectre              *Stopping View*  
-\o tdndsx                      spectre              *Stopping View*  
-\o opppcresx                   spectre              *Stopping View*  
-\o mosvartx                    spectre              *Stopping View*  
-\o esdndsx                     spectre              *Stopping View*  
-\o oppdresx                    spectre              *Stopping View*  
-\o esdvpnpnw                   spectre              *Stopping View*  
-\o sblkndresx                  spectre              *Stopping View*  
 \o pcapacitor                  spectre              *Stopping View*  
 \o diodenwx                    spectre              *Stopping View*  
 \o cmimx                       spectre              *Stopping View*  
+\o presistor                   spectre              *Stopping View*  
+\o sblkndresx                  spectre              *Stopping View*  
+\o oppdresx                    spectre              *Stopping View*  
 \o oprrpresx                   spectre              *Stopping View*  
+\o opppcresx                   spectre              *Stopping View*  
+\o pfetx                       spectre              *Stopping View*  
+\o nfetx                       spectre              *Stopping View*  
+\o tdndsx                      spectre              *Stopping View*  
+\o subcx                       spectre              *Stopping View*  
+\o mosvartx                    spectre              *Stopping View*  
+\o esdndsx                     spectre              *Stopping View*  
+\o esdvpnpnw                   spectre              *Stopping View*  
 \o config_stimulus             verilogams           *Stopping View*  
 \o cap                         spectre              *Stopping View*  
 \o idc                         spectre              *Stopping View*  
@@ -266,36 +373,12 @@
 \o nnpfet                      veriloga             *Stopping View*  
 \o top_ring_core_tb            schematic                             
 \o nnpfet_array                schematic                             
-\o top_ring_core               schematic                             
-\o top_core                    av_analog_extracted                   
-\o ring                        schematic                             
-\o APRIO1V8_00                 schematic                             
-\o ESD18clamp_v2               schematic                             
-\o baiowire_pmx                schematic                             
-\o PWRCUT_DX                   schematic                             
-\o IOPAD1V8_3                  cmos_sch                              
-\o io_drvr_1V8                 schematic                             
-\o LOGIC1                      cmos_sch                              
-\o LOGIC0                      cmos_sch                              
-\o io_inv_oe_1V8               schematic                             
-\o io_lvl_a_1V8                schematic                             
-\o io_in_1V8                   schematic                             
-\o io_lvl_b_1V8                schematic                             
-\o io_pull_1V8                 schematic                             
-\o io_inv_oe2_1V8              schematic                             
-\o io_predrv_1V8               schematic                             
-\o PORGEN_1V8                  cmos_sch                              
-\o VDDPAD1V8ALL                schematic                             
-\o ESD18rctrigger_asym_v1      schematic                             
-\o ESD18clamp_v4               schematic                             
-\o GNDPAD1V8ALL                schematic                             
-\o ESD18clamp_v3               schematic                             
+\o top_ring_core               av_analog_extracted                   
 \o 
 \o ---------- End of netlist configuration information   ----------
 \o INFO (VLOGNET-80): The library 'TOP', cell 'top_ring_core_tb', and view 'config_dig_cmos_sch__par_ana' has been netlisted successfully.
 \o 
-\o End netlisting Jan 29 12:22:22 2018
-\# Memory report: using         422 MB, process size 1,236 MB at UTC 2018.01.29 11:22:22.640
+\o End netlisting Jan 30 10:39:22 2018
 \o INFO (AMS-1241): AMS OSSN netlisting has completed successfully.
 \o To view the modules, right-click the test name on the Tests and Analyses 
 \o assistant pane and choose Netlist->Display menu option.
@@ -312,10 +395,11 @@
 \o *Info*    Running simulation on testbench [ TOP:top_ring_core_tb:2 ]
 \o           for Point ID (0 1).
 \o 
-\o Delete simulation data in /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.82/1/TOP:top_ring_core_tb:2/psf.
+\o Delete simulation data in /home/saul/Sim/TOP/top_ring_core_tb/adexl/results/data/Interactive.83/1/TOP:top_ring_core_tb:2/psf.
 \o create cds_globals...
 \o       ...successful.
 \o compose simulator input file...
+\# Memory report: using       1,409 MB, process size 2,224 MB at UTC 2018.01.30 09:40:51.131
 \o       ...successful.
 \o validating simulator hierarchy...
 \o       ...successful.
@@ -324,48 +408,258 @@
 \o right-click on the test name, result name, or any value in the "Results" 
 \o tab of the Outputs section and choose "Output Log" menu option.
 \o Loading paraplot.cxt 
-\# Memory report: Maximum memory size now 67,238 MB at UTC 2018.01.29 11:23:51.643
-\# Memory report: Maximum memory size now 65,265 MB at UTC 2018.01.29 12:10:51.751
-\# Memory report: Maximum memory size now 63,917 MB at UTC 2018.01.29 12:14:11.758
-\# Memory report: Maximum memory size now 67,213 MB at UTC 2018.01.29 12:18:01.769
-\# Memory report: Maximum memory size now 65,740 MB at UTC 2018.01.29 12:35:31.809
-\# Memory report: Maximum memory size now 64,244 MB at UTC 2018.01.29 12:36:01.811
-\# Available memory:         60,333 MB at UTC 2018.01.29 12:36:11.811
-\# Memory report: Maximum memory size now 60,779 MB at UTC 2018.01.29 12:36:11.811
-\# Memory report: Maximum memory size now 57,225 MB at UTC 2018.01.29 12:36:21.811
-\# Available memory:         53,287 MB at UTC 2018.01.29 12:36:41.812
-\# Memory report: Maximum memory size now 53,732 MB at UTC 2018.01.29 12:36:41.813
-\# Memory report: Maximum memory size now 52,677 MB at UTC 2018.01.29 12:51:11.838
-\# Memory report: Maximum memory size now 51,590 MB at UTC 2018.01.29 13:10:21.869
-\# Memory report: Maximum memory size now 49,075 MB at UTC 2018.01.29 13:19:51.886
-\# Available memory:         41,945 MB at UTC 2018.01.29 13:20:01.887
-\# Memory report: Maximum memory size now 42,390 MB at UTC 2018.01.29 13:20:01.887
-\# Available memory:         48,619 MB at UTC 2018.01.29 13:20:11.888
-\# Memory report: Maximum memory size now 49,065 MB at UTC 2018.01.29 13:20:11.888
-\# Memory report: Maximum memory size now 46,909 MB at UTC 2018.01.29 13:20:21.889
-\# Available memory:         43,080 MB at UTC 2018.01.29 13:20:31.889
-\# Memory report: Maximum memory size now 43,525 MB at UTC 2018.01.29 13:20:31.890
-\# Memory report: Maximum memory size now 41,807 MB at UTC 2018.01.29 13:20:41.890
-\# Memory report: Maximum memory size now 40,985 MB at UTC 2018.01.29 13:21:21.892
-\# Available memory:         66,728 MB at UTC 2018.01.29 13:57:01.974
-\# Memory report: Maximum memory size now 67,173 MB at UTC 2018.01.29 13:57:01.974
-\# Memory report: Maximum memory size now 65,842 MB at UTC 2018.01.29 15:37:32.225
-\# Memory report: Maximum memory size now 62,597 MB at UTC 2018.01.29 15:37:52.226
-\# Available memory:         59,456 MB at UTC 2018.01.29 15:38:02.227
-\# Memory report: Maximum memory size now 59,901 MB at UTC 2018.01.29 15:38:02.227
-\# Memory report: Maximum memory size now 57,911 MB at UTC 2018.01.29 15:38:12.227
-\# Memory report: Maximum memory size now 56,751 MB at UTC 2018.01.29 15:46:02.240
-\# Memory report: Maximum memory size now 55,612 MB at UTC 2018.01.29 15:49:52.246
-\# Available memory:         53,807 MB at UTC 2018.01.29 16:00:42.271
-\# Memory report: Maximum memory size now 54,253 MB at UTC 2018.01.29 16:00:42.271
-\# Memory report: Maximum memory size now 51,912 MB at UTC 2018.01.29 16:00:52.272
-\# Memory report: Maximum memory size now 49,567 MB at UTC 2018.01.29 16:01:12.273
-\# Available memory:         48,713 MB at UTC 2018.01.29 16:01:22.273
-\# Memory report: Maximum memory size now 47,993 MB at UTC 2018.01.29 16:27:32.341
-\# Available memory:         65,343 MB at UTC 2018.01.29 16:31:02.351
-\# Memory report: Maximum memory size now 65,788 MB at UTC 2018.01.29 16:31:02.351
-\# Memory report: Maximum memory size now 64,004 MB at UTC 2018.01.29 16:33:42.356
-\# Memory report: Maximum memory size now 65,477 MB at UTC 2018.01.29 17:19:42.467
+\# Memory report: Maximum memory size now 67,135 MB at UTC 2018.01.30 09:41:20.526
+\# Memory report: Maximum memory size now 65,630 MB at UTC 2018.01.30 09:45:00.532
+\# Memory report: Maximum memory size now 64,254 MB at UTC 2018.01.30 09:45:30.535
+\# Available memory:         62,243 MB at UTC 2018.01.30 09:46:10.536
+\# Memory report: Maximum memory size now 62,482 MB at UTC 2018.01.30 09:48:10.541
+\# Memory report: Maximum memory size now 61,220 MB at UTC 2018.01.30 11:01:10.770
+\# Memory report: Maximum memory size now 59,843 MB at UTC 2018.01.30 11:01:40.772
+\# Memory report: Maximum memory size now 62,461 MB at UTC 2018.01.30 11:03:30.776
+\# Memory report: Maximum memory size now 60,707 MB at UTC 2018.01.30 11:08:00.789
+\# Memory report: Maximum memory size now 58,976 MB at UTC 2018.01.30 11:09:50.794
+\# Available memory:         56,486 MB at UTC 2018.01.30 11:10:00.795
+\# Memory report: Maximum memory size now 56,707 MB at UTC 2018.01.30 11:10:10.796
+\# Memory report: Maximum memory size now 55,505 MB at UTC 2018.01.30 11:10:20.796
+\# Memory report: Maximum memory size now 54,318 MB at UTC 2018.01.30 11:10:30.797
+\# Memory report: Maximum memory size now 53,124 MB at UTC 2018.01.30 11:10:40.798
+\# Available memory:         50,490 MB at UTC 2018.01.30 11:10:50.798
+\# Memory report: Maximum memory size now 51,901 MB at UTC 2018.01.30 11:10:50.799
+\# Available memory:         32,733 MB at UTC 2018.01.30 11:11:10.799
+\# Memory report: Maximum memory size now 34,144 MB at UTC 2018.01.30 11:11:10.799
+\# Available memory:         28,755 MB at UTC 2018.01.30 11:11:20.800
+\# Memory report: Maximum memory size now 30,165 MB at UTC 2018.01.30 11:11:20.800
+\# Memory report: Maximum memory size now 29,396 MB at UTC 2018.01.30 11:12:00.802
+\# Memory report: Maximum memory size now 28,163 MB at UTC 2018.01.30 11:12:30.804
+\# Available memory:         22,810 MB at UTC 2018.01.30 11:12:40.805
+\# Memory report: Maximum memory size now 24,221 MB at UTC 2018.01.30 11:12:40.805
+\# Available memory:         19,179 MB at UTC 2018.01.30 11:12:50.806
+\# Memory report: Maximum memory size now 20,590 MB at UTC 2018.01.30 11:12:50.806
+\# Available memory:         30,835 MB at UTC 2018.01.30 11:13:00.807
+\# Memory report: Maximum memory size now 32,246 MB at UTC 2018.01.30 11:13:00.807
+\# Memory report: Maximum memory size now 33,183 MB at UTC 2018.01.30 11:13:10.807
+\# Available memory:         70,085 MB at UTC 2018.01.30 11:15:00.813
+\# Memory report: Maximum memory size now 71,496 MB at UTC 2018.01.30 11:15:00.813
+\# Memory report: Maximum memory size now 70,070 MB at UTC 2018.01.30 11:24:00.843
+\# Memory report: Maximum memory size now 67,577 MB at UTC 2018.01.30 11:25:10.848
+\# Available memory:         63,580 MB at UTC 2018.01.30 11:25:30.850
+\# Memory report: Maximum memory size now 64,990 MB at UTC 2018.01.30 11:25:30.850
+\# Available memory:         52,567 MB at UTC 2018.01.30 11:25:50.851
+\# Memory report: Maximum memory size now 53,978 MB at UTC 2018.01.30 11:25:50.851
+\# Memory report: Maximum memory size now 50,128 MB at UTC 2018.01.30 11:26:00.852
+\# Available memory:         47,642 MB at UTC 2018.01.30 11:26:30.853
+\# Memory report: Maximum memory size now 49,052 MB at UTC 2018.01.30 11:26:30.853
+\# Memory report: Maximum memory size now 47,771 MB at UTC 2018.01.30 11:26:40.854
+\# Available memory:         39,735 MB at UTC 2018.01.30 11:26:50.854
+\# Memory report: Maximum memory size now 41,146 MB at UTC 2018.01.30 11:26:50.854
+\# Available memory:         32,899 MB at UTC 2018.01.30 11:27:00.855
+\# Memory report: Maximum memory size now 34,310 MB at UTC 2018.01.30 11:27:00.855
+\# Memory report: Maximum memory size now 32,973 MB at UTC 2018.01.30 11:27:30.857
+\# Memory report: Maximum memory size now 31,661 MB at UTC 2018.01.30 11:27:40.858
+\# Available memory:         29,087 MB at UTC 2018.01.30 11:27:50.859
+\# Memory report: Maximum memory size now 30,498 MB at UTC 2018.01.30 11:27:50.859
+\# Available memory:         14,807 MB at UTC 2018.01.30 11:28:00.859
+\# Memory report: Maximum memory size now 16,218 MB at UTC 2018.01.30 11:28:00.859
+\# Memory report: Maximum memory size now 15,889 MB at UTC 2018.01.30 11:31:30.871
+\# Memory report: Maximum memory size now 15,568 MB at UTC 2018.01.30 11:36:00.883
+\# Memory report: Maximum memory size now 15,262 MB at UTC 2018.01.30 11:51:50.923
+\# Memory report: Maximum memory size now 14,876 MB at UTC 2018.01.30 12:32:01.011
+\# Available memory:         13,461 MB at UTC 2018.01.30 12:32:51.012
+\# Available memory:         16,069 MB at UTC 2018.01.30 12:51:11.039
+\# Memory report: Maximum memory size now 17,479 MB at UTC 2018.01.30 12:51:11.039
+\# Memory report: Maximum memory size now 16,467 MB at UTC 2018.01.30 12:51:21.040
+\# Available memory:         14,253 MB at UTC 2018.01.30 12:55:51.051
+\# Memory report: Maximum memory size now 15,663 MB at UTC 2018.01.30 12:55:51.051
+\# Available memory:         11,713 MB at UTC 2018.01.30 12:56:01.052
+\# Memory report: Maximum memory size now 13,124 MB at UTC 2018.01.30 12:56:01.052
+\# Available memory:         10,119 MB at UTC 2018.01.30 12:56:11.052
+\# Memory report: Maximum memory size now 11,529 MB at UTC 2018.01.30 12:56:11.052
+\# Available memory:         17,428 MB at UTC 2018.01.30 12:56:21.053
+\# Memory report: Maximum memory size now 18,839 MB at UTC 2018.01.30 12:56:21.053
+\# Available memory:         24,900 MB at UTC 2018.01.30 12:56:31.054
+\# Memory report: Maximum memory size now 26,310 MB at UTC 2018.01.30 12:56:31.054
+\# Available memory:         47,903 MB at UTC 2018.01.30 12:56:41.054
+\# Memory report: Maximum memory size now 49,313 MB at UTC 2018.01.30 12:56:41.055
+\# Available memory:         67,923 MB at UTC 2018.01.30 12:56:51.055
+\# Memory report: Maximum memory size now 69,333 MB at UTC 2018.01.30 12:56:51.055
+\# Memory report: Maximum memory size now 67,838 MB at UTC 2018.01.30 13:06:31.075
+\# Memory report: Maximum memory size now 65,644 MB at UTC 2018.01.30 13:08:11.078
+\# Available memory:         61,744 MB at UTC 2018.01.30 13:08:31.078
+\# Memory report: Maximum memory size now 63,154 MB at UTC 2018.01.30 13:08:31.078
+\# Memory report: Maximum memory size now 61,841 MB at UTC 2018.01.30 13:08:41.079
+\# Memory report: Maximum memory size now 60,559 MB at UTC 2018.01.30 13:08:51.079
+\# Memory report: Maximum memory size now 59,304 MB at UTC 2018.01.30 13:09:11.080
+\# Available memory:         37,901 MB at UTC 2018.01.30 13:09:21.081
+\# Memory report: Maximum memory size now 39,312 MB at UTC 2018.01.30 13:09:21.081
+\# Memory report: Maximum memory size now 38,475 MB at UTC 2018.01.30 13:10:01.083
+\# Memory report: Maximum memory size now 37,502 MB at UTC 2018.01.30 13:10:31.085
+\# Available memory:         29,260 MB at UTC 2018.01.30 13:10:41.085
+\# Memory report: Maximum memory size now 30,670 MB at UTC 2018.01.30 13:10:41.086
+\# Available memory:         67,893 MB at UTC 2018.01.30 13:10:51.086
+\# Memory report: Maximum memory size now 69,303 MB at UTC 2018.01.30 13:10:51.086
+\# Memory report: Maximum memory size now 66,466 MB at UTC 2018.01.30 13:13:11.091
+\# Memory report: Maximum memory size now 64,815 MB at UTC 2018.01.30 13:13:21.092
+\# Available memory:         60,573 MB at UTC 2018.01.30 13:13:31.092
+\# Memory report: Maximum memory size now 61,983 MB at UTC 2018.01.30 13:13:31.092
+\# Available memory:         52,029 MB at UTC 2018.01.30 13:13:41.093
+\# Memory report: Maximum memory size now 53,440 MB at UTC 2018.01.30 13:13:41.093
+\# Memory report: Maximum memory size now 52,366 MB at UTC 2018.01.30 13:14:01.094
+\# Available memory:         39,973 MB at UTC 2018.01.30 13:14:11.094
+\# Memory report: Maximum memory size now 41,383 MB at UTC 2018.01.30 13:14:11.094
+\# Memory report: Maximum memory size now 38,879 MB at UTC 2018.01.30 13:14:41.095
+\# Available memory:         28,102 MB at UTC 2018.01.30 13:14:51.096
+\# Memory report: Maximum memory size now 29,513 MB at UTC 2018.01.30 13:14:51.096
+\# Memory report: Maximum memory size now 28,933 MB at UTC 2018.01.30 13:34:51.127
+\# Memory report: Maximum memory size now 28,305 MB at UTC 2018.01.30 14:28:41.205
+\# Memory report: Maximum memory size now 27,329 MB at UTC 2018.01.30 14:43:01.225
+\# Available memory:         20,229 MB at UTC 2018.01.30 14:46:11.231
+\# Memory report: Maximum memory size now 21,640 MB at UTC 2018.01.30 14:46:11.231
+\# Memory report: Maximum memory size now 20,034 MB at UTC 2018.01.30 14:46:21.231
+\# Available memory:         67,344 MB at UTC 2018.01.30 14:46:31.231
+\# Memory report: Maximum memory size now 68,755 MB at UTC 2018.01.30 14:46:31.232
+\# Memory report: Maximum memory size now 66,471 MB at UTC 2018.01.30 15:00:41.264
+\# Memory report: Maximum memory size now 64,314 MB at UTC 2018.01.30 15:01:21.266
+\# Memory report: Maximum memory size now 62,752 MB at UTC 2018.01.30 15:01:31.266
+\# Available memory:         50,719 MB at UTC 2018.01.30 15:01:41.267
+\# Memory report: Maximum memory size now 52,130 MB at UTC 2018.01.30 15:01:41.267
+\# Memory report: Maximum memory size now 50,811 MB at UTC 2018.01.30 15:02:11.268
+\# Available memory:         37,967 MB at UTC 2018.01.30 15:02:21.268
+\# Memory report: Maximum memory size now 39,377 MB at UTC 2018.01.30 15:02:21.269
+\# Available memory:         32,767 MB at UTC 2018.01.30 15:02:51.271
+\# Memory report: Maximum memory size now 34,177 MB at UTC 2018.01.30 15:02:51.271
+\# Available memory:         25,794 MB at UTC 2018.01.30 15:03:01.271
+\# Memory report: Maximum memory size now 27,204 MB at UTC 2018.01.30 15:03:01.271
+\# Memory report: Maximum memory size now 26,650 MB at UTC 2018.01.30 15:31:21.318
+\# Memory report: Maximum memory size now 25,561 MB at UTC 2018.01.30 16:27:11.409
+\# Available memory:         18,227 MB at UTC 2018.01.30 16:30:31.418
+\# Memory report: Maximum memory size now 19,638 MB at UTC 2018.01.30 16:30:31.418
+\# Memory report: Maximum memory size now 18,700 MB at UTC 2018.01.30 16:30:41.419
+\# Available memory:         34,008 MB at UTC 2018.01.30 16:30:51.419
+\# Memory report: Maximum memory size now 35,418 MB at UTC 2018.01.30 16:30:51.419
+\# Available memory:         67,013 MB at UTC 2018.01.30 16:31:01.419
+\# Memory report: Maximum memory size now 68,423 MB at UTC 2018.01.30 16:31:01.420
+\# Memory report: Maximum memory size now 66,992 MB at UTC 2018.01.30 16:49:31.465
+\# Memory report: Maximum memory size now 64,811 MB at UTC 2018.01.30 16:49:51.465
+\# Memory report: Maximum memory size now 62,585 MB at UTC 2018.01.30 16:50:11.467
+\# Available memory:         59,968 MB at UTC 2018.01.30 16:50:21.467
+\# Memory report: Maximum memory size now 60,881 MB at UTC 2018.01.30 16:50:31.468
+\# Available memory:         45,959 MB at UTC 2018.01.30 16:50:41.468
+\# Memory report: Maximum memory size now 47,370 MB at UTC 2018.01.30 16:50:41.468
+\# Memory report: Maximum memory size now 45,952 MB at UTC 2018.01.30 16:51:21.470
+\# Memory report: Maximum memory size now 44,716 MB at UTC 2018.01.30 16:51:31.470
+\# Available memory:         28,458 MB at UTC 2018.01.30 16:51:51.470
+\# Memory report: Maximum memory size now 29,869 MB at UTC 2018.01.30 16:51:51.471
+\# Memory report: Maximum memory size now 27,430 MB at UTC 2018.01.30 16:52:01.471
+\# Available memory:         25,827 MB at UTC 2018.01.30 16:52:31.472
+\# Memory report: Maximum memory size now 26,026 MB at UTC 2018.01.30 16:52:51.473
+\# Available memory:         17,181 MB at UTC 2018.01.30 16:53:01.474
+\# Memory report: Maximum memory size now 18,591 MB at UTC 2018.01.30 16:53:01.474
+\# Available memory:          8,282 MB at UTC 2018.01.30 16:53:11.474
+\# Memory report: Maximum memory size now 9,692 MB at UTC 2018.01.30 16:53:11.474
+\# Memory report: Maximum memory size now 9,494 MB at UTC 2018.01.30 16:56:51.481
+\# Memory report: Maximum memory size now 9,299 MB at UTC 2018.01.30 17:01:31.487
+\# Memory report: Maximum memory size now 9,114 MB at UTC 2018.01.30 17:04:51.492
+\# Available memory:          7,520 MB at UTC 2018.01.30 17:10:01.499
+\# Memory report: Maximum memory size now 8,931 MB at UTC 2018.01.30 17:10:01.499
+\# Memory report: Maximum memory size now 8,755 MB at UTC 2018.01.30 17:16:21.509
+\# Memory report: Maximum memory size now 8,584 MB at UTC 2018.01.30 17:35:11.546
+\# Available memory:          6,179 MB at UTC 2018.01.30 18:19:31.575
+\# Memory report: Maximum memory size now 7,589 MB at UTC 2018.01.30 18:19:31.575
+\# Available memory:         11,661 MB at UTC 2018.01.30 18:19:41.576
+\# Memory report: Maximum memory size now 13,072 MB at UTC 2018.01.30 18:19:41.576
+\# Available memory:         67,775 MB at UTC 2018.01.30 18:25:21.589
+\# Memory report: Maximum memory size now 69,186 MB at UTC 2018.01.30 18:25:21.589
+\# Memory report: Maximum memory size now 67,817 MB at UTC 2018.01.30 18:27:51.594
+\# Memory report: Maximum memory size now 66,430 MB at UTC 2018.01.30 18:29:11.597
+\# Memory report: Maximum memory size now 64,170 MB at UTC 2018.01.30 18:29:31.598
+\# Available memory:         61,601 MB at UTC 2018.01.30 18:29:41.598
+\# Memory report: Maximum memory size now 61,785 MB at UTC 2018.01.30 18:29:51.598
+\# Available memory:         45,347 MB at UTC 2018.01.30 18:30:11.599
+\# Memory report: Maximum memory size now 46,758 MB at UTC 2018.01.30 18:30:11.599
+\# Memory report: Maximum memory size now 45,451 MB at UTC 2018.01.30 18:31:01.601
+\# Memory report: Maximum memory size now 44,317 MB at UTC 2018.01.30 18:31:11.602
+\# Available memory:         39,381 MB at UTC 2018.01.30 18:31:21.602
+\# Memory report: Maximum memory size now 40,792 MB at UTC 2018.01.30 18:31:21.602
+\# Available memory:         26,293 MB at UTC 2018.01.30 18:31:31.603
+\# Memory report: Maximum memory size now 27,703 MB at UTC 2018.01.30 18:31:31.603
+\# Memory report: Maximum memory size now 27,059 MB at UTC 2018.01.30 18:32:21.605
+\# Memory report: Maximum memory size now 26,290 MB at UTC 2018.01.30 18:32:31.606
+\# Available memory:         17,769 MB at UTC 2018.01.30 18:32:41.606
+\# Memory report: Maximum memory size now 19,180 MB at UTC 2018.01.30 18:32:41.606
+\# Available memory:          8,543 MB at UTC 2018.01.30 18:32:51.608
+\# Memory report: Maximum memory size now 9,954 MB at UTC 2018.01.30 18:32:51.608
+\# Memory report: Maximum memory size now 9,754 MB at UTC 2018.01.30 18:36:31.616
+\# Memory report: Maximum memory size now 9,554 MB at UTC 2018.01.30 18:41:11.627
+\# Memory report: Maximum memory size now 9,358 MB at UTC 2018.01.30 18:44:51.634
+\# Available memory:          7,764 MB at UTC 2018.01.30 18:50:01.641
+\# Memory report: Maximum memory size now 9,172 MB at UTC 2018.01.30 18:50:11.641
+\# Memory report: Maximum memory size now 8,991 MB at UTC 2018.01.30 18:56:51.657
+\# Memory report: Maximum memory size now 8,813 MB at UTC 2018.01.30 19:21:21.704
+\# Memory report: Maximum memory size now 8,543 MB at UTC 2018.01.30 19:58:51.766
+\# Available memory:          6,743 MB at UTC 2018.01.30 19:59:01.766
+\# Memory report: Maximum memory size now 8,154 MB at UTC 2018.01.30 19:59:01.766
+\# Available memory:         68,247 MB at UTC 2018.01.30 20:04:11.777
+\# Memory report: Maximum memory size now 69,658 MB at UTC 2018.01.30 20:04:11.777
+\# Memory report: Maximum memory size now 68,148 MB at UTC 2018.01.30 20:07:01.784
+\# Memory report: Maximum memory size now 66,172 MB at UTC 2018.01.30 20:08:21.787
+\# Memory report: Maximum memory size now 63,880 MB at UTC 2018.01.30 20:08:41.788
+\# Available memory:         61,294 MB at UTC 2018.01.30 20:08:51.788
+\# Memory report: Maximum memory size now 61,626 MB at UTC 2018.01.30 20:09:01.788
+\# Available memory:         55,505 MB at UTC 2018.01.30 20:09:11.789
+\# Memory report: Maximum memory size now 56,915 MB at UTC 2018.01.30 20:09:11.789
+\# Available memory:         46,629 MB at UTC 2018.01.30 20:09:21.789
+\# Memory report: Maximum memory size now 48,040 MB at UTC 2018.01.30 20:09:21.790
+\# Memory report: Maximum memory size now 46,024 MB at UTC 2018.01.30 20:10:01.791
+\# Memory report: Maximum memory size now 44,829 MB at UTC 2018.01.30 20:10:11.792
+\# Available memory:         40,227 MB at UTC 2018.01.30 20:10:21.792
+\# Memory report: Maximum memory size now 41,638 MB at UTC 2018.01.30 20:10:21.792
+\# Available memory:         26,784 MB at UTC 2018.01.30 20:10:31.793
+\# Memory report: Maximum memory size now 28,194 MB at UTC 2018.01.30 20:10:31.793
+\# Memory report: Maximum memory size now 27,317 MB at UTC 2018.01.30 20:11:21.795
+\# Memory report: Maximum memory size now 26,779 MB at UTC 2018.01.30 20:11:31.795
+\# Available memory:          9,062 MB at UTC 2018.01.30 20:11:41.796
+\# Memory report: Maximum memory size now 10,473 MB at UTC 2018.01.30 20:11:41.796
+\# Memory report: Maximum memory size now 10,259 MB at UTC 2018.01.30 20:14:51.803
+\# Memory report: Maximum memory size now 10,042 MB at UTC 2018.01.30 20:20:11.816
+\# Memory report: Maximum memory size now 9,843 MB at UTC 2018.01.30 20:24:01.824
+\# Available memory:          8,231 MB at UTC 2018.01.30 20:29:31.837
+\# Memory report: Maximum memory size now 9,642 MB at UTC 2018.01.30 20:29:31.837
+\# Memory report: Maximum memory size now 9,452 MB at UTC 2018.01.30 20:38:41.850
+\# Memory report: Maximum memory size now 9,267 MB at UTC 2018.01.30 21:27:51.949
+\# Available memory:          7,464 MB at UTC 2018.01.30 21:38:01.968
+\# Memory report: Maximum memory size now 8,875 MB at UTC 2018.01.30 21:38:01.968
+\# Available memory:          6,668 MB at UTC 2018.01.30 21:38:11.968
+\# Memory report: Maximum memory size now 8,079 MB at UTC 2018.01.30 21:38:11.968
+\# Available memory:         68,222 MB at UTC 2018.01.30 21:53:52.000
+\# Memory report: Maximum memory size now 69,632 MB at UTC 2018.01.30 21:53:52.000
+\# Memory report: Maximum memory size now 68,105 MB at UTC 2018.01.30 22:46:22.121
+\# Memory report: Maximum memory size now 66,478 MB at UTC 2018.01.30 22:47:42.124
+\# Memory report: Maximum memory size now 64,187 MB at UTC 2018.01.30 22:48:02.125
+\# Available memory:         61,630 MB at UTC 2018.01.30 22:48:12.126
+\# Memory report: Maximum memory size now 61,821 MB at UTC 2018.01.30 22:48:22.126
+\# Available memory:         46,629 MB at UTC 2018.01.30 22:48:42.127
+\# Memory report: Maximum memory size now 48,040 MB at UTC 2018.01.30 22:48:42.127
+\# Memory report: Maximum memory size now 46,353 MB at UTC 2018.01.30 22:49:22.129
+\# Memory report: Maximum memory size now 45,127 MB at UTC 2018.01.30 22:49:32.129
+\# Available memory:         26,748 MB at UTC 2018.01.30 22:49:52.130
+\# Memory report: Maximum memory size now 28,159 MB at UTC 2018.01.30 22:49:52.130
+\# Memory report: Maximum memory size now 27,562 MB at UTC 2018.01.30 22:50:42.132
+\# Memory report: Maximum memory size now 26,734 MB at UTC 2018.01.30 22:50:52.132
+\# Available memory:         17,658 MB at UTC 2018.01.30 22:51:02.133
+\# Memory report: Maximum memory size now 19,069 MB at UTC 2018.01.30 22:51:02.133
+\# Available memory:          8,989 MB at UTC 2018.01.30 22:51:12.133
+\# Memory report: Maximum memory size now 10,400 MB at UTC 2018.01.30 22:51:12.133
+\# Memory report: Maximum memory size now 10,195 MB at UTC 2018.01.30 22:55:02.139
+\# Memory report: Maximum memory size now 9,992 MB at UTC 2018.01.30 22:59:42.145
+\# Memory report: Maximum memory size now 9,794 MB at UTC 2018.01.30 23:03:32.150
+\# Memory report: Maximum memory size now 9,595 MB at UTC 2018.01.30 23:09:02.158
+\# Available memory:          8,159 MB at UTC 2018.01.30 23:09:42.160
+\# Memory report: Maximum memory size now 9,404 MB at UTC 2018.01.30 23:18:12.171
+\# Available memory:          6,623 MB at UTC 2018.01.31 00:17:52.253
+\# Memory report: Maximum memory size now 8,034 MB at UTC 2018.01.31 00:17:52.254
+\# Available memory:         68,197 MB at UTC 2018.01.31 00:33:42.291
+\# Memory report: Maximum memory size now 69,608 MB at UTC 2018.01.31 00:33:42.291
+\# Memory report: Maximum memory size now 68,229 MB at UTC 2018.01.31 03:09:22.652
 \o INFO (ADE-3071): Simulation completed successfully.
 \o reading simulation data...
 \o       ...successful.
@@ -379,6 +673,7 @@
 \o 	Expression:'sample(IT("/I0/I1/I6/CUR_OUT") 0.022 0.04 "linear" 0.002)'.
 \o Ensure that the definition of output is correct.
 \o 
+\# Memory report: using       1,521 MB, process size 2,336 MB at UTC 2018.01.31 03:10:11.666
 \o 
 \o *Info*    Run complete for Point ID (0 1) on testbench [
 \o           TOP:top_ring_core_tb:2 ].
@@ -387,10 +682,12 @@
 \o 
 \o 
 \o 
-\# Memory report: Maximum memory size now 67,332 MB at UTC 2018.01.30 01:36:23.692
+\# Memory report: Maximum memory size now 74,069 MB at UTC 2018.01.31 03:10:12.657
 \o Job 0 timed out after no activity in 300 seconds.
 \o Loading lce.cxt 
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
+\# Memory report: on exit          1,521 MB, process size 2,336 MB at UTC 2018.01.31 03:15:12.639
+\# Memory report: peak usage       1,521 MB, process size 2,336 MB

@@ -1,4 +1,4 @@
-//Revision 38
+//Revision 42
 //NOTE
 // Default austriamicrosystems template for AMS Designer
 // Note:
@@ -26,7 +26,7 @@ cell NNFET.nnpfet binding :veriloga;
 cell SPC.config_stimulus binding :verilogams;
 cell SPC.nnspc binding :schematic;
 
-cell TOP.top_ring_core binding :schematic;
+cell TOP.top_ring_core binding :av_analog_extracted;
 cell TOP.top_core binding :av_analog_extracted;
 cell TOP.ring binding :schematic;
 
