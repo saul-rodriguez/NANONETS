@@ -14,13 +14,13 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  "bravo"
-	runDir  "ASSURA_DRC/top_ring_core_seal"
+	runDir  "ASSURA_DRC/sensor"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "ac18a6dmca"
-	runsetField  "esd"
-	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/esd.rul"
-	switches  "LM4AM"
+	runsetField  "dfII"
+	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/drc.rul"
+	switches  "GridCheck"
 	rsfInclude  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/DRCinclude.rsf"
 	varTag  "None"
 	varVal  ""
@@ -29,8 +29,8 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "TOP"
-	cell  "top_ring_core_seal"
+	library  "NNFET"
+	cell  "sensor"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"
