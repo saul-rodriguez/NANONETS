@@ -1,36 +1,191 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-mpssession virtuoso24229 -mpshost s2424.it.kth.se 
+\o Arguments:		-mpssession virtuoso25622 -mpshost s2424.it.kth.se 
 \o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
 \o 64-bit offsets
 \o Qt version: 		4.7.2
 \o Log file is "/home/saul/projects/NANONETS/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
 \o changeWorkingDir("/home/saul/projects/NANONETS") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2557 1201 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 1201 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "NNFET"
 \a cdsLibManager->libLineEdit->value = "NNFET"
-\a cdsLibManager->cellListBox->value = "nnpfet"
-\a cdsLibManager->cellListBox->value = "nnpfet_array"
-\a cdsLibManager->cellListBox->value = "nnpfet_tb"
+\a cdsLibManager->cellListBox->value = "sensor"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sensor_all_placed"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sensor"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sensor_all_placed"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "sensor_all_placed"
+\a lmgrLogShowPopup("mainListPopup2" 26 10 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "TOP"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "TOP"
+\a cdsLibManager->cellListBox->value = "top_core"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a NewLibShell->QLineEdit2->value = "/home/saul/projects/NANONETS/"
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(2933 232 507 559))
+\a NewLibShell->newLibNameText->value = "TEST_TO"
+\a NewLibShell->newLibOKButton->value = t
+\a NewLibShell->subDialog->value = '("/home/saul/projects/NANONETS" "/home/saul/projects/NANONETS/")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "TEST_TO" at /home/saul/projects/NANONETS/TEST_TO.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TOP"
+\a cdsLibManager->libLineEdit->value = "TOP"
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3033 384 327 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TOP"
+\a cdsLibManager->libLineEdit->value = "TOP"
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a lmgrLogShowPopup("mainListPopup2" 38 7 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a lmgrLogShowPopup("mainListPopup0" 38 244 2 "TEST_TO")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(2873 277 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2984 349 484 367))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "TEST_TO".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Batching session updates...
+\o Deleted library 'TEST_TO'.
+\o Delete of library "TEST_TO" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3033 412 327 134))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 -2003 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "NNFET"
+\a cdsLibManager->libLineEdit->value = "NNFET"
 \a cdsLibManager->cellListBox->value = "sensor"
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->cellLineEdit->value = "sensor"
-\a lmgrLogShowPopup("mainListPopup2" 61 13 2 "layout")
+\a lmgrLogShowPopup("mainListPopup2" 30 7 2 "layout")
 \a cdsLibManager->FileOpenButton->value = t
 \o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
@@ -49,41 +204,184 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(2557 -959 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2557 1201 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2557 -959 960 757))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 1201 960 757))
-\a nrResizeWindow(cdsLibManager list(2557 121 960 757))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sensor_all_placed"
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->newLibNameText->value = ""
+\a nrSetWindowVisibility(NewLibShell->subDialog "show")
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(2933 232 507 559))
+\a NewLibShell->newLibNameText->value = "TEST_TO"
+\a NewLibShell->newLibOKButton->value = t
+\a NewLibShell->subDialog->value = '("/home/saul/projects/NANONETS" "/home/saul/projects/NANONETS/")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "TEST_TO" at /home/saul/projects/NANONETS/TEST_TO.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "NNFET"
+\a cdsLibManager->libLineEdit->value = "NNFET"
+\a cdsLibManager->cellListBox->value = "sensor"
+\a cdsLibManager->cellLineEdit->value = "sensor"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3047 384 327 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "NNFET"
+\a cdsLibManager->libLineEdit->value = "NNFET"
+\a cdsLibManager->cellListBox->value = "sensor"
+\a cdsLibManager->cellLineEdit->value = "sensor"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 1237 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 -923 960 757))
+\a nrResizeWindow(cdsLibManager list(2706 157 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2832 117 960 757))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a lmgrLogShowPopup("mainListPopup2" 39 8 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "sensor"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(2623 156 960 757))
-\a nrResizeWindow(cdsLibManager list(2761 175 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 167 960 757))
-\a _lmgrCloseIconify("cdsLibManager" 1)
 \a cdsLibManager->cellLineEdit->value = "sensor"
-\a nrResizeWindow(cdsLibManager list(2716 -913 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 167 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 1247 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 167 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 -913 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 167 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 -913 960 757))
-\a nrResizeWindow(cdsLibManager list(2716 167 960 757))
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a lmgrLogShowPopup("mainListPopup0" 54 427 2 "TEST_TO")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(2863 267 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2974 339 484 367))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "TEST_TO".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Batching session updates...
+\o Deleted library 'TEST_TO'.
+\o Delete of library "TEST_TO" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3159 372 327 134))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->newLibNameText->value = ""
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(3059 192 507 559))
+\a NewLibShell->newLibNameText->value = "TEST_TO"
+\a nrDialogAccept(NewLibShell)
+\a NewLibShell->newLibOKButton->value = t
+\a NewLibShell->subDialog->value = '("/home/saul/projects/NANONETS" "/home/saul/projects/NANONETS/")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a NewLibShell->newLibNameText->value = "TEST_TO"
+\o Created new library "TEST_TO" at /home/saul/projects/NANONETS/TEST_TO.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3173 344 327 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a nrResizeWindow(cdsLibManager list(2832 1197 960 757))
+\a nrResizeWindow(cdsLibManager list(2832 117 960 757))
+\a nrResizeWindow(cdsLibManager list(2832 1197 960 757))
+\a nrResizeWindow(cdsLibManager list(2832 117 960 757))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TEST_TO"
+\a cdsLibManager->libLineEdit->value = "TEST_TO"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sensor"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "sensor"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2832 1197 960 757))
+\a nrResizeWindow(cdsLibManager list(2832 117 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2832 1197 960 757))
+\a nrResizeWindow(cdsLibManager list(2832 117 960 757))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "top_ring_core_seal"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "top_ring_core_seal"
+\a lmgrLogShowPopup("mainListPopup2" 46 12 2 "layout")
+\a cdsLibManager->FileOpenROButton->value = t
+\o MPS request: open design readonly
+\a nrSetCurrentWindow(cdsLibManager)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a nrSetWindowVisibility(cdsLibManager "hide")

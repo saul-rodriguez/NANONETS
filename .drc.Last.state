@@ -14,7 +14,7 @@ vuiDRCFormTable = '(
 	format  "DFII"
 	vui2dbxor  nil
 	runName  "bravo"
-	runDir  "ASSURA_DRC/sensor"
+	runDir  "ASSURA_DRC/top_ring_core_seal"
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "ac18a6dmca"
@@ -29,8 +29,8 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "NNFET"
-	cell  "sensor"
+	library  "TEST_TO"
+	cell  "top_ring_core_seal"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"

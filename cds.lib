@@ -68,3 +68,6 @@ DEFINE fet_dec_OADB /home/saul/projects/DIGIMP/NNSENSE_FET_SEL/PLACE_ROUTE/OADB/
 DEFINE cur_dec_OADB /home/saul/projects/DIGIMP/NNSENSE_CURRENT_SEL/PLACE_ROUTE/OADB/cur_dec_OADB
 DEFINE TEST_MODEGEN /home/saul/projects/NANONETS/TEST_MODEGEN
 DEFINE PASSIVES /home/saul/projects/NANONETS/PASSIVES
+#Removed by ddDeleteObj: DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
+#Removed by ddDeleteObj: DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
+DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO

@@ -36,7 +36,7 @@ vuiLVSFormTable = '(
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
-	layLibrary  "TOP"
+	layLibrary  "TEST_TO"
 	layCell  "top_ring_core_seal"
 	layView  "layout"
 	layUseExistingNL  nil

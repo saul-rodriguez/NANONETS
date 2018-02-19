@@ -1,0 +1,258 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.6-64b 12/07/2015 20:15 (sjfnl134) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 19-Feb-2018  17:01:52
+User Name : saul
+Host Name : s2424.it.kth.se
+Directory : /home/saul/projects/NANONETS
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-75): Target library 'TEST_TO' is attached to the technology library 'TECH_C18A6'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
+WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
+INFO (XSTRM-217): Reading the layer map file, /home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '15:0' at line number '120'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '15:0' at line number '121'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '17:0' at line number '145'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '17:0' at line number '146'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '19:0' at line number '168'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '19:0' at line number '169'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '21:0' at line number '192'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '21:0' at line number '193'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '25:0' at line number '216'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '25:0' at line number '217'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '31:0' at line number '242'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '31:0' at line number '243'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '45:0' at line number '308'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '45:0' at line number '309'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '46:0' at line number '321'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '46:0' at line number '322'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '48:0' at line number '336'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '48:0' at line number '337'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '53:0' at line number '351'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '53:0' at line number '352'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '252:58' at line number '435'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '252:59' at line number '437'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '8:3' at line number '440'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '62:47' at line number '441'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '9:3' at line number '442'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '62:111' at line number '446'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '62:114' at line number '447'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '252:58' at line number '448'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '252:59' at line number '449'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '252:60' at line number '450'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '62:207' at line number '451'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '63:86' at line number '452'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '104:111' at line number '466'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+WARNING (XSTRM-31): Layer map file '/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap' contains duplicate entries for Stream layer:datatype '104:112' at line number '467'. This record will be ignored. Remove the duplicate entry from the layer map file and then translate again.
+INFO (XSTRM-163): You have not used the viaMap option. If a viaMap file, corresponding techfile or technology library exist, then use the -viaMap option for creating oaVia instances in the Streamed-In library. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design. For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options:
+	library				TEST_TO
+	strmFile			/home/saul/projects/NANONETS/streams/top_ring_core_seal.gds
+	logFile				strmIn.log
+	topCell				top_ring_core_seal
+	view				layout
+	hierDepth			20
+	case				Preserve
+	layerMap			/home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap
+	userSkillFile			/pkg/AMS414/cds/HK_AC18/skill/ams_sdl.il
+	propSeparator			,
+	attachTechFileOfLib				TECH_C18A6
+	skipUndefinedLPP			
+	checkPolygon				
+
+INFO (XSTRM-220): 1. Translating STRUCTURE M1_M2_CDNS_519055963780 as cellView TEST_TO/M1_M2_CDNS_519055963780/layout
+INFO (XSTRM-220): 2. Translating STRUCTURE M2_M3_CDNS_519055963781 as cellView TEST_TO/M2_M3_CDNS_519055963781/layout
+INFO (XSTRM-220): 3. Translating STRUCTURE M2_M3_CDNS_519055963782 as cellView TEST_TO/M2_M3_CDNS_519055963782/layout
+INFO (XSTRM-220): 4. Translating STRUCTURE MT_AM_CDNS_519055963783 as cellView TEST_TO/MT_AM_CDNS_519055963783/layout
+INFO (XSTRM-220): 5. Translating STRUCTURE M4_MT_CDNS_519055963784 as cellView TEST_TO/M4_MT_CDNS_519055963784/layout
+INFO (XSTRM-220): 6. Translating STRUCTURE M3_M4_CDNS_519055963785 as cellView TEST_TO/M3_M4_CDNS_519055963785/layout
+INFO (XSTRM-220): 7. Translating STRUCTURE M3_M4_CDNS_519055963786 as cellView TEST_TO/M3_M4_CDNS_519055963786/layout
+INFO (XSTRM-220): 8. Translating STRUCTURE MT_AM_CDNS_519055963787 as cellView TEST_TO/MT_AM_CDNS_519055963787/layout
+INFO (XSTRM-220): 9. Translating STRUCTURE M3_M4_CDNS_519055963788 as cellView TEST_TO/M3_M4_CDNS_519055963788/layout
+INFO (XSTRM-220): 10. Translating STRUCTURE M2_M3_CDNS_519055963789 as cellView TEST_TO/M2_M3_CDNS_519055963789/layout
+INFO (XSTRM-220): 11. Translating STRUCTURE M4_MT_CDNS_5190559637810 as cellView TEST_TO/M4_MT_CDNS_5190559637810/layout
+INFO (XSTRM-220): 12. Translating STRUCTURE M1_M2_CDNS_5190559637811 as cellView TEST_TO/M1_M2_CDNS_5190559637811/layout
+INFO (XSTRM-220): 13. Translating STRUCTURE M1_M2_CDNS_5190559637812 as cellView TEST_TO/M1_M2_CDNS_5190559637812/layout
+INFO (XSTRM-220): 14. Translating STRUCTURE GNDPAD1V8ALL as cellView TEST_TO/GNDPAD1V8ALL/layout
+INFO (XSTRM-220): 15. Translating STRUCTURE VDDPAD1V8ALL as cellView TEST_TO/VDDPAD1V8ALL/layout
+INFO (XSTRM-220): 16. Translating STRUCTURE PORGEN_1V8 as cellView TEST_TO/PORGEN_1V8/layout
+INFO (XSTRM-220): 17. Translating STRUCTURE IOPAD1V8_3 as cellView TEST_TO/IOPAD1V8_3/layout
+INFO (XSTRM-220): 18. Translating STRUCTURE PWRCUT_DX as cellView TEST_TO/PWRCUT_DX/layout
+INFO (XSTRM-220): 19. Translating STRUCTURE APRIO1V8_00 as cellView TEST_TO/APRIO1V8_00/layout
+INFO (XSTRM-220): 20. Translating STRUCTURE PERI_SPACER_100 as cellView TEST_TO/PERI_SPACER_100/layout
+INFO (XSTRM-220): 21. Translating STRUCTURE PERI_SPACER_5 as cellView TEST_TO/PERI_SPACER_5/layout
+INFO (XSTRM-220): 22. Translating STRUCTURE CORNER as cellView TEST_TO/CORNER/layout
+INFO (XSTRM-220): 23. Translating STRUCTURE PERI_SPACER_20 as cellView TEST_TO/PERI_SPACER_20/layout
+INFO (XSTRM-220): 24. Translating STRUCTURE PERI_SPACER_1 as cellView TEST_TO/PERI_SPACER_1/layout
+INFO (XSTRM-220): 25. Translating STRUCTURE ring as cellView TEST_TO/ring/layout
+INFO (XSTRM-220): 26. Translating STRUCTURE M1_M2_CDNS_5190559637813 as cellView TEST_TO/M1_M2_CDNS_5190559637813/layout
+INFO (XSTRM-220): 27. Translating STRUCTURE M2_M3_CDNS_5190559637814 as cellView TEST_TO/M2_M3_CDNS_5190559637814/layout
+INFO (XSTRM-220): 28. Translating STRUCTURE M3_M4_CDNS_5190559637815 as cellView TEST_TO/M3_M4_CDNS_5190559637815/layout
+INFO (XSTRM-220): 29. Translating STRUCTURE M2_M3_CDNS_5190559637816 as cellView TEST_TO/M2_M3_CDNS_5190559637816/layout
+INFO (XSTRM-220): 30. Translating STRUCTURE M2_M3_CDNS_5190559637817 as cellView TEST_TO/M2_M3_CDNS_5190559637817/layout
+INFO (XSTRM-220): 31. Translating STRUCTURE tdndsx_CDNS_519055963786 as cellView TEST_TO/tdndsx_CDNS_519055963786/layout
+INFO (XSTRM-220): 32. Translating STRUCTURE M1_M2_CDNS_5190559637850 as cellView TEST_TO/M1_M2_CDNS_5190559637850/layout
+INFO (XSTRM-220): 33. Translating STRUCTURE rail1 as cellView TEST_TO/rail1/layout
+INFO (XSTRM-220): 34. Translating STRUCTURE rail2 as cellView TEST_TO/rail2/layout
+INFO (XSTRM-220): 35. Translating STRUCTURE rail4 as cellView TEST_TO/rail4/layout
+INFO (XSTRM-220): 36. Translating STRUCTURE M2_M3_CDNS_5190559637818 as cellView TEST_TO/M2_M3_CDNS_5190559637818/layout
+INFO (XSTRM-220): 37. Translating STRUCTURE M2_M3_CDNS_5190559637819 as cellView TEST_TO/M2_M3_CDNS_5190559637819/layout
+INFO (XSTRM-220): 38. Translating STRUCTURE M2_M3_CDNS_5190559637820 as cellView TEST_TO/M2_M3_CDNS_5190559637820/layout
+INFO (XSTRM-220): 39. Translating STRUCTURE M2_M3_CDNS_5190559637821 as cellView TEST_TO/M2_M3_CDNS_5190559637821/layout
+INFO (XSTRM-220): 40. Translating STRUCTURE M1_M2_CDNS_5190559637822 as cellView TEST_TO/M1_M2_CDNS_5190559637822/layout
+INFO (XSTRM-220): 41. Translating STRUCTURE M2_M3_CDNS_5190559637823 as cellView TEST_TO/M2_M3_CDNS_5190559637823/layout
+INFO (XSTRM-220): 42. Translating STRUCTURE M1_M2_CDNS_5190559637824 as cellView TEST_TO/M1_M2_CDNS_5190559637824/layout
+INFO (XSTRM-220): 43. Translating STRUCTURE M1_M2_CDNS_5190559637825 as cellView TEST_TO/M1_M2_CDNS_5190559637825/layout
+INFO (XSTRM-220): 44. Translating STRUCTURE M1_M2_CDNS_5190559637826 as cellView TEST_TO/M1_M2_CDNS_5190559637826/layout
+INFO (XSTRM-220): 45. Translating STRUCTURE M2_M3_CDNS_5190559637827 as cellView TEST_TO/M2_M3_CDNS_5190559637827/layout
+INFO (XSTRM-220): 46. Translating STRUCTURE M2_M3_CDNS_5190559637828 as cellView TEST_TO/M2_M3_CDNS_5190559637828/layout
+INFO (XSTRM-220): 47. Translating STRUCTURE M1_M2_CDNS_5190559637829 as cellView TEST_TO/M1_M2_CDNS_5190559637829/layout
+INFO (XSTRM-220): 48. Translating STRUCTURE M2_M3_CDNS_5190559637830 as cellView TEST_TO/M2_M3_CDNS_5190559637830/layout
+INFO (XSTRM-220): 49. Translating STRUCTURE M2_M3_CDNS_5190559637831 as cellView TEST_TO/M2_M3_CDNS_5190559637831/layout
+INFO (XSTRM-220): 50. Translating STRUCTURE M1_M2_CDNS_5190559637832 as cellView TEST_TO/M1_M2_CDNS_5190559637832/layout
+INFO (XSTRM-220): 51. Translating STRUCTURE M1_M2_CDNS_5190559637833 as cellView TEST_TO/M1_M2_CDNS_5190559637833/layout
+INFO (XSTRM-220): 52. Translating STRUCTURE M2_M3_CDNS_5190559637834 as cellView TEST_TO/M2_M3_CDNS_5190559637834/layout
+INFO (XSTRM-220): 53. Translating STRUCTURE M1_M2_CDNS_5190559637835 as cellView TEST_TO/M1_M2_CDNS_5190559637835/layout
+INFO (XSTRM-220): 54. Translating STRUCTURE M2_M3_CDNS_5190559637836 as cellView TEST_TO/M2_M3_CDNS_5190559637836/layout
+INFO (XSTRM-220): 55. Translating STRUCTURE M3_M4_CDNS_5190559637837 as cellView TEST_TO/M3_M4_CDNS_5190559637837/layout
+INFO (XSTRM-220): 56. Translating STRUCTURE M3_M4_CDNS_5190559637838 as cellView TEST_TO/M3_M4_CDNS_5190559637838/layout
+INFO (XSTRM-220): 57. Translating STRUCTURE M3_M4_CDNS_5190559637839 as cellView TEST_TO/M3_M4_CDNS_5190559637839/layout
+INFO (XSTRM-220): 58. Translating STRUCTURE M3_M4_CDNS_5190559637840 as cellView TEST_TO/M3_M4_CDNS_5190559637840/layout
+INFO (XSTRM-220): 59. Translating STRUCTURE M3_M4_CDNS_5190559637841 as cellView TEST_TO/M3_M4_CDNS_5190559637841/layout
+INFO (XSTRM-220): 60. Translating STRUCTURE M2_M3_CDNS_5190559637842 as cellView TEST_TO/M2_M3_CDNS_5190559637842/layout
+INFO (XSTRM-220): 61. Translating STRUCTURE M3_M4_CDNS_5190559637843 as cellView TEST_TO/M3_M4_CDNS_5190559637843/layout
+INFO (XSTRM-220): 62. Translating STRUCTURE NOR2XL as cellView TEST_TO/NOR2XL/layout
+INFO (XSTRM-220): 63. Translating STRUCTURE INVXL as cellView TEST_TO/INVXL/layout
+INFO (XSTRM-220): 64. Translating STRUCTURE NAND2XL as cellView TEST_TO/NAND2XL/layout
+INFO (XSTRM-220): 65. Translating STRUCTURE OR2X3 as cellView TEST_TO/OR2X3/layout
+INFO (XSTRM-220): 66. Translating STRUCTURE CLKINVX1 as cellView TEST_TO/CLKINVX1/layout
+INFO (XSTRM-220): 67. Translating STRUCTURE CLKBUFX3 as cellView TEST_TO/CLKBUFX3/layout
+INFO (XSTRM-220): 68. Translating STRUCTURE LOGIC1 as cellView TEST_TO/LOGIC1/layout
+INFO (XSTRM-220): 69. Translating STRUCTURE FILLCAPX4 as cellView TEST_TO/FILLCAPX4/layout
+INFO (XSTRM-220): 70. Translating STRUCTURE FILLCAPX16 as cellView TEST_TO/FILLCAPX16/layout
+INFO (XSTRM-220): 71. Translating STRUCTURE FILLCAPX32 as cellView TEST_TO/FILLCAPX32/layout
+INFO (XSTRM-220): 72. Translating STRUCTURE FILLCAPX8 as cellView TEST_TO/FILLCAPX8/layout
+INFO (XSTRM-220): 73. Translating STRUCTURE FILLCELLX2 as cellView TEST_TO/FILLCELLX2/layout
+INFO (XSTRM-220): 74. Translating STRUCTURE FILLCELLX4 as cellView TEST_TO/FILLCELLX4/layout
+INFO (XSTRM-220): 75. Translating STRUCTURE FILLCELLX1 as cellView TEST_TO/FILLCELLX1/layout
+INFO (XSTRM-220): 76. Translating STRUCTURE FILLCELLX32 as cellView TEST_TO/FILLCELLX32/layout
+INFO (XSTRM-220): 77. Translating STRUCTURE FILLCELLX8 as cellView TEST_TO/FILLCELLX8/layout
+INFO (XSTRM-220): 78. Translating STRUCTURE cur_dec as cellView TEST_TO/cur_dec/layout
+INFO (XSTRM-220): 79. Translating STRUCTURE M1_M2_CDNS_5190559637844 as cellView TEST_TO/M1_M2_CDNS_5190559637844/layout
+INFO (XSTRM-220): 80. Translating STRUCTURE M1_M2_CDNS_5190559637845 as cellView TEST_TO/M1_M2_CDNS_5190559637845/layout
+INFO (XSTRM-220): 81. Translating STRUCTURE M1_M2_CDNS_5190559637846 as cellView TEST_TO/M1_M2_CDNS_5190559637846/layout
+INFO (XSTRM-220): 82. Translating STRUCTURE M2_M3_CDNS_5190559637847 as cellView TEST_TO/M2_M3_CDNS_5190559637847/layout
+INFO (XSTRM-220): 83. Translating STRUCTURE M1_M2_CDNS_5190559637848 as cellView TEST_TO/M1_M2_CDNS_5190559637848/layout
+INFO (XSTRM-220): 84. Translating STRUCTURE M1_M2_CDNS_5190559637849 as cellView TEST_TO/M1_M2_CDNS_5190559637849/layout
+INFO (XSTRM-220): 85. Translating STRUCTURE mosvartx_CDNS_519055963780 as cellView TEST_TO/mosvartx_CDNS_519055963780/layout
+INFO (XSTRM-220): 86. Translating STRUCTURE nfetx_CDNS_519055963781 as cellView TEST_TO/nfetx_CDNS_519055963781/layout
+INFO (XSTRM-220): 87. Translating STRUCTURE nfetx_CDNS_519055963782 as cellView TEST_TO/nfetx_CDNS_519055963782/layout
+INFO (XSTRM-220): 88. Translating STRUCTURE pfetx_CDNS_519055963783 as cellView TEST_TO/pfetx_CDNS_519055963783/layout
+INFO (XSTRM-220): 89. Translating STRUCTURE mosvartx_CDNS_519055963784 as cellView TEST_TO/mosvartx_CDNS_519055963784/layout
+INFO (XSTRM-220): 90. Translating STRUCTURE pfetx_CDNS_519055963785 as cellView TEST_TO/pfetx_CDNS_519055963785/layout
+INFO (XSTRM-220): 91. Translating STRUCTURE dac_cell as cellView TEST_TO/dac_cell/layout
+INFO (XSTRM-220): 92. Translating STRUCTURE dac_bin_cur as cellView TEST_TO/dac_bin_cur/layout
+INFO (XSTRM-220): 93. Translating STRUCTURE M1_M2_CDNS_5190559637851 as cellView TEST_TO/M1_M2_CDNS_5190559637851/layout
+INFO (XSTRM-220): 94. Translating STRUCTURE M1_M2_CDNS_5190559637852 as cellView TEST_TO/M1_M2_CDNS_5190559637852/layout
+INFO (XSTRM-220): 95. Translating STRUCTURE M2_M3_CDNS_5190559637853 as cellView TEST_TO/M2_M3_CDNS_5190559637853/layout
+INFO (XSTRM-220): 96. Translating STRUCTURE M1_M2_CDNS_5190559637854 as cellView TEST_TO/M1_M2_CDNS_5190559637854/layout
+INFO (XSTRM-220): 97. Translating STRUCTURE mosvartx_CDNS_519055963787 as cellView TEST_TO/mosvartx_CDNS_519055963787/layout
+INFO (XSTRM-220): 98. Translating STRUCTURE nfetx_CDNS_519055963788 as cellView TEST_TO/nfetx_CDNS_519055963788/layout
+INFO (XSTRM-220): 99. Translating STRUCTURE cur_sel as cellView TEST_TO/cur_sel/layout
+WARNING (XSTRM-207): Path length 0.77 at location (64,101) on layer 15 is less than 1/2 of path width 4.20. The path would be created with the dimensions in Stream file. To resolve this, fix the source from which the Stream file is generated and then run the translator again with the new Stream File.
+INFO (XSTRM-220): 100. Translating STRUCTURE current_dac_ts as cellView TEST_TO/current_dac_ts/layout
+INFO (XSTRM-220): 101. Translating STRUCTURE M1_M2_CDNS_5190559637855 as cellView TEST_TO/M1_M2_CDNS_5190559637855/layout
+INFO (XSTRM-220): 102. Translating STRUCTURE M1_M2_CDNS_5190559637856 as cellView TEST_TO/M1_M2_CDNS_5190559637856/layout
+INFO (XSTRM-220): 103. Translating STRUCTURE AO21X3 as cellView TEST_TO/AO21X3/layout
+INFO (XSTRM-220): 104. Translating STRUCTURE DFCX1 as cellView TEST_TO/DFCX1/layout
+INFO (XSTRM-220): 105. Translating STRUCTURE NAND3X1 as cellView TEST_TO/NAND3X1/layout
+INFO (XSTRM-220): 106. Translating STRUCTURE DFCX6 as cellView TEST_TO/DFCX6/layout
+INFO (XSTRM-220): 107. Translating STRUCTURE DFPX3 as cellView TEST_TO/DFPX3/layout
+INFO (XSTRM-220): 108. Translating STRUCTURE CLKBUFX6 as cellView TEST_TO/CLKBUFX6/layout
+INFO (XSTRM-220): 109. Translating STRUCTURE XOR2X1 as cellView TEST_TO/XOR2X1/layout
+INFO (XSTRM-220): 110. Translating STRUCTURE NOR2X6 as cellView TEST_TO/NOR2X6/layout
+INFO (XSTRM-220): 111. Translating STRUCTURE CLKBUFX2 as cellView TEST_TO/CLKBUFX2/layout
+INFO (XSTRM-220): 112. Translating STRUCTURE FILLCELLX16 as cellView TEST_TO/FILLCELLX16/layout
+INFO (XSTRM-220): 113. Translating STRUCTURE nnspc as cellView TEST_TO/nnspc/layout
+INFO (XSTRM-220): 114. Translating STRUCTURE M2_M3_CDNS_5190559637857 as cellView TEST_TO/M2_M3_CDNS_5190559637857/layout
+INFO (XSTRM-220): 115. Translating STRUCTURE M2_M3_CDNS_5190559637858 as cellView TEST_TO/M2_M3_CDNS_5190559637858/layout
+INFO (XSTRM-220): 116. Translating STRUCTURE M1_M2_CDNS_5190559637859 as cellView TEST_TO/M1_M2_CDNS_5190559637859/layout
+INFO (XSTRM-220): 117. Translating STRUCTURE M2_M3_CDNS_5190559637860 as cellView TEST_TO/M2_M3_CDNS_5190559637860/layout
+INFO (XSTRM-220): 118. Translating STRUCTURE M1_M2_CDNS_5190559637861 as cellView TEST_TO/M1_M2_CDNS_5190559637861/layout
+INFO (XSTRM-220): 119. Translating STRUCTURE M1_M2_CDNS_5190559637862 as cellView TEST_TO/M1_M2_CDNS_5190559637862/layout
+INFO (XSTRM-220): 120. Translating STRUCTURE M1_M2_CDNS_5190559637863 as cellView TEST_TO/M1_M2_CDNS_5190559637863/layout
+INFO (XSTRM-220): 121. Translating STRUCTURE M2_M3_CDNS_5190559637864 as cellView TEST_TO/M2_M3_CDNS_5190559637864/layout
+INFO (XSTRM-220): 122. Translating STRUCTURE M1_M2_CDNS_5190559637865 as cellView TEST_TO/M1_M2_CDNS_5190559637865/layout
+INFO (XSTRM-220): 123. Translating STRUCTURE MT_AM_CDNS_5190559637866 as cellView TEST_TO/MT_AM_CDNS_5190559637866/layout
+INFO (XSTRM-220): 124. Translating STRUCTURE M4_MT_CDNS_5190559637867 as cellView TEST_TO/M4_MT_CDNS_5190559637867/layout
+INFO (XSTRM-220): 125. Translating STRUCTURE M3_M4_CDNS_5190559637868 as cellView TEST_TO/M3_M4_CDNS_5190559637868/layout
+INFO (XSTRM-220): 126. Translating STRUCTURE M2_M3_CDNS_5190559637869 as cellView TEST_TO/M2_M3_CDNS_5190559637869/layout
+INFO (XSTRM-220): 127. Translating STRUCTURE M1_M2_CDNS_5190559637870 as cellView TEST_TO/M1_M2_CDNS_5190559637870/layout
+INFO (XSTRM-220): 128. Translating STRUCTURE M4_MT_CDNS_5190559637871 as cellView TEST_TO/M4_MT_CDNS_5190559637871/layout
+INFO (XSTRM-220): 129. Translating STRUCTURE pfetx_CDNS_519055963789 as cellView TEST_TO/pfetx_CDNS_519055963789/layout
+INFO (XSTRM-220): 130. Translating STRUCTURE nfetx_CDNS_5190559637810 as cellView TEST_TO/nfetx_CDNS_5190559637810/layout
+INFO (XSTRM-220): 131. Translating STRUCTURE cmimx_CDNS_5190559637811 as cellView TEST_TO/cmimx_CDNS_5190559637811/layout
+INFO (XSTRM-220): 132. Translating STRUCTURE pfetx_CDNS_5190559637812 as cellView TEST_TO/pfetx_CDNS_5190559637812/layout
+INFO (XSTRM-220): 133. Translating STRUCTURE nfetx_CDNS_5190559637813 as cellView TEST_TO/nfetx_CDNS_5190559637813/layout
+INFO (XSTRM-220): 134. Translating STRUCTURE pfetx_CDNS_5190559637814 as cellView TEST_TO/pfetx_CDNS_5190559637814/layout
+INFO (XSTRM-220): 135. Translating STRUCTURE nfetx_CDNS_5190559637815 as cellView TEST_TO/nfetx_CDNS_5190559637815/layout
+INFO (XSTRM-220): 136. Translating STRUCTURE mosvartx_CDNS_5190559637816 as cellView TEST_TO/mosvartx_CDNS_5190559637816/layout
+INFO (XSTRM-220): 137. Translating STRUCTURE oprrpresx_CDNS_5190559637817 as cellView TEST_TO/oprrpresx_CDNS_5190559637817/layout
+INFO (XSTRM-220): 138. Translating STRUCTURE mosvartx_CDNS_5190559637818 as cellView TEST_TO/mosvartx_CDNS_5190559637818/layout
+INFO (XSTRM-220): 139. Translating STRUCTURE amplifier as cellView TEST_TO/amplifier/layout
+INFO (XSTRM-220): 140. Translating STRUCTURE opppcresx_CDNS_5190559637819 as cellView TEST_TO/opppcresx_CDNS_5190559637819/layout
+INFO (XSTRM-220): 141. Translating STRUCTURE buffer as cellView TEST_TO/buffer/layout
+INFO (XSTRM-220): 142. Translating STRUCTURE pfetx_CDNS_5190559637820 as cellView TEST_TO/pfetx_CDNS_5190559637820/layout
+INFO (XSTRM-220): 143. Translating STRUCTURE M2_M3_CDNS_5190559637872 as cellView TEST_TO/M2_M3_CDNS_5190559637872/layout
+INFO (XSTRM-220): 144. Translating STRUCTURE M3_M4_CDNS_5190559637873 as cellView TEST_TO/M3_M4_CDNS_5190559637873/layout
+INFO (XSTRM-220): 145. Translating STRUCTURE M1_M2_CDNS_5190559637874 as cellView TEST_TO/M1_M2_CDNS_5190559637874/layout
+INFO (XSTRM-220): 146. Translating STRUCTURE M1_M2_CDNS_5190559637875 as cellView TEST_TO/M1_M2_CDNS_5190559637875/layout
+INFO (XSTRM-220): 147. Translating STRUCTURE M1_M2_CDNS_5190559637876 as cellView TEST_TO/M1_M2_CDNS_5190559637876/layout
+INFO (XSTRM-220): 148. Translating STRUCTURE M1_M2_CDNS_5190559637877 as cellView TEST_TO/M1_M2_CDNS_5190559637877/layout
+INFO (XSTRM-220): 149. Translating STRUCTURE INVX1 as cellView TEST_TO/INVX1/layout
+INFO (XSTRM-220): 150. Translating STRUCTURE switch as cellView TEST_TO/switch/layout
+INFO (XSTRM-220): 151. Translating STRUCTURE fet_sel as cellView TEST_TO/fet_sel/layout
+INFO (XSTRM-220): 152. Translating STRUCTURE M3_M4_CDNS_5190559637878 as cellView TEST_TO/M3_M4_CDNS_5190559637878/layout
+INFO (XSTRM-220): 153. Translating STRUCTURE M3_M4_CDNS_5190559637879 as cellView TEST_TO/M3_M4_CDNS_5190559637879/layout
+INFO (XSTRM-220): 154. Translating STRUCTURE M4_MT_CDNS_5190559637880 as cellView TEST_TO/M4_MT_CDNS_5190559637880/layout
+INFO (XSTRM-220): 155. Translating STRUCTURE M4_MT_CDNS_5190559637881 as cellView TEST_TO/M4_MT_CDNS_5190559637881/layout
+INFO (XSTRM-220): 156. Translating STRUCTURE M4_MT_CDNS_5190559637882 as cellView TEST_TO/M4_MT_CDNS_5190559637882/layout
+INFO (XSTRM-220): 157. Translating STRUCTURE M2_M3_CDNS_5190559637883 as cellView TEST_TO/M2_M3_CDNS_5190559637883/layout
+INFO (XSTRM-220): 158. Translating STRUCTURE CLKBUFX4 as cellView TEST_TO/CLKBUFX4/layout
+INFO (XSTRM-220): 159. Translating STRUCTURE AND2X3 as cellView TEST_TO/AND2X3/layout
+INFO (XSTRM-220): 160. Translating STRUCTURE fet_dec as cellView TEST_TO/fet_dec/layout
+INFO (XSTRM-220): 161. Translating STRUCTURE tdndsx_CDNS_5190559637821 as cellView TEST_TO/tdndsx_CDNS_5190559637821/layout
+INFO (XSTRM-220): 162. Translating STRUCTURE sensor_switch as cellView TEST_TO/sensor_switch/layout
+INFO (XSTRM-220): 163. Translating STRUCTURE M1_M2_CDNS_5190559637884 as cellView TEST_TO/M1_M2_CDNS_5190559637884/layout
+INFO (XSTRM-220): 164. Translating STRUCTURE M1_M2_CDNS_5190559637885 as cellView TEST_TO/M1_M2_CDNS_5190559637885/layout
+INFO (XSTRM-220): 165. Translating STRUCTURE M2_M3_CDNS_5190559637886 as cellView TEST_TO/M2_M3_CDNS_5190559637886/layout
+INFO (XSTRM-220): 166. Translating STRUCTURE mosvartx_CDNS_5190559637822 as cellView TEST_TO/mosvartx_CDNS_5190559637822/layout
+INFO (XSTRM-220): 167. Translating STRUCTURE bias as cellView TEST_TO/bias/layout
+INFO (XSTRM-220): 168. Translating STRUCTURE top_core as cellView TEST_TO/top_core/layout
+INFO (XSTRM-220): 169. Translating STRUCTURE sensor as cellView TEST_TO/sensor/layout
+INFO (XSTRM-220): 170. Translating STRUCTURE sensor_group_8 as cellView TEST_TO/sensor_group_8/layout
+INFO (XSTRM-220): 171. Translating STRUCTURE sensor_all_placed as cellView TEST_TO/sensor_all_placed/layout
+INFO (XSTRM-220): 172. Translating STRUCTURE top_ring_core as cellView TEST_TO/top_ring_core/layout
+WARNING (XSTRM-207): Path length 6.26 at location (3635,6241) on layer 123 is less than 1/2 of path width 15.00. The path would be created with the dimensions in Stream file. To resolve this, fix the source from which the Stream file is generated and then run the translator again with the new Stream File.
+INFO (XSTRM-220): 173. Translating STRUCTURE Image_CDNS_5190559637823 as cellView TEST_TO/Image_CDNS_5190559637823/layout
+INFO (XSTRM-220): 174. Translating STRUCTURE logo as cellView TEST_TO/logo/layout
+INFO (XSTRM-220): 175. Translating STRUCTURE top_ring_core_seal as cellView TEST_TO/top_ring_core_seal/layout
+
+Summary of Objects Translated:
+	Instances:                              3450
+	Arrays:                                 0
+	Polygons:                               633
+	Paths:                                  3845
+	PathSegs:                               0
+	Rectangles:                             568519
+	Text:                                   2725
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  175
+
+Elapsed Time: 3.4s   User Time: 0.9s   CPU Time: 0.2s   Peak VM: 15456KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '38' warning(s) found.

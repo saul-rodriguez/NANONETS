@@ -1,0 +1,234 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.6-64b 12/07/2015 20:15 (sjfnl008) $
+          : sub-version  IC6.1.6-64b.500.14 
+Started at: 19-Feb-2018  16:59:23
+User Name : saul
+Host Name : s2424.it.kth.se
+Directory : /home/saul/projects/NANONETS
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, /home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 TOP
+strmFile                                /home/saul/projects/NANONETS/streams/top_ring_core_seal.gds
+topCell                                 top_ring_core_seal
+view                                    layout
+logFile                                 strmOut.log
+techLib                                 TECH_C18A6
+maxVertices                             1024
+layerMap                                /home/saul/projects/NANONETS/TECH_C18A6_KTH.layermap
+userSkillFile                           /pkg/AMS414/cds/HK_AC18/skill/ams_sdl.il
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_519055963780
+INFO (XSTRM-223): 2. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_519055963781
+INFO (XSTRM-223): 3. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_519055963782
+INFO (XSTRM-223): 4. Translating cellView TECH_C18A6/MT_AM/layout as STRUCTURE MT_AM_CDNS_519055963783
+INFO (XSTRM-223): 5. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_519055963784
+INFO (XSTRM-223): 6. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_519055963785
+INFO (XSTRM-223): 7. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_519055963786
+INFO (XSTRM-223): 8. Translating cellView TECH_C18A6/MT_AM/layout as STRUCTURE MT_AM_CDNS_519055963787
+INFO (XSTRM-223): 9. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_519055963788
+INFO (XSTRM-223): 10. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_519055963789
+INFO (XSTRM-223): 11. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637810
+INFO (XSTRM-223): 12. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637811
+INFO (XSTRM-223): 13. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637812
+INFO (XSTRM-223): 14. Translating cellView IOLIB_6AM/GNDPAD1V8ALL/layout as STRUCTURE GNDPAD1V8ALL
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 15. Translating cellView IOLIB_6AM/VDDPAD1V8ALL/layout as STRUCTURE VDDPAD1V8ALL
+INFO (XSTRM-223): 16. Translating cellView IOLIB_6AM/PORGEN_1V8/layout as STRUCTURE PORGEN_1V8
+INFO (XSTRM-223): 17. Translating cellView IOLIB_6AM/IOPAD1V8_3/layout as STRUCTURE IOPAD1V8_3
+INFO (XSTRM-223): 18. Translating cellView IOLIB_6AM/PWRCUT_DX/layout as STRUCTURE PWRCUT_DX
+INFO (XSTRM-223): 19. Translating cellView IOLIB_6AM/APRIO1V8_00/layout as STRUCTURE APRIO1V8_00
+INFO (XSTRM-223): 20. Translating cellView IOLIB_6AM/PERI_SPACER_100/layout as STRUCTURE PERI_SPACER_100
+INFO (XSTRM-223): 21. Translating cellView IOLIB_6AM/PERI_SPACER_5/layout as STRUCTURE PERI_SPACER_5
+INFO (XSTRM-223): 22. Translating cellView IOLIB_6AM/CORNER/layout as STRUCTURE CORNER
+INFO (XSTRM-223): 23. Translating cellView IOLIB_6AM/PERI_SPACER_20/layout as STRUCTURE PERI_SPACER_20
+INFO (XSTRM-223): 24. Translating cellView IOLIB_6AM/PERI_SPACER_1/layout as STRUCTURE PERI_SPACER_1
+INFO (XSTRM-223): 25. Translating cellView TOP/ring/layout as STRUCTURE ring
+INFO (XSTRM-223): 26. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637813
+INFO (XSTRM-223): 27. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637814
+INFO (XSTRM-223): 28. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637815
+INFO (XSTRM-223): 29. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637816
+INFO (XSTRM-223): 30. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637817
+INFO (XSTRM-223): 31. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637818
+INFO (XSTRM-223): 32. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637819
+INFO (XSTRM-223): 33. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637820
+INFO (XSTRM-223): 34. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637821
+INFO (XSTRM-223): 35. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637822
+INFO (XSTRM-223): 36. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637823
+INFO (XSTRM-223): 37. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637824
+INFO (XSTRM-223): 38. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637825
+INFO (XSTRM-223): 39. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637826
+INFO (XSTRM-223): 40. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637827
+INFO (XSTRM-223): 41. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637828
+INFO (XSTRM-223): 42. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637829
+INFO (XSTRM-223): 43. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637830
+INFO (XSTRM-223): 44. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637831
+INFO (XSTRM-223): 45. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637832
+INFO (XSTRM-223): 46. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637833
+INFO (XSTRM-223): 47. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637834
+INFO (XSTRM-223): 48. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637835
+INFO (XSTRM-223): 49. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637836
+INFO (XSTRM-223): 50. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637837
+INFO (XSTRM-223): 51. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637838
+INFO (XSTRM-223): 52. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637839
+INFO (XSTRM-223): 53. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637840
+INFO (XSTRM-223): 54. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637841
+INFO (XSTRM-223): 55. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637842
+INFO (XSTRM-223): 56. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637843
+INFO (XSTRM-223): 57. Translating cellView CORELIB/NOR2XL/layout as STRUCTURE NOR2XL
+INFO (XSTRM-223): 58. Translating cellView CORELIB/INVXL/layout as STRUCTURE INVXL
+INFO (XSTRM-223): 59. Translating cellView CORELIB/NAND2XL/layout as STRUCTURE NAND2XL
+INFO (XSTRM-223): 60. Translating cellView CORELIB/OR2X3/layout as STRUCTURE OR2X3
+INFO (XSTRM-223): 61. Translating cellView CORELIB/CLKINVX1/layout as STRUCTURE CLKINVX1
+INFO (XSTRM-223): 62. Translating cellView CORELIB/CLKBUFX3/layout as STRUCTURE CLKBUFX3
+INFO (XSTRM-223): 63. Translating cellView CORELIB/LOGIC1/layout as STRUCTURE LOGIC1
+INFO (XSTRM-223): 64. Translating cellView CORELIB/FILLCAPX4/layout as STRUCTURE FILLCAPX4
+INFO (XSTRM-223): 65. Translating cellView CORELIB/FILLCAPX16/layout as STRUCTURE FILLCAPX16
+INFO (XSTRM-223): 66. Translating cellView CORELIB/FILLCAPX32/layout as STRUCTURE FILLCAPX32
+INFO (XSTRM-223): 67. Translating cellView CORELIB/FILLCAPX8/layout as STRUCTURE FILLCAPX8
+INFO (XSTRM-223): 68. Translating cellView CORELIB/FILLCELLX2/layout as STRUCTURE FILLCELLX2
+INFO (XSTRM-223): 69. Translating cellView CORELIB/FILLCELLX4/layout as STRUCTURE FILLCELLX4
+INFO (XSTRM-223): 70. Translating cellView CORELIB/FILLCELLX1/layout as STRUCTURE FILLCELLX1
+INFO (XSTRM-223): 71. Translating cellView CORELIB/FILLCELLX32/layout as STRUCTURE FILLCELLX32
+INFO (XSTRM-223): 72. Translating cellView CORELIB/FILLCELLX8/layout as STRUCTURE FILLCELLX8
+INFO (XSTRM-223): 73. Translating cellView DIG_CUR_DEC/cur_dec/layout as STRUCTURE cur_dec
+INFO (XSTRM-223): 74. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637844
+INFO (XSTRM-223): 75. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637845
+INFO (XSTRM-223): 76. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637846
+INFO (XSTRM-223): 77. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637847
+INFO (XSTRM-223): 78. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637848
+INFO (XSTRM-223): 79. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637849
+INFO (XSTRM-223): 80. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_519055963780
+INFO (XSTRM-223): 81. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_519055963781
+INFO (XSTRM-223): 82. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_519055963782
+INFO (XSTRM-223): 83. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_519055963783
+INFO (XSTRM-223): 84. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_519055963784
+INFO (XSTRM-223): 85. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_519055963785
+INFO (XSTRM-223): 86. Translating cellView cmrf7sf/tdndsx/layout as STRUCTURE tdndsx_CDNS_519055963786
+INFO (XSTRM-223): 87. Translating cellView CURRENT_DAC/dac_cell/layout as STRUCTURE dac_cell
+INFO (XSTRM-223): 88. Translating cellView CURRENT_DAC/dac_bin_cur/layout as STRUCTURE dac_bin_cur
+INFO (XSTRM-223): 89. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637850
+INFO (XSTRM-223): 90. Translating cellView PASSIVES/rail1/layout as STRUCTURE rail1
+INFO (XSTRM-223): 91. Translating cellView PASSIVES/rail2/layout as STRUCTURE rail2
+INFO (XSTRM-223): 92. Translating cellView PASSIVES/rail4/layout as STRUCTURE rail4
+INFO (XSTRM-223): 93. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637851
+INFO (XSTRM-223): 94. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637852
+INFO (XSTRM-223): 95. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637853
+INFO (XSTRM-223): 96. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637854
+INFO (XSTRM-223): 97. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_519055963787
+INFO (XSTRM-223): 98. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_519055963788
+INFO (XSTRM-223): 99. Translating cellView CURRENT_DAC/cur_sel/layout as STRUCTURE cur_sel
+WARNING (XSTRM-206): Path length 0.77 at location (64,101) on layer 17 is less than 1/2 of path width 4.20. The path would be written in Stream file as is. To resolve this, fix the reported path in the input design and run the translator again.
+INFO (XSTRM-223): 100. Translating cellView CURRENT_DAC/current_dac_ts/layout as STRUCTURE current_dac_ts
+INFO (XSTRM-223): 101. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637855
+INFO (XSTRM-223): 102. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637856
+INFO (XSTRM-223): 103. Translating cellView CORELIB/AO21X3/layout as STRUCTURE AO21X3
+INFO (XSTRM-223): 104. Translating cellView CORELIB/DFCX1/layout as STRUCTURE DFCX1
+INFO (XSTRM-223): 105. Translating cellView CORELIB/NAND3X1/layout as STRUCTURE NAND3X1
+INFO (XSTRM-223): 106. Translating cellView CORELIB/DFCX6/layout as STRUCTURE DFCX6
+INFO (XSTRM-223): 107. Translating cellView CORELIB/DFPX3/layout as STRUCTURE DFPX3
+INFO (XSTRM-223): 108. Translating cellView CORELIB/CLKBUFX6/layout as STRUCTURE CLKBUFX6
+INFO (XSTRM-223): 109. Translating cellView CORELIB/XOR2X1/layout as STRUCTURE XOR2X1
+INFO (XSTRM-223): 110. Translating cellView CORELIB/NOR2X6/layout as STRUCTURE NOR2X6
+INFO (XSTRM-223): 111. Translating cellView CORELIB/CLKBUFX2/layout as STRUCTURE CLKBUFX2
+INFO (XSTRM-223): 112. Translating cellView CORELIB/FILLCELLX16/layout as STRUCTURE FILLCELLX16
+INFO (XSTRM-223): 113. Translating cellView SPC/nnspc/layout as STRUCTURE nnspc
+INFO (XSTRM-223): 114. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637857
+INFO (XSTRM-223): 115. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637858
+INFO (XSTRM-223): 116. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637859
+INFO (XSTRM-223): 117. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637860
+INFO (XSTRM-223): 118. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637861
+INFO (XSTRM-223): 119. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637862
+INFO (XSTRM-223): 120. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637863
+INFO (XSTRM-223): 121. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637864
+INFO (XSTRM-223): 122. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637865
+INFO (XSTRM-223): 123. Translating cellView TECH_C18A6/MT_AM/layout as STRUCTURE MT_AM_CDNS_5190559637866
+INFO (XSTRM-223): 124. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637867
+INFO (XSTRM-223): 125. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637868
+INFO (XSTRM-223): 126. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637869
+INFO (XSTRM-223): 127. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637870
+INFO (XSTRM-223): 128. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637871
+INFO (XSTRM-223): 129. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_519055963789
+INFO (XSTRM-223): 130. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_5190559637810
+INFO (XSTRM-223): 131. Translating cellView cmrf7sf/cmimx/layout as STRUCTURE cmimx_CDNS_5190559637811
+INFO (XSTRM-223): 132. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_5190559637812
+INFO (XSTRM-223): 133. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_5190559637813
+INFO (XSTRM-223): 134. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_5190559637814
+INFO (XSTRM-223): 135. Translating cellView cmrf7sf/nfetx/layout as STRUCTURE nfetx_CDNS_5190559637815
+INFO (XSTRM-223): 136. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_5190559637816
+INFO (XSTRM-223): 137. Translating cellView cmrf7sf/oprrpresx/layout as STRUCTURE oprrpresx_CDNS_5190559637817
+INFO (XSTRM-223): 138. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_5190559637818
+INFO (XSTRM-223): 139. Translating cellView AMPLIFIER/amplifier/layout as STRUCTURE amplifier
+INFO (XSTRM-223): 140. Translating cellView cmrf7sf/opppcresx/layout as STRUCTURE opppcresx_CDNS_5190559637819
+INFO (XSTRM-223): 141. Translating cellView AMPLIFIER/buffer/layout as STRUCTURE buffer
+INFO (XSTRM-223): 142. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637872
+INFO (XSTRM-223): 143. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637873
+INFO (XSTRM-223): 144. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637874
+INFO (XSTRM-223): 145. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637875
+INFO (XSTRM-223): 146. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637876
+INFO (XSTRM-223): 147. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637877
+INFO (XSTRM-223): 148. Translating cellView cmrf7sf/pfetx/layout as STRUCTURE pfetx_CDNS_5190559637820
+INFO (XSTRM-223): 149. Translating cellView CORELIB/INVX1/layout as STRUCTURE INVX1
+INFO (XSTRM-223): 150. Translating cellView SENSOR_SWITCH/switch/layout as STRUCTURE switch
+INFO (XSTRM-223): 151. Translating cellView SENSOR_SWITCH/fet_sel/layout as STRUCTURE fet_sel
+INFO (XSTRM-223): 152. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637878
+INFO (XSTRM-223): 153. Translating cellView TECH_C18A6/M3_M4/layout as STRUCTURE M3_M4_CDNS_5190559637879
+INFO (XSTRM-223): 154. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637880
+INFO (XSTRM-223): 155. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637881
+INFO (XSTRM-223): 156. Translating cellView TECH_C18A6/M4_MT/layout as STRUCTURE M4_MT_CDNS_5190559637882
+INFO (XSTRM-223): 157. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637883
+INFO (XSTRM-223): 158. Translating cellView CORELIB/CLKBUFX4/layout as STRUCTURE CLKBUFX4
+INFO (XSTRM-223): 159. Translating cellView CORELIB/AND2X3/layout as STRUCTURE AND2X3
+INFO (XSTRM-223): 160. Translating cellView DIG_FET_DEC/fet_dec/layout as STRUCTURE fet_dec
+INFO (XSTRM-223): 161. Translating cellView cmrf7sf/tdndsx/layout as STRUCTURE tdndsx_CDNS_5190559637821
+INFO (XSTRM-223): 162. Translating cellView SENSOR_SWITCH/sensor_switch/layout as STRUCTURE sensor_switch
+INFO (XSTRM-223): 163. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637884
+INFO (XSTRM-223): 164. Translating cellView TECH_C18A6/M1_M2/layout as STRUCTURE M1_M2_CDNS_5190559637885
+INFO (XSTRM-223): 165. Translating cellView TECH_C18A6/M2_M3/layout as STRUCTURE M2_M3_CDNS_5190559637886
+INFO (XSTRM-223): 166. Translating cellView cmrf7sf/mosvartx/layout as STRUCTURE mosvartx_CDNS_5190559637822
+INFO (XSTRM-223): 167. Translating cellView AMPLIFIER/bias/layout as STRUCTURE bias
+INFO (XSTRM-223): 168. Translating cellView TOP/top_core/layout as STRUCTURE top_core
+INFO (XSTRM-223): 169. Translating cellView NNFET/sensor/layout as STRUCTURE sensor
+INFO (XSTRM-223): 170. Translating cellView NNFET/sensor_group_8/layout as STRUCTURE sensor_group_8
+INFO (XSTRM-223): 171. Translating cellView NNFET/sensor_all_placed/layout as STRUCTURE sensor_all_placed
+INFO (XSTRM-223): 172. Translating cellView TOP/top_ring_core/layout as STRUCTURE top_ring_core
+WARNING (XSTRM-206): Path length 6.26 at location (3635,6241) on layer 53 is less than 1/2 of path width 15.00. The path would be written in Stream file as is. To resolve this, fix the reported path in the input design and run the translator again.
+INFO (XSTRM-223): 173. Translating cellView cmrf7sf/Image/layout as STRUCTURE Image_CDNS_5190559637823
+INFO (XSTRM-223): 174. Translating cellView TOP/logo/layout as STRUCTURE logo
+INFO (XSTRM-223): 175. Translating cellView TOP/top_ring_core_seal/layout as STRUCTURE top_ring_core_seal
+
+Summary of Objects Translated:
+	Scalar Instances:                       1058
+	Array Instances:                        0
+	Polygons:                               5103
+	Paths:                                  143
+	Rectangles:                             564049
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           2392
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               3702
+	Text:                                   2725
+	TextDisplay:                            0
+	Cells:                                  175
+
+Elapsed Time: 0.7s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 56068KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
