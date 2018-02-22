@@ -18,9 +18,9 @@ vuiDRCFormTable = '(
 	machineLoc  "local"
 	viewRules  t
 	technologyField  "ac18a6dmca"
-	runsetField  "dfII"
-	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/drc.rul"
-	switches  "GridCheck"
+	runsetField  "local density"
+	rules  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/local.rul"
+	switches  "ALL_CHECKS"
 	rsfInclude  "/pkg/AMS414/assura/ac18a6/ac18a6dmca/DRCinclude.rsf"
 	varTag  "None"
 	varVal  ""
@@ -29,7 +29,7 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "TEST_TO"
+	library  "TOP"
 	cell  "top_ring_core_seal"
 	view  "layout"
 	saveExtracted  nil

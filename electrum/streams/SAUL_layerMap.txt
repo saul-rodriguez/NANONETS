@@ -6,4 +6,4 @@
 # Layer		Purpose		LayerNum	Datatype
 ####################################################################
 
- y2  drawing  1  0 
+ AM  drawing  1  0 

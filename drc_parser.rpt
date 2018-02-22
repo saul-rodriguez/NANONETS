@@ -2,8 +2,13 @@
  - Calibre Version      : v2014.3_27.21 
  - Parser Version       : Rev.5 (ENG-495)
  - Parsed Result File   : /home/saul/Calibre/top_ring_core_seal.drc.summary 
- - Parser Execution Date: 29-1-2018  
+ - Parser Execution Date: 20-2-2018  
 -----------------------------------------------------------------------------------------------------------------------------
      Rule              | Cat |                               Description                                        | Error count 
 -----------------------------------------------------------------------------------------------------------------------------
 GR131		|  b  | (Gates not over TG) with a Mx metal area to (PC over RX) area less than 50:1 do  | 54
+GRSLR004		|  c  | Minimum AMHOLE length                                                            | 1000
+GRSLR002		|  c  | Fixed AMHOLE width                                                               | 421
+GRSLR007		|  c  | Minimum {AM,ML}HOLE spacing                                                      | 121
+GRSLR001		|  c  | Maximum ({AM,ML} not over QT) width                                              | 4
+GRSLG002		|  d  | Minimum {AM,ML} enclosure of {AM,ML}HOLE                                         | 191

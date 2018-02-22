@@ -70,5 +70,7 @@ DEFINE TEST_MODEGEN /home/saul/projects/NANONETS/TEST_MODEGEN
 DEFINE PASSIVES /home/saul/projects/NANONETS/PASSIVES
 #Removed by ddDeleteObj: DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
 #Removed by ddDeleteObj: DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
-DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
+#Removed by ddDeleteObj: DEFINE TEST_TO /home/saul/projects/NANONETS/TEST_TO
+#Removed by ddDeleteObj: DEFINE ELECTRUM_ALIGNMENT /home/saul/projects/NANONETS/ELECTRUM_ALIGNMENT
 DEFINE ELECTRUM_ALIGNMENT /home/saul/projects/NANONETS/ELECTRUM_ALIGNMENT
+DEFINE STREAM_TEST /home/saul/projects/NANONETS/STREAM_TEST
