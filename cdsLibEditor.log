@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.6 - CAT33 11/05/2015 10:35 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-cdslib /home/saul/projects/NANONETS/cds.lib -mpssession virtuoso5075 -mpshost s2424.it.kth.se 
+\o Arguments:		-cdslib /home/saul/projects/NANONETS/cds.lib -mpssession virtuoso24520 -mpshost s2424.it.kth.se 
 \o Working Directory:	s2424.it.kth.se:/home/saul/projects/NANONETS
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
@@ -8,22 +8,9 @@
 \a nrSetCurrentWindow(cdsLibEditor)
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "analogLib"
-\a nrResizeWindow(cdsLibEditor list(1910 14 500 400))
-\a nrResizeWindow(cdsLibEditor list(1910 14 867 699))
-\a nrResizeWindow(cdsLibEditor list(1910 14 897 752))
-\a nrListItemAction(cdsLibEditor->mainTable 63 0)
-\o Active cell: 63 0 ""
-\a nrListItemAction(cdsLibEditor->mainTable 63 1)
-\o Active cell: 63 1 ""
-\a nrSetCurrentWindow(cdsLibEditor)
-\a nrSetWindowVisibility(needCreateDialog "show")
-\a nrListItemAction(cdsLibEditor->mainTable 64 0)
-\o Active cell: 64 0 ""
-\a nrSetCurrentWindow(needCreateDialog)
-\a nrResizeWindow(needCreateDialog list(1910 214 959 180))
-\a needCreateDialog->cancelButton->value = t
-\a nrSetCurrentWindow(cdsLibEditor)
-\a cdsLibEditor->fileSaveButton->value = t
+\a nrResizeWindow(cdsLibEditor list(-10 642 500 400))
+\a nrResizeWindow(cdsLibEditor list(666 196 500 400))
+\a nrResizeWindow(cdsLibEditor list(666 196 946 810))
 \a cdsLibEditor->fileExitButton->value = t
 \a nrSetWindowVisibility(cdsLibEditor "hide")
 \a exit(0)
